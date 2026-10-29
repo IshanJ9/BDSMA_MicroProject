@@ -92,6 +92,33 @@ def test_station_join_and_coordinate_validation(spark):
     assert got["site_2"].city == "Mumbai"  # falls back to the measurement row's city
 
 
+def test_geocoded_fallback_fills_only_missing_coordinates(spark):
+    fb = spark.createDataFrame(
+        [("site_1", "10.0", "70.0", "city"),      # registry has valid coordinates: must not be overridden
+         ("site_2", "18.5", "73.8", "locality"),  # registry null: fallback applies
+         ("site_3", "0.0", "0.0", "city")],       # fallback outside India: rejected
+        ["station_id", "latitude", "longitude", "precision"],
+    )
+    raw = spark.createDataFrame([raw_row(station=s) for s in ("site_1", "site_2", "site_3")], RAW_COLS).withColumn(
+        "collected_at", F.col("collected_at").cast("timestamp_ntz"))
+    got = {r.station_id: r for r in clean_measurements(raw, stations(spark), None, fb).collect()}
+    assert (got["site_1"].latitude, got["site_1"].coord_source) == (pytest.approx(19.07), "cpcb_registry")
+    assert (got["site_2"].latitude, got["site_2"].coord_source) == (pytest.approx(18.5), "geocoded_locality")
+    assert got["site_2"].has_coordinates
+    assert got["site_3"].coord_source is None and not got["site_3"].has_coordinates
+
+
+def test_completeness_is_share_of_period_hours(spark):
+    from pipeline.quality import completeness
+
+    full = [raw_row(station="site_1", hour=h, value=10.0 + h) for h in range(48)]    # 2 days, every hour
+    partial = [raw_row(station="site_2", hour=h, value=10.0 + h) for h in range(12)]  # 12 of 48 hours
+    out, _ = run(spark, full + partial)
+    got = {r.station_id: r for r in completeness(out).collect()}
+    assert got["site_1"].period_hours == 48 and got["site_1"].completeness == 1.0
+    assert got["site_2"].hours_with_data == 12 and got["site_2"].completeness == 0.25
+
+
 def test_time_features(spark):
     out, _ = run(spark, [raw_row(hour=5), raw_row(hour=30, value=51.0)])  # Mon 05:00, Tue 06:00
     got = {r.timestamp: r for r in out.collect()}

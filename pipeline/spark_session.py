@@ -12,7 +12,9 @@ def get_spark(app_name: str = "AirWatch") -> SparkSession:
     spark = (
         SparkSession.builder.appName(app_name)
         .master("local[*]")
-        .config("spark.sql.shuffle.partitions", "16")
+        # Local mode runs everything in the driver JVM, whose default 1 GB heap is too small for a year of data.
+        .config("spark.driver.memory", os.environ.get("AIRWATCH_DRIVER_MEMORY", "4g"))
+        .config("spark.sql.shuffle.partitions", "32")
         .config("spark.sql.session.timeZone", "Asia/Kolkata")
         .config("spark.ui.showConsoleProgress", "false")
         .getOrCreate()

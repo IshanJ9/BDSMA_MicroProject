@@ -8,11 +8,13 @@ Writes data/processed/clean_measurements/  partitioned by year, month
        reports/data_quality_report.{json,md}
 
 Output schema of clean_measurements (the contract for Members 2 and 3):
-    station_id, station_name, city, state, latitude, longitude, has_coordinates,
+    station_id, station_name, city, state, latitude, longitude, has_coordinates, coord_source,
     parameter, unit, value, timestamp (naive IST; CPCB on the hour, US embassy at :30),
     date, year, month, day, hour,
     day_of_week (1=Mon..7=Sun), source
 """
+import time
+
 from pyspark.sql import DataFrame, Window
 from pyspark.sql import functions as F
 
@@ -20,13 +22,17 @@ from pipeline import config
 
 OUTPUT_COLUMNS = [
     "station_id", "station_name", "city", "state", "latitude", "longitude", "has_coordinates",
-    "parameter", "unit", "value", "timestamp", "date", "year", "month", "day", "hour",
+    "coord_source", "parameter", "unit", "value", "timestamp", "date", "year", "month", "day", "hour",
     "day_of_week", "source",
 ]
 
 
-def attach_stations(meas: DataFrame, stations: DataFrame) -> DataFrame:
-    """Join registry coordinates; prefer registry city/state, fall back to the row's own."""
+def attach_stations(meas: DataFrame, stations: DataFrame, fallback: DataFrame | None = None) -> DataFrame:
+    """Join station coordinates; prefer registry city/state, fall back to the row's own.
+
+    Registry (CPCB) coordinates always win. `fallback` (station_id, latitude, longitude, precision) only
+    fills stations the registry has no valid coordinates for, and is labelled in `coord_source`.
+    """
     st = stations.select(
         "station_id",
         F.col("latitude").cast("double").alias("latitude"),
@@ -35,14 +41,33 @@ def attach_stations(meas: DataFrame, stations: DataFrame) -> DataFrame:
         F.col("state_name").alias("reg_state"),
     )
     j = meas.join(st, "station_id", "left")
-    in_india = F.col("latitude").between(*config.INDIA_LAT) & F.col("longitude").between(*config.INDIA_LON)
+
+    def in_india(lat, lon):
+        return F.coalesce(F.col(lat).between(*config.INDIA_LAT) & F.col(lon).between(*config.INDIA_LON), F.lit(False))
+
+    reg_ok = in_india("latitude", "longitude")
+    if fallback is not None:
+        fb = fallback.select(
+            "station_id",
+            F.col("latitude").cast("double").alias("fb_lat"),
+            F.col("longitude").cast("double").alias("fb_lon"),
+            F.concat(F.lit("geocoded_"), F.col("precision")).alias("fb_source"),
+        )
+        j = j.join(fb, "station_id", "left")
+        fb_ok = in_india("fb_lat", "fb_lon")
+    else:
+        j = j.withColumn("fb_lat", F.lit(None).cast("double")).withColumn("fb_lon", F.lit(None).cast("double"))
+        j = j.withColumn("fb_source", F.lit(None).cast("string"))
+        fb_ok = F.lit(False)
+    use_fb = ~reg_ok & fb_ok
     return (
         j.withColumn("city", F.coalesce("reg_city", "city_name"))
         .withColumn("state", F.coalesce("reg_state", "state_name"))
-        .withColumn("has_coordinates", F.coalesce(in_india, F.lit(False)))
-        .withColumn("latitude", F.when(F.col("has_coordinates"), F.col("latitude")))
-        .withColumn("longitude", F.when(F.col("has_coordinates"), F.col("longitude")))
-        .drop("reg_city", "reg_state", "city_name", "state_name")
+        .withColumn("coord_source", F.when(reg_ok, F.lit("cpcb_registry")).when(use_fb, F.col("fb_source")))
+        .withColumn("latitude", F.when(reg_ok, F.col("latitude")).when(use_fb, F.col("fb_lat")))
+        .withColumn("longitude", F.when(reg_ok, F.col("longitude")).when(use_fb, F.col("fb_lon")))
+        .withColumn("has_coordinates", F.col("coord_source").isNotNull())
+        .drop("reg_city", "reg_state", "city_name", "state_name", "fb_lat", "fb_lon", "fb_source")
     )
 
 
@@ -60,7 +85,9 @@ def flag_stuck(df: DataFrame, run_hours: int = config.STUCK_RUN_HOURS) -> DataFr
     return d.withColumn("is_stuck", stuck).drop("_run", "_run_len", "_pos")
 
 
-def clean_measurements(raw: DataFrame, stations: DataFrame, counts: dict | None = None) -> DataFrame:
+def clean_measurements(
+    raw: DataFrame, stations: DataFrame, counts: dict | None = None, fallback: DataFrame | None = None
+) -> DataFrame:
     """Apply all cleaning rules. If `counts` is given it is filled with row counts per stage."""
     counts = counts if counts is not None else {}
 
@@ -94,7 +121,7 @@ def clean_measurements(raw: DataFrame, stations: DataFrame, counts: dict | None 
     df = flag_stuck(df).filter(~F.col("is_stuck")).drop("is_stuck")
     counts["after_stuck_filter"] = df.count()
 
-    df = attach_stations(df, stations)
+    df = attach_stations(df, stations, fallback)
     ts = F.col("timestamp")
     df = (
         df.withColumn("date", F.to_date(ts))
@@ -119,15 +146,20 @@ def main() -> None:
     raw = spark.read.parquet(*[p.as_posix() for p in meas_files])
     stations = spark.read.parquet((config.RAW_DIR / "v1" / "stations.parquet").as_posix())
 
+    fallback = None
+    if config.GEOCODED_STATIONS.exists():
+        fallback = spark.read.csv(config.GEOCODED_STATIONS.as_posix(), header=True)
+
     counts: dict = {}
-    clean = clean_measurements(raw, stations, counts)
+    t0 = time.perf_counter()
+    clean = clean_measurements(raw, stations, counts, fallback)
     clean.write.mode("overwrite").partitionBy("year", "month").parquet(config.CLEAN_MEASUREMENTS.as_posix())
 
     clean = spark.read.parquet(config.CLEAN_MEASUREMENTS.as_posix())
     counts["final_rows"] = clean.count()
 
     st_out = clean.groupBy(
-        "station_id", "station_name", "city", "state", "latitude", "longitude", "has_coordinates"
+        "station_id", "station_name", "city", "state", "latitude", "longitude", "has_coordinates", "coord_source"
     ).agg(
         F.count("*").alias("n_readings"),
         F.min("timestamp").alias("first_reading"),
@@ -135,9 +167,19 @@ def main() -> None:
         F.collect_set("parameter").alias("parameters"),
     )
     st_out.write.mode("overwrite").parquet(config.CLEAN_STATIONS.as_posix())
+    t1 = time.perf_counter()
 
-    report = build_report(raw, clean, counts)
-    write_report(report, config.REPORTS_DIR)
+    perf = {
+        "input_files": len(meas_files),
+        "input_mb": sum(p.stat().st_size for p in meas_files) / 1e6,
+        "clean_write_seconds": t1 - t0,
+        "cores": spark.sparkContext.defaultParallelism,
+        "driver_memory": spark.conf.get("spark.driver.memory"),
+        "shuffle_partitions": spark.conf.get("spark.sql.shuffle.partitions"),
+    }
+    report, completeness_rows = build_report(raw, clean, counts, perf)
+    perf["report_seconds"] = time.perf_counter() - t1
+    write_report(report, completeness_rows, config.REPORTS_DIR)
     print(f"Done. {counts['raw_rows']:,} raw -> {counts['final_rows']:,} clean rows.")
     print(f"Report: {config.REPORTS_DIR / 'data_quality_report.md'}")
     spark.stop()

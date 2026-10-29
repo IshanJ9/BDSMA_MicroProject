@@ -34,6 +34,23 @@ month-by-hour spreadsheet layout. data.gov.in's real-time AQI resource is a live
 5. Drop stuck-sensor runs: 24 or more identical consecutive readings keep only the first.
 6. Join station coordinates. Coordinates outside India's bounding box (lat 6–38, lon 68–98) are nulled and the
    row is flagged `has_coordinates = false`. Those rows stay in the data for time-based charts but cannot be mapped.
+7. Fill missing coordinates from `reference/station_coordinates_geocoded.csv` (see below). CPCB registry
+   coordinates are never overridden.
+
+## Recovered coordinates (approximate)
+
+In 2024, 53 active stations (6.5% of readings) have no coordinates in CPCB's registry, and neither of xKDR's
+two station files (`station_locations.csv`, and the data.gov.in snapshot from 11 Feb 2026) contains them. They
+look like newer stations. We geocoded them from their names with OpenStreetMap's Nominatim service
+(`reference/station_coordinates_geocoded.csv`, 52 stations; OMC Colony, Suakati could not be found).
+
+- `precision = locality`: the name matched a place near the station (typically within a few km).
+- `precision = city`: only the town was found, so the point is the town centre and several stations may share it.
+- Six matches were corrected by hand with an explicit town and state after the first automated pass put them
+  in the wrong state (e.g. Nandesari in Odisha instead of Vadodara, Gujarat).
+
+These are **not** the monitors' true positions. Use `coord_source` to separate them from official coordinates,
+and say so on the hotspot map and in the report.
 
 Rules 4 and 5 are our own sanity bounds, in the spirit of the QA/QC in Sharma & Mauzerall (2022),
 *Aerosol and Air Quality Research*; they are not official CPCB validation.
@@ -47,6 +64,7 @@ Rules 4 and 5 are our own sanity bounds, in the spirit of the QA/QC in Sharma & 
 | station_id, station_name, city, state | string | |
 | latitude, longitude | double | null when `has_coordinates` is false |
 | has_coordinates | boolean | |
+| coord_source | string | `cpcb_registry` (official), `geocoded_locality` or `geocoded_city` (approximate), null if none |
 | parameter | string | PM2.5, PM10, NO2, SO2, CO, Ozone, NH3 |
 | unit | string | µg/m³, except CO in mg/m³ |
 | value | double | |

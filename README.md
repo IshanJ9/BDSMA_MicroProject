@@ -24,6 +24,10 @@ docker compose run --rm pipeline python -m pytest
 
 The project folder is mounted into the container, so `data/` and `reports/` appear on your machine.
 
+A full year (about 47M raw rows) took about 5 minutes and needs roughly 6 GB of RAM available to Docker
+(Docker Desktop > Settings > Resources). Spark's driver memory defaults to 4 GB; override it with the
+`AIRWATCH_DRIVER_MEMORY` environment variable.
+
 Optional: get a free key at https://airquality.xkdr.org/signup and put `AQI_API_KEY=...` in a `.env` file
 (see `.env.example`) to read years other than 2024. The built-in demo key only reads 2024.
 

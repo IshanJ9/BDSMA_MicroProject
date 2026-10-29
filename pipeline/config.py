@@ -9,6 +9,8 @@ PROCESSED_DIR = ROOT / "data" / "processed"
 CLEAN_MEASUREMENTS = PROCESSED_DIR / "clean_measurements"
 CLEAN_STATIONS = PROCESSED_DIR / "stations"
 REPORTS_DIR = ROOT / "reports"
+# Approximate coordinates (OpenStreetMap geocoding) for stations missing from CPCB's registry.
+GEOCODED_STATIONS = ROOT / "reference" / "station_coordinates_geocoded.csv"
 
 BASE_URL = "https://airquality.xkdr.org"
 # Public demo key published in xKDR's README; only reads the 2024 bulk files.

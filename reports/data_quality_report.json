@@ -1,81 +1,88 @@
 {
   "counts": {
-    "raw_rows": 12332239,
-    "after_parameter_filter": 7096328,
-    "after_null_drop": 7096328,
-    "after_dedup": 7096328,
-    "after_range_filter": 7096321,
-    "after_stuck_filter": 7055141,
-    "final_rows": 7055141
+    "raw_rows": 46937170,
+    "after_parameter_filter": 27062284,
+    "after_null_drop": 27062284,
+    "after_dedup": 27062284,
+    "after_range_filter": 27062260,
+    "after_stuck_filter": 26904967,
+    "final_rows": 26904967
   },
   "time_span": {
-    "start": "2024-10-01 00:00:00",
+    "start": "2024-01-01 00:00:00",
     "end": "2024-12-31 23:30:00"
   },
-  "stations_total": 532,
-  "stations_without_valid_coordinates": 48,
+  "period_hours": 8784,
+  "stations_total": 538,
+  "stations_without_valid_coordinates": 1,
+  "stations_by_coordinate_source": {
+    "none": 1,
+    "geocoded_locality": 25,
+    "cpcb_registry": 485,
+    "geocoded_city": 27
+  },
   "parameters": [
     {
       "parameter": "CO",
-      "rows": 1023983,
-      "stations": 516,
-      "mean": 0.94,
-      "median": 0.72,
-      "max": 29.28,
+      "rows": 3913305,
+      "stations": 528,
+      "mean": 0.81,
+      "median": 0.63,
+      "max": 48.28,
       "unit": "mg/m\u00b3"
     },
     {
       "parameter": "NH3",
-      "rows": 941440,
-      "stations": 473,
-      "mean": 23.26,
-      "median": 16.8,
-      "max": 494.66,
+      "rows": 3576077,
+      "stations": 476,
+      "mean": 22.45,
+      "median": 16.3,
+      "max": 498.39,
       "unit": "\u00b5g/m\u00b3"
     },
     {
       "parameter": "NO2",
-      "rows": 1044361,
-      "stations": 526,
-      "mean": 26.14,
-      "median": 17.88,
-      "max": 497.6,
+      "rows": 3973333,
+      "stations": 533,
+      "mean": 22.23,
+      "median": 15.4,
+      "max": 497.77,
       "unit": "\u00b5g/m\u00b3"
     },
     {
       "parameter": "Ozone",
-      "rows": 992141,
-      "stations": 502,
-      "mean": 30.74,
-      "median": 20.83,
+      "rows": 3818673,
+      "stations": 513,
+      "mean": 31.31,
+      "median": 22.48,
       "max": 490.6,
       "unit": "\u00b5g/m\u00b3"
     },
     {
       "parameter": "PM10",
-      "rows": 1014039,
-      "stations": 517,
-      "mean": 135.8,
-      "median": 108.75,
+      "rows": 3854200,
+      "stations": 526,
+      "mean": 108.25,
+      "median": 82.25,
       "max": 1000.0,
       "unit": "\u00b5g/m\u00b3"
     },
     {
       "parameter": "PM2.5",
-      "rows": 1033984,
-      "stations": 525,
-      "mean": 69.24,
-      "median": 51.44,
+      "rows": 3919988,
+      "stations": 534,
+      "mean": 50.4,
+      "median": 35.48,
       "max": 1000.0,
       "unit": "\u00b5g/m\u00b3"
     },
     {
       "parameter": "SO2",
-      "rows": 1005193,
-      "stations": 507,
-      "mean": 12.45,
-      "median": 8.8,
-      "max": 199.8,
+      "rows": 3849391,
+      "stations": 513,
+      "mean": 12.37,
+      "median": 8.62,
+      "max": 199.9,
       "unit": "\u00b5g/m\u00b3"
     }
   ],
@@ -85,5 +92,93 @@
     "collected_at": 0,
     "parameter_name": 0,
     "value": 0
+  },
+  "completeness": {
+    "CO": {
+      "series": 528,
+      "usable": 431,
+      "buckets": {
+        "90%+": 337,
+        "75-90%": 94,
+        "50-75%": 48,
+        "below 50%": 49
+      },
+      "median_completeness": 0.9325
+    },
+    "NH3": {
+      "series": 476,
+      "usable": 397,
+      "buckets": {
+        "90%+": 291,
+        "75-90%": 106,
+        "50-75%": 46,
+        "below 50%": 33
+      },
+      "median_completeness": 0.9306
+    },
+    "NO2": {
+      "series": 533,
+      "usable": 436,
+      "buckets": {
+        "90%+": 330,
+        "75-90%": 106,
+        "50-75%": 52,
+        "below 50%": 45
+      },
+      "median_completeness": 0.9332
+    },
+    "Ozone": {
+      "series": 513,
+      "usable": 426,
+      "buckets": {
+        "90%+": 318,
+        "75-90%": 108,
+        "50-75%": 44,
+        "below 50%": 43
+      },
+      "median_completeness": 0.9306
+    },
+    "PM10": {
+      "series": 526,
+      "usable": 423,
+      "buckets": {
+        "90%+": 299,
+        "75-90%": 124,
+        "50-75%": 54,
+        "below 50%": 49
+      },
+      "median_completeness": 0.9172
+    },
+    "PM2.5": {
+      "series": 534,
+      "usable": 431,
+      "buckets": {
+        "90%+": 297,
+        "75-90%": 134,
+        "50-75%": 54,
+        "below 50%": 49
+      },
+      "median_completeness": 0.9156
+    },
+    "SO2": {
+      "series": 513,
+      "usable": 434,
+      "buckets": {
+        "90%+": 316,
+        "75-90%": 118,
+        "50-75%": 42,
+        "below 50%": 37
+      },
+      "median_completeness": 0.9282
+    }
+  },
+  "performance": {
+    "input_files": 12,
+    "input_mb": 88.368934,
+    "clean_write_seconds": 218.54547486499996,
+    "cores": 12,
+    "driver_memory": "4g",
+    "shuffle_partitions": "32",
+    "report_seconds": 58.029973490999964
   }
 }
