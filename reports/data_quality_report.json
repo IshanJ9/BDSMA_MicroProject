@@ -1,0 +1,89 @@
+{
+  "counts": {
+    "raw_rows": 12332239,
+    "after_parameter_filter": 7096328,
+    "after_null_drop": 7096328,
+    "after_dedup": 7096328,
+    "after_range_filter": 7096321,
+    "after_stuck_filter": 7055141,
+    "final_rows": 7055141
+  },
+  "time_span": {
+    "start": "2024-10-01 00:00:00",
+    "end": "2024-12-31 23:30:00"
+  },
+  "stations_total": 532,
+  "stations_without_valid_coordinates": 48,
+  "parameters": [
+    {
+      "parameter": "CO",
+      "rows": 1023983,
+      "stations": 516,
+      "mean": 0.94,
+      "median": 0.72,
+      "max": 29.28,
+      "unit": "mg/m\u00b3"
+    },
+    {
+      "parameter": "NH3",
+      "rows": 941440,
+      "stations": 473,
+      "mean": 23.26,
+      "median": 16.8,
+      "max": 494.66,
+      "unit": "\u00b5g/m\u00b3"
+    },
+    {
+      "parameter": "NO2",
+      "rows": 1044361,
+      "stations": 526,
+      "mean": 26.14,
+      "median": 17.88,
+      "max": 497.6,
+      "unit": "\u00b5g/m\u00b3"
+    },
+    {
+      "parameter": "Ozone",
+      "rows": 992141,
+      "stations": 502,
+      "mean": 30.74,
+      "median": 20.83,
+      "max": 490.6,
+      "unit": "\u00b5g/m\u00b3"
+    },
+    {
+      "parameter": "PM10",
+      "rows": 1014039,
+      "stations": 517,
+      "mean": 135.8,
+      "median": 108.75,
+      "max": 1000.0,
+      "unit": "\u00b5g/m\u00b3"
+    },
+    {
+      "parameter": "PM2.5",
+      "rows": 1033984,
+      "stations": 525,
+      "mean": 69.24,
+      "median": 51.44,
+      "max": 1000.0,
+      "unit": "\u00b5g/m\u00b3"
+    },
+    {
+      "parameter": "SO2",
+      "rows": 1005193,
+      "stations": 507,
+      "mean": 12.45,
+      "median": 8.8,
+      "max": 199.8,
+      "unit": "\u00b5g/m\u00b3"
+    }
+  ],
+  "parameters_with_mixed_units": [],
+  "raw_null_counts": {
+    "station_id": 0,
+    "collected_at": 0,
+    "parameter_name": 0,
+    "value": 0
+  }
+}

@@ -1,0 +1,37 @@
+# Python environment and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+
+# Secrets and local config
+.env
+*.key
+
+# Data: keep the folder structure, not the (large, re-creatable) files
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Spark / Hadoop artefacts
+spark-warehouse/
+metastore_db/
+derby.log
+*.crc
+_SUCCESS
+spark-events/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Claude Code local files
+.claude/
