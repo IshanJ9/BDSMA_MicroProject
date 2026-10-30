@@ -50,8 +50,8 @@ Completeness = hours with a valid reading / 8,784 hours in the period. Missing r
 ## Processing performance
 
 - Input: 12 Parquet files, 88 MB on disk, 46,937,170 rows
-- Cleaning, funnel counts and write: 219 s (214,771 raw rows/s)
-- Quality report (aggregations over the clean data): 58 s
+- Cleaning, funnel counts and write: 345 s (135,896 raw rows/s)
+- Quality report (aggregations over the clean data): 74 s
 - Spark: local mode, 12 cores, driver memory 4g, 32 shuffle partitions
 - The funnel counts run extra Spark jobs over the data, so a run without them would be faster.
 

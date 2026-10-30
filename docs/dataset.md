@@ -49,6 +49,12 @@ look like newer stations. We geocoded them from their names with OpenStreetMap's
 - Six matches were corrected by hand with an explicit town and state after the first automated pass put them
   in the wrong state (e.g. Nandesari in Odisha instead of Vadodara, Gujarat).
 
+- A spot check of all 52 points found that for some towns the geocoder returned the *district* centre instead of
+  the town (Raichur and Cuddalore were about 50 km off, Karur 37 km, Koppal 30 km). 13 city-level points were
+  replaced with the town-centre coordinates from Wikipedia (`query` shows `wikipedia:<town>`). Locality-level
+  points were checked by eye and look right; the least certain is Bharathidasan University (Palkalaiperur),
+  about 10 km from the main campus. Nothing was checked against surveyed monitor positions.
+
 These are **not** the monitors' true positions. Use `coord_source` to separate them from official coordinates,
 and say so on the hotspot map and in the report.
 
