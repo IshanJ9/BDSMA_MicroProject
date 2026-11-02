@@ -5,4 +5,19 @@ services:
       - .:/app
     environment:
       - AQI_API_KEY=${AQI_API_KEY:-}
+      - CARTO_API_KEY=${CARTO_API_KEY:-}
+      - PYTHONPATH=/app
     mem_limit: 6g
+
+  dashboard:
+    build: .
+    command: streamlit run dashboard/app.py --server.port 8501 --server.address 0.0.0.0
+    volumes:
+      - .:/app
+    ports:
+      - "8501:8501"
+    environment:
+      - AQI_API_KEY=${AQI_API_KEY:-}
+      - CARTO_API_KEY=${CARTO_API_KEY:-}
+      - PYTHONPATH=/app
+    mem_limit: 4g

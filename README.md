@@ -5,8 +5,8 @@ Big Data microproject. PySpark pipeline over India's CPCB air quality network, w
 | Module | Owner | Folder |
 |---|---|---|
 | 1. Dataset engineering and data quality | Member 1 | `pipeline/` |
-| 2. Spatiotemporal analytics and hotspot detection | Member 2 | `analytics/` (to add) |
-| 3. Dashboard and visualization | Member 3 | `dashboard/` (to add) |
+| 2. Spatiotemporal analytics and hotspot detection | Member 2 | `analytics/` |
+| 3. Dashboard and visualization | Member 3 | `dashboard/` |
 
 Dataset details, cleaning rules and the output schema other modules read: [docs/dataset.md](docs/dataset.md).
 
@@ -85,7 +85,33 @@ validation environment requires Hadoop `winutils.exe` for direct Parquet
 directory access; no full-dataset output is claimed unless the Docker/WSL
 command completes successfully.
 
+## Member 3: Dashboard and Visualization Layer
+
+The dashboard is an environmental intelligence platform built with Streamlit, Plotly, and Folium.
+It consumes the analytical Parquet outputs produced by Member 2 without loading raw big datasets into memory.
+
+### Run the Dashboard locally
+```bash
+streamlit run dashboard/app.py
+```
+Open your browser at `http://localhost:8501`.
+
+### Run the Dashboard with Docker
+```bash
+docker compose up dashboard
+```
+Open your browser at `http://localhost:8501`.
+
+### Dashboard Architecture
+- `dashboard/app.py`: Streamlit multi-section application, sidebar filters, environmental UI theme, and KPI cards.
+- `dashboard/data_loader.py`: Cached Parquet loaders for Member 2 analytical outputs with error handling and fallback support.
+- `dashboard/charts.py`: Interactive Plotly charts (diurnal cycles, time-series, monthly trends, weekday vs weekend, day-hour heatmaps, episode durations, rankings, and sensitivity).
+- `dashboard/map_visualization.py`: Folium interactive spatiotemporal hotspot map with station popups, coordinate validation notes, and dynamic legend.
+- `dashboard/utils.py`: Unit conversions, thresholds, color schemes, data filtering, and formatting utilities.
+- `dashboard/README.md`: Comprehensive user manual, architecture details, and academic presentation/viva guide.
+
 ## Outputs
 
-`data/processed/clean_measurements/`, `data/processed/stations/` and `reports/data_quality_report.md`.
-`data/` is gitignored (re-create it with the commands above); `reports/` is committed.
+- Member 1: `data/processed/clean_measurements/`, `data/processed/stations/`, `reports/data_quality_report.md`
+- Member 2: `data/processed/analytics/` (`temporal/`, `station_summary/`, `station_rankings/`, `hotspots/`, `episodes/`, `spatial_hotspots/`, `threshold_sensitivity/`)
+- Member 3: Interactive Streamlit analytics dashboard at `dashboard/app.py`
