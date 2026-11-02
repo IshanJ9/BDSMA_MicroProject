@@ -17,6 +17,7 @@ data/raw/*
 data/processed/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
+data/processed/analytics/
 
 # Spark / Hadoop artefacts
 spark-warehouse/

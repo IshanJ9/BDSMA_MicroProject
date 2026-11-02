@@ -41,9 +41,49 @@ pip install -r requirements.txt
 python -m pipeline.ingest --start 2024-01 --end 2024-12
 python -m pipeline.clean
 python -m pytest
+
 ```
 
 On Windows, Spark cannot write Parquet without Hadoop's `winutils.exe`; use Docker (or WSL) instead.
+
+## Member 2: spatiotemporal analytics and hotspot detection
+
+Run the analytics after the cleaned Parquet dataset has been created:
+
+```bash
+docker compose run --rm pipeline python -m analytics.analytics_runner
+```
+
+The implementation reads `data/processed/clean_measurements/` directly and writes
+Parquet outputs below `data/processed/analytics/`:
+
+- `temporal/`: hourly, daily, monthly, and weekday/weekend concentration statistics.
+- `station_summary/` and `station_rankings/`: pollutant-specific magnitude statistics and
+  observation-count-aware rankings.
+- `hotspots/`: persistence-aware station classifications.
+- `episodes/`: consecutive elevated measurement periods.
+- `spatial_hotspots/`: coordinate-validated, map-compatible station summaries with
+  0.1-degree analytical grid labels (not administrative boundaries).
+- `threshold_sensitivity/`: station-level classifications under lenient (0.8x),
+  baseline (1.0x), and strict (1.2x) thresholds, including classification counts.
+
+Hotspot thresholds are pollutant-specific concentration thresholds, not AQI values.
+The persistence score is `100 * elevated observations / valid observations`. A station
+is a `persistent_hotspot` only when it meets the minimum observation count, has at
+least 50% elevated observations, has a mean at or above its pollutant threshold, and
+reaches 1.5 times that threshold at least once. Lower-frequency exceedances are
+reported as `isolated_spike` or `frequently_elevated`; insufficient series are never
+classified as hotspots. Episode detection breaks runs when observations are more than
+two hours apart, so missing readings are not silently treated as continuous pollution.
+Coordinates outside India's configured bounds are excluded from spatial outputs.
+Threshold sensitivity indicates whether classifications depend strongly on the
+selected concentration threshold. These thresholds describe measured concentrations
+and should not be interpreted as regulatory limits or AQI.
+
+On Windows, run through Docker or WSL as described above. The local Spark
+validation environment requires Hadoop `winutils.exe` for direct Parquet
+directory access; no full-dataset output is claimed unless the Docker/WSL
+command completes successfully.
 
 ## Outputs
 
