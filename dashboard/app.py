@@ -62,6 +62,8 @@ from dashboard.utils import (
     CLASSIFICATION_LABELS,
     DEFAULT_THRESHOLDS,
     POLLUTANTS,
+    filter_by_city,
+    filter_by_state,
     format_concentration,
     format_hours,
     format_number,
@@ -349,13 +351,34 @@ with st.sidebar:
         )
         active_carto_key = carto_key_input.strip() if carto_key_input else carto_key
 
-# Filtered datasets
-summary_df = data.get("station_summary", pd.DataFrame())
-temporal_df = data.get("temporal", pd.DataFrame())
-hotspots_df = data.get("hotspots", pd.DataFrame())
-episodes_df = data.get("episodes", pd.DataFrame())
-spatial_df = data.get("spatial_hotspots", pd.DataFrame())
-sensitivity_df = data.get("threshold_sensitivity", pd.DataFrame())
+# Raw analytical outputs from Member 2's PySpark pipeline
+raw_summary_df = data.get("station_summary", pd.DataFrame())
+raw_temporal_df = data.get("temporal", pd.DataFrame())
+raw_hotspots_df = data.get("hotspots", pd.DataFrame())
+raw_episodes_df = data.get("episodes", pd.DataFrame())
+raw_spatial_df = data.get("spatial_hotspots", pd.DataFrame())
+raw_sensitivity_df = data.get("threshold_sensitivity", pd.DataFrame())
+
+
+# Geographic filter helper to dynamically slice datasets by State and City
+def apply_geo_filter(df: pd.DataFrame) -> pd.DataFrame:
+    """Filter DataFrame by selected state and city if geographic columns exist."""
+    if df.empty:
+        return df
+    filtered = filter_by_state(df, selected_state)
+    filtered = filter_by_city(filtered, selected_city)
+    return filtered
+
+
+# Apply geographic filters (State & City) across all spatial datasets
+summary_df = apply_geo_filter(raw_summary_df)
+hotspots_df = apply_geo_filter(raw_hotspots_df)
+episodes_df = apply_geo_filter(raw_episodes_df)
+spatial_df = apply_geo_filter(raw_spatial_df)
+sensitivity_df = apply_geo_filter(raw_sensitivity_df)
+
+# Temporal analytics represent the nationwide macro-baseline aggregated by PySpark across all 538 stations
+temporal_df = raw_temporal_df
 
 kpi = compute_executive_kpis(data, selected_pollutant, selected_state, selected_city)
 unit = get_unit(selected_pollutant)
@@ -373,6 +396,19 @@ if page == "Overview":
             <p>AirWatch spatiotemporal monitoring, hotspot tracking, and episode detection across India's CPCB CAAQM network.</p>
         </div>
         """,
+        unsafe_allow_html=True,
+    )
+
+    # Active filter scope indicator
+    scope_desc = "All India (538 Stations)"
+    if selected_state != "All States":
+        scope_desc = f"State: <strong>{selected_state}</strong>"
+        if selected_city != "All Cities":
+            scope_desc += f" &bull; City: <strong>{selected_city}</strong>"
+    st.markdown(
+        f"<div style='font-size: 0.82rem; color: #64748B; margin-top: -10px; margin-bottom: 16px;'>"
+        f"📍 <strong>Active Analysis Scope:</strong> {scope_desc} &nbsp;|&nbsp; <strong>Pollutant:</strong> <strong>{selected_pollutant}</strong>"
+        f"</div>",
         unsafe_allow_html=True,
     )
 
@@ -477,6 +513,10 @@ elif page == "Spatiotemporal Analysis":
         unsafe_allow_html=True,
     )
 
+    st.info(
+        f"💡 **Macro Temporal Baseline:** Diurnal (hourly), daily anomaly, seasonal (monthly), and weekly curves represent the **nationwide baseline across all 538 stations in India** pre-aggregated by Apache PySpark ({selected_pollutant}). For state and city-level breakdowns, explore the **Pollution Hotspots**, **Pollution Episodes**, and **Station Comparison** tabs which filter dynamically by State and City."
+    )
+
     tabs = st.tabs([
         "Diurnal (Hourly) Cycle",
         "Daily Timeline & Anomalies",
@@ -552,6 +592,18 @@ elif page == "Pollution Hotspots":
             <p>Spatial station mapping, persistence scoring, and classification distribution.</p>
         </div>
         """,
+        unsafe_allow_html=True,
+    )
+
+    scope_desc = "All India (538 Stations)"
+    if selected_state != "All States":
+        scope_desc = f"State: <strong>{selected_state}</strong>"
+        if selected_city != "All Cities":
+            scope_desc += f" &bull; City: <strong>{selected_city}</strong>"
+    st.markdown(
+        f"<div style='font-size: 0.82rem; color: #64748B; margin-top: -10px; margin-bottom: 14px;'>"
+        f"📍 <strong>Analysis Scope:</strong> {scope_desc} &nbsp;|&nbsp; <strong>Pollutant:</strong> <strong>{selected_pollutant}</strong>"
+        f"</div>",
         unsafe_allow_html=True,
     )
 
@@ -651,6 +703,18 @@ elif page == "Pollution Episodes":
         unsafe_allow_html=True,
     )
 
+    scope_desc = "All India"
+    if selected_state != "All States":
+        scope_desc = f"State: <strong>{selected_state}</strong>"
+        if selected_city != "All Cities":
+            scope_desc += f" &bull; City: <strong>{selected_city}</strong>"
+    st.markdown(
+        f"<div style='font-size: 0.82rem; color: #64748B; margin-top: -10px; margin-bottom: 14px;'>"
+        f"📍 <strong>Analysis Scope:</strong> {scope_desc} &nbsp;|&nbsp; <strong>Pollutant:</strong> <strong>{selected_pollutant}</strong>"
+        f"</div>",
+        unsafe_allow_html=True,
+    )
+
     # Episode KPIs
     filtered_episodes = episodes_df[episodes_df["parameter"] == selected_pollutant] if not episodes_df.empty else pd.DataFrame()
     total_episodes = len(filtered_episodes)
@@ -715,54 +779,70 @@ elif page == "Station Comparison":
         unsafe_allow_html=True,
     )
 
+    scope_desc = "All India"
+    if selected_state != "All States":
+        scope_desc = f"State: <strong>{selected_state}</strong>"
+        if selected_city != "All Cities":
+            scope_desc += f" &bull; City: <strong>{selected_city}</strong>"
+    st.markdown(
+        f"<div style='font-size: 0.82rem; color: #64748B; margin-top: -10px; margin-bottom: 14px;'>"
+        f"📍 <strong>Analysis Scope:</strong> {scope_desc} &nbsp;|&nbsp; <strong>Pollutant:</strong> <strong>{selected_pollutant}</strong>"
+        f"</div>",
+        unsafe_allow_html=True,
+    )
+
     # Multi-station selector
     if not summary_df.empty:
         param_summary = summary_df[summary_df["parameter"] == selected_pollutant].copy()
-        if selected_state != "All States":
-            param_summary = param_summary[param_summary["state"] == selected_state]
-
         all_stations = sorted(param_summary["station_name"].dropna().unique().tolist())
-        default_selection = all_stations[:min(4, len(all_stations))]
 
-        selected_stations = st.multiselect(
-            "Select Monitoring Stations to Compare",
-            options=all_stations,
-            default=default_selection,
-        )
+        if not all_stations:
+            loc_label = selected_city if selected_city != "All Cities" else selected_state
+            st.info(f"No monitoring stations found for {selected_pollutant} in {loc_label}.")
+        else:
+            default_selection = all_stations[:min(4, len(all_stations))]
 
-        if selected_stations:
-            render_chart(
-                create_station_comparison_chart(summary_df, selected_stations, selected_pollutant)
+            selected_stations = st.multiselect(
+                "Select Monitoring Stations to Compare",
+                options=all_stations,
+                default=default_selection,
             )
 
-            # Comparative Metrics Table with reliability signals
-            st.markdown("##### Station Reliability & Comparative Metrics")
-            comp_table = param_summary[param_summary["station_name"].isin(selected_stations)][
-                [
-                    "station_name", "city", "state", "mean_concentration",
-                    "max_concentration", "stddev_concentration",
-                    "observation_count", "active_days"
-                ]
-            ].rename(
-                columns={
-                    "station_name": "Station",
-                    "city": "City",
-                    "state": "State",
-                    "mean_concentration": f"Mean ({unit})",
-                    "max_concentration": f"Max ({unit})",
-                    "stddev_concentration": f"Std Dev ({unit})",
-                    "observation_count": "Readings",
-                    "active_days": "Active Days",
-                }
-            )
-            render_dataframe(comp_table, hide_index=True)
+            if selected_stations:
+                render_chart(
+                    create_station_comparison_chart(summary_df, selected_stations, selected_pollutant)
+                )
 
-            st.markdown(
-                """
-                > [!NOTE]
-                > **Observation Reliability:** Stations with fewer active days or lower reading counts can display high mean concentrations due to localized sampling bias. Always evaluate reading counts alongside concentration rankings.
-                """
-            )
+                # Comparative Metrics Table with reliability signals
+                st.markdown("##### Station Reliability & Comparative Metrics")
+                comp_table = param_summary[param_summary["station_name"].isin(selected_stations)][
+                    [
+                        "station_name", "city", "state", "mean_concentration",
+                        "max_concentration", "stddev_concentration",
+                        "observation_count", "active_days"
+                    ]
+                ].rename(
+                    columns={
+                        "station_name": "Station",
+                        "city": "City",
+                        "state": "State",
+                        "mean_concentration": f"Mean ({unit})",
+                        "max_concentration": f"Max ({unit})",
+                        "stddev_concentration": f"Std Dev ({unit})",
+                        "observation_count": "Readings",
+                        "active_days": "Active Days",
+                    }
+                )
+                render_dataframe(comp_table, hide_index=True)
+
+                st.markdown(
+                    """
+                    > [!NOTE]
+                    > **Observation Reliability:** Stations with fewer active days or lower reading counts can display high mean concentrations due to localized sampling bias. Always evaluate reading counts alongside concentration rankings.
+                    """
+                )
+            else:
+                st.warning("Please select at least one monitoring station from the dropdown to compare.")
     else:
         st.warning("Station summary data not available.")
 
