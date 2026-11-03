@@ -36,3 +36,6 @@ desktop.ini
 
 # Claude Code local files
 .claude/
+
+# Zips made for sharing data
+*.zip

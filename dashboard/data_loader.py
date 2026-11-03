@@ -169,7 +169,7 @@ def load_spatial_hotspots(analytics_dir: str = str(DEFAULT_ANALYTICS_DIR)) -> pd
     """Load coordinate-validated spatial station summaries with hotspot attributes."""
     path = Path(analytics_dir) / "spatial_hotspots"
     cols = [
-        "station_id", "station_name", "city", "state", "parameter",
+        "station_id", "station_name", "city", "state", "parameter", "coord_source",
         "latitude", "longitude", "mean_concentration", "max_concentration",
         "min_concentration", "stddev_concentration", "observation_count",
         "classification", "persistence_score", "coverage_sufficient",

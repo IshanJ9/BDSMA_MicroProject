@@ -98,7 +98,7 @@ CLASSIFICATION_DESCRIPTIONS: dict[str, str] = {
     "frequently_elevated": "Persistence score >= 25% of valid observations exceed threshold.",
     "isolated_spike": "Maximum concentration exceeded threshold, but persistence was under 25%.",
     "ordinary_fluctuation": "All observed concentrations stayed below the threshold.",
-    "insufficient_observations": "Fewer than 24 valid hourly observations; cannot reliably classify.",
+    "insufficient_observations": "Valid readings for under 75% of the period's hours; cannot reliably classify.",
 }
 
 # Indian Geographic Boundaries (from pipeline config)

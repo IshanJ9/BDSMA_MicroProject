@@ -108,7 +108,7 @@ streamlit run dashboard/app.py
 > **Answer:** PySpark is designed for heavy distributed batch transformations over 46.9 million raw records. Running PySpark queries interactively inside a web application would introduce latency (10–30 seconds per interaction) and require high-memory cluster resources on the dashboard server. By having Member 2 write pre-aggregated, Snappy-compressed Parquet tables, Member 3's dashboard reads only compact analytical summaries (a few megabytes) into memory via Pandas and PyArrow, achieving sub-second interactive response times.
 
 ### Q3: How do you prevent misleading rankings from stations with sparse data?
-> **Answer:** We enforce observation-count reliability checks. In Member 2's classification logic, any station with fewer than 24 valid hourly readings is categorized as `insufficient_observations` and disqualified from hotspot status. Additionally, our Station Comparison view prominently displays reading counts and active days alongside mean concentrations so that high averages caused by localized sampling bias are immediately detectable.
+> **Answer:** We enforce observation-count reliability checks. In Member 2's classification logic, any station and pollutant with valid readings for fewer than 75% of the period's hours (about 6,588 of 8,784 for 2024) is categorized as `insufficient_observations` and disqualified from hotspot status. Additionally, our Station Comparison view prominently displays reading counts and active days alongside mean concentrations so that high averages caused by localized sampling bias are immediately detectable.
 
 ### Q4: How does AirWatch align with the UN Sustainable Development Goals?
 > **Answer:**

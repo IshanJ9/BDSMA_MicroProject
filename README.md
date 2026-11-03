@@ -69,7 +69,8 @@ Parquet outputs below `data/processed/analytics/`:
 
 Hotspot thresholds are pollutant-specific concentration thresholds, not AQI values.
 The persistence score is `100 * elevated observations / valid observations`. A station
-is a `persistent_hotspot` only when it meets the minimum observation count, has at
+is a `persistent_hotspot` only when it has readings for at least 75% of the period's hours
+(`--min-completeness`), has at
 least 50% elevated observations, has a mean at or above its pollutant threshold, and
 reaches 1.5 times that threshold at least once. Lower-frequency exceedances are
 reported as `isolated_spike` or `frequently_elevated`; insufficient series are never

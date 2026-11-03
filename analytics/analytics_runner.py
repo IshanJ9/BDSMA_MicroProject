@@ -132,8 +132,10 @@ def station_summary(df: DataFrame) -> DataFrame:
     columns = [c for c in ["station_id", "station_name", "city", "state", "parameter"] if c in d.columns]
     return d.groupBy(*columns).agg(
         *_stats(columns),
-        F.min("_timestamp").alias("first_observation"),
-        F.max("_timestamp").alias("last_observation"),
+        # Write naive IST wall-clock times: a timezone-aware value is stored as UTC in Parquet and
+        # pandas/pyarrow readers would see it 5.5 hours early.
+        F.min("_timestamp").cast("timestamp_ntz").alias("first_observation"),
+        F.max("_timestamp").cast("timestamp_ntz").alias("last_observation"),
         F.countDistinct("date").alias("active_days"),
     )
 
@@ -292,8 +294,8 @@ def pollution_episodes(
     ).withColumn("_episode_id", F.sum("_break").over(w.rowsBetween(Window.unboundedPreceding, 0)))
     elevated = d.filter(F.col("_value") >= F.col("_threshold"))
     return elevated.groupBy(*(key + ["_episode_id"])).agg(
-        F.min("_timestamp").alias("start_time"),
-        F.max("_timestamp").alias("end_time"),
+        F.min("_timestamp").cast("timestamp_ntz").alias("start_time"),  # naive IST, see station_summary
+        F.max("_timestamp").cast("timestamp_ntz").alias("end_time"),
         F.round((F.unix_timestamp(F.max("_timestamp")) - F.unix_timestamp(F.min("_timestamp"))) / 3600.0, 2).alias("duration_hours"),
         F.round(F.mean("_value"), 4).alias("average_concentration"),
         F.round(F.max("_value"), 4).alias("maximum_concentration"),
@@ -309,7 +311,8 @@ def spatial_hotspots(
     """Produce map-ready station summaries and optional non-administrative grid cells."""
     d = prepare_measurements(df).filter(F.col("coordinate_valid"))
     station = d.groupBy(
-        *[c for c in ["station_id", "station_name", "city", "state", "parameter"] if c in d.columns],
+        # coord_source tells the map whether a position is official or an approximate geocode.
+        *[c for c in ["station_id", "station_name", "city", "state", "parameter", "coord_source"] if c in d.columns],
         "latitude", "longitude",
     ).agg(*_stats([]))
     if hotspots is not None:
@@ -323,10 +326,20 @@ def spatial_hotspots(
     )
 
 
+def minimum_observations(df: DataFrame, min_completeness: float) -> int:
+    """Readings a station/pollutant series needs: min_completeness x the hours in the data's period."""
+    # Count days inside Spark so the result does not depend on the machine's Python timezone.
+    days = df.agg((F.datediff(F.max(F.to_date("timestamp")), F.min(F.to_date("timestamp"))) + 1).alias("n")).first()["n"]
+    if days is None:
+        return 1
+    return max(1, int(days * 24 * min_completeness))
+
+
 def run_analytics(
     spark: SparkSession,
     input_path: str | Path = config.CLEAN_MEASUREMENTS,
     output_path: str | Path = config.PROCESSED_DIR / "analytics",
+    min_completeness: float = 0.75,
 ) -> dict[str, DataFrame]:
     """Read cleaned Parquet once, write all Member 2 outputs, and return result DataFrames."""
     input_root = Path(input_path)
@@ -343,10 +356,13 @@ def run_analytics(
         "station_summary": station_summary(measurements),
     }
     outputs["station_rankings"] = station_rankings(outputs["station_summary"])
-    outputs["hotspots"] = hotspot_classifications(measurements)
+    # A series must cover most of the period (default 75% of its hours) before it can be classified;
+    # the old fixed minimum of 24 readings let a single day of data qualify as a hotspot.
+    min_obs = minimum_observations(measurements, min_completeness)
+    outputs["hotspots"] = hotspot_classifications(measurements, min_observations=min_obs)
     outputs["episodes"] = pollution_episodes(measurements)
     outputs["spatial_hotspots"] = spatial_hotspots(measurements, outputs["hotspots"])
-    outputs["threshold_sensitivity"] = threshold_sensitivity(measurements)
+    outputs["threshold_sensitivity"] = threshold_sensitivity(measurements, min_observations=min_obs)
     root = Path(output_path)
     for name, result in outputs.items():
         result.write.mode("overwrite").parquet(str(root / name))
@@ -358,9 +374,13 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Run AirWatch Member 2 analytics.")
     parser.add_argument("--input", default=str(config.CLEAN_MEASUREMENTS))
     parser.add_argument("--output", default=str(config.PROCESSED_DIR / "analytics"))
+    parser.add_argument(
+        "--min-completeness", type=float, default=0.75,
+        help="share of the period's hours a station/pollutant series needs to be classified (default 0.75)",
+    )
     args = parser.parse_args()
     spark = get_spark("AirWatch-member2")
-    run_analytics(spark, args.input, args.output)
+    run_analytics(spark, args.input, args.output, args.min_completeness)
     print(f"Analytics written to {args.output}")
     spark.stop()
 

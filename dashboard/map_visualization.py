@@ -92,13 +92,16 @@ def _build_station_popup_html(
     persistence_str = f"{persistence:.1f}%" if pd.notna(persistence) else "N/A"
     obs_str = f"{int(obs_count):,}" if pd.notna(obs_count) else "N/A"
 
-    coord_src = row.get("coord_source", "cpcb_registry")
+    # No default: if the column is missing we must not claim the position is official.
+    coord_src = row.get("coord_source")
     if coord_src == "cpcb_registry":
         src_note = '<span style="color:#059669; font-size:10px;">Official CPCB Registry</span>'
-    elif "geocoded" in str(coord_src):
-        src_note = '<span style="color:#D97706; font-size:10px;">Approximate (Geocoded OSM)</span>'
+    elif coord_src == "geocoded_locality":
+        src_note = '<span style="color:#D97706; font-size:10px;">Approximate: nearby locality (geocoded)</span>'
+    elif coord_src == "geocoded_city":
+        src_note = '<span style="color:#D97706; font-size:10px;">Approximate: town centre only</span>'
     else:
-        src_note = '<span style="color:#64748B; font-size:10px;">Coordinates Validated</span>'
+        src_note = '<span style="color:#64748B; font-size:10px;">Coordinate source unknown</span>'
 
     html_content = f"""
     <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;

@@ -12,6 +12,7 @@ from pyspark.sql.types import (
 
 from analytics.analytics_runner import (
     hotspot_classifications,
+    minimum_observations,
     pollution_episodes,
     spatial_hotspots,
     station_rankings,
@@ -39,17 +40,19 @@ def measurements(spark, rows):
             StructField("parameter", StringType()),
             StructField("unit", StringType()),
             StructField("value", DoubleType()),
-            StructField("timestamp", TimestampType()),
+            StructField("timestamp", StringType()),
             StructField("latitude", DoubleType()),
             StructField("longitude", DoubleType()),
         ]
     )
-    return spark.createDataFrame(rows, schema)
+    # Timestamps are built from strings so the tests do not depend on the machine's timezone
+    # (a naive datetime would be read as local time and shift by 5.5 h in a UTC container).
+    return spark.createDataFrame(rows, schema).withColumn("timestamp", F.col("timestamp").cast("timestamp"))
 
 
 def row(station, value, hour, lat=19.07, lon=72.87):
-    return (station, "Station", "Mumbai", "Maharashtra", "PM2.5", "ug/m3", float(value),
-            datetime(2024, 1, 1) + timedelta(hours=hour), float(lat), float(lon))
+    ts = (datetime(2024, 1, 1) + timedelta(hours=hour)).strftime("%Y-%m-%d %H:%M:%S")
+    return (station, "Station", "Mumbai", "Maharashtra", "PM2.5", "ug/m3", float(value), ts, float(lat), float(lon))
 
 
 def test_temporal_and_station_statistics(spark):
@@ -88,6 +91,31 @@ def test_invalid_coordinates_are_excluded_from_spatial_output(spark):
     df = measurements(spark, [row("valid", 10, 0), row("invalid", 10, 0, 0, 0)])
     spatial = spatial_hotspots(df)
     assert spatial.select("station_id").distinct().collect()[0].station_id == "valid"
+
+
+def test_output_timestamps_are_naive_wall_clock_times(spark):
+    df = measurements(spark, [row("s1", 80, 0), row("s1", 90, 1)])
+    summary = station_summary(df)
+    episodes = pollution_episodes(df, max_gap_hours=2, min_observations=2)
+    assert summary.schema["first_observation"].dataType.simpleString() == "timestamp_ntz"
+    assert episodes.schema["start_time"].dataType.simpleString() == "timestamp_ntz"
+    # Midnight must stay midnight, not become 18:30 the previous day.
+    assert summary.first().first_observation == datetime(2024, 1, 1, 0, 0)
+    assert episodes.first().start_time == datetime(2024, 1, 1, 0, 0)
+
+
+def test_spatial_output_keeps_coord_source(spark):
+    df = measurements(spark, [row("approx", 10, 0), row("official", 10, 0)]).withColumn(
+        "coord_source", F.when(F.col("station_id") == "approx", "geocoded_city").otherwise("cpcb_registry")
+    )
+    got = {r.station_id: r.coord_source for r in spatial_hotspots(df).collect()}
+    assert got == {"approx": "geocoded_city", "official": "cpcb_registry"}
+
+
+def test_minimum_observations_scales_with_the_period(spark):
+    df = measurements(spark, [row("s1", 10, 0), row("s1", 10, 47)])  # two days
+    assert minimum_observations(df, 0.75) == 36                      # 0.75 x 48 hours
+    assert minimum_observations(measurements(spark, []), 0.75) == 1
 
 
 def test_sensitivity_and_empty_input(spark):

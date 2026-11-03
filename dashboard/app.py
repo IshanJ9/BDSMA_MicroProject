@@ -269,8 +269,8 @@ with st.sidebar:
         st.markdown(
             """
             <div style="background-color: #064E3B; border: 1px solid #059669; border-radius: 6px; padding: 8px 12px; font-size: 0.75rem; color: #A7F3D0;">
-                <strong>PySpark Engine:</strong> Connected<br>
-                Consuming Member 2 Parquet outputs
+                <strong>Analytics data:</strong> loaded<br>
+                Reading Member 2's Parquet outputs
             </div>
             """,
             unsafe_allow_html=True,
@@ -293,12 +293,12 @@ with st.sidebar:
     aqi_key = get_api_key("AQI_API_KEY")
 
     if carto_key:
-        masked_carto = carto_key[:6] + "..." + carto_key[-4:] if len(carto_key) > 10 else "Active"
+        # Never print any part of the key on screen.
         st.markdown(
-            f"""
+            """
             <div style="background-color: #0C4A6E; border: 1px solid #0284C7; border-radius: 6px; padding: 8px 12px; font-size: 0.75rem; color: #E0F2FE; margin-bottom: 8px;">
-                <strong>CARTO Basemap:</strong> Key Active<br>
-                <span style="font-size: 0.7rem; color: #BAE6FD;">Key: <code>{masked_carto}</code> (Positron HD)</span>
+                <strong>CARTO Basemap:</strong> Key configured<br>
+                <span style="font-size: 0.7rem; color: #BAE6FD;">Positron HD tiles</span>
             </div>
             """,
             unsafe_allow_html=True,
@@ -315,12 +315,10 @@ with st.sidebar:
         )
 
     if aqi_key:
-        masked_aqi = aqi_key[:6] + "..." + aqi_key[-4:] if len(aqi_key) > 10 else "Active"
         st.markdown(
-            f"""
+            """
             <div style="background-color: #064E3B; border: 1px solid #059669; border-radius: 6px; padding: 8px 12px; font-size: 0.75rem; color: #A7F3D0; margin-bottom: 8px;">
-                <strong>xKDR / CPCB API:</strong> Configured<br>
-                <span style="font-size: 0.7rem; color: #6EE7B7;">Key: <code>{masked_aqi}</code></span>
+                <strong>xKDR / CPCB API:</strong> Key configured
             </div>
             """,
             unsafe_allow_html=True,
@@ -462,7 +460,7 @@ if page == "Overview":
     with col_map:
         st.markdown("##### Geographic Hotspot Distribution Preview")
         if active_carto_key:
-            st.caption("Basemap: **CARTO Positron HD** (API key verified)")
+            st.caption("Basemap: **CARTO Positron HD** (API key configured)")
         else:
             st.caption("Basemap: **OpenStreetMap Standard**")
         m = create_hotspot_map(
@@ -494,7 +492,7 @@ if page == "Overview":
             - **Pollutant Behavior:** {selected_pollutant} concentration threshold is set to **{threshold} {unit}** as defined in Member 2's PySpark analytics.
             - **Persistence Dynamics:** Stations are classified as persistent hotspots only when elevated readings exceed 50% persistence with high observed magnitude (>= 1.5x threshold).
             - **Temporal Seasonality:** Extreme pollution episodes cluster predominantly during post-monsoon and winter months (October through January) due to meteorology and boundary-layer inversion.
-            - **Observation Reliability:** All station rankings and classifications enforce a minimum observation constraint (>= 24 hours) to prevent misleading conclusions from sparse series.
+            - **Observation Reliability:** All station rankings and classifications require a series to cover at least 75% of the period's hours to prevent misleading conclusions from sparse series.
             """
         )
 
@@ -618,7 +616,7 @@ elif page == "Pollution Hotspots":
     # Interactive Map
     st.markdown("##### Interactive Station Hotspot Map")
     if active_carto_key:
-        st.caption("Basemap: **CARTO Positron HD** (API key verified from `.env`)")
+        st.caption("Basemap: **CARTO Positron HD** (API key configured in `.env`)")
     else:
         st.caption("Basemap: **OpenStreetMap Standard**")
     m = create_hotspot_map(
@@ -651,11 +649,11 @@ elif page == "Pollution Hotspots":
             Member 2's PySpark analytics classifies monitoring stations based on **persistence, magnitude, and coverage sufficiency**:
             - **Baseline Threshold:** {selected_pollutant} threshold is {threshold} {unit}.
             - **Persistence Score:** Defined as `100 * (elevated_observations / valid_observations)`.
-            - **Persistent Hotspot:** Station has ≥ 24 valid observations, persistence score ≥ 50%, mean concentration ≥ threshold, and at least one peak ≥ 1.5× threshold.
+            - **Persistent Hotspot:** Station has valid readings for ≥ 75% of the period's hours, persistence score ≥ 50%, mean concentration ≥ threshold, and at least one peak ≥ 1.5× threshold.
             - **Frequently Elevated:** Persistence score ≥ 25%, indicating recurring pollution exposure.
             - **Isolated Spike:** Maximum concentration exceeded threshold, but overall persistence remained below 25%.
             - **Ordinary Fluctuation:** All observed readings remained below the analytical threshold.
-            - **Insufficient Observations:** Stations with fewer than 24 readings are excluded from hotspot classification to prevent false positives.
+            - **Insufficient Observations:** Series with readings for fewer than 75% of the period's hours are excluded from hotspot classification to prevent false positives.
             """
         )
 
