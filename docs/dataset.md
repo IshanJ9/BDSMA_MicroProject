@@ -42,7 +42,7 @@ month-by-hour spreadsheet layout. data.gov.in's real-time AQI resource is a live
 In 2024, 53 active stations (6.5% of readings) have no coordinates in CPCB's registry, and neither of xKDR's
 two station files (`station_locations.csv`, and the data.gov.in snapshot from 11 Feb 2026) contains them. They
 look like newer stations. We geocoded them from their names with OpenStreetMap's Nominatim service
-(`reference/station_coordinates_geocoded.csv`, 52 stations; OMC Colony, Suakati could not be found).
+(`reference/station_coordinates_geocoded.csv`, 52 stations with coordinates; OMC Colony, Suakati could not be found).
 
 - `precision = locality`: the name matched a place near the station (typically within a few km).
 - `precision = city`: only the town was found, so the point is the town centre and several stations may share it.
@@ -54,6 +54,12 @@ look like newer stations. We geocoded them from their names with OpenStreetMap's
   replaced with the town-centre coordinates from Wikipedia (`query` shows `wikipedia:<town>`). Locality-level
   points were checked by eye and look right; the least certain is Bharathidasan University (Palkalaiperur),
   about 10 km from the main campus. Nothing was checked against surveyed monitor positions.
+
+- The same stations have no city or state in the source either, which would hide them from any state or city
+  filter. `city` and `state` are therefore filled from the same reference file (taken from the end of each
+  station name, with spellings matched to the official stations). A 53rd station, OMC Colony Suakati, has a city
+  and state there but no coordinates, so it stays off the map.
+- The source also spells one state two ways, `Tamil Nadu` and `TamilNadu`; the pipeline normalises it to `Tamil Nadu`.
 
 These are **not** the monitors' true positions. Use `coord_source` to separate them from official coordinates,
 and say so on the hotspot map and in the report.

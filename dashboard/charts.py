@@ -89,8 +89,9 @@ def _empty_figure(message: str) -> go.Figure:
 def create_hourly_trend_chart(df: pd.DataFrame, pollutant: str) -> go.Figure:
     """Diurnal cycle: Hourly pollution trends (0 to 23 hours).
 
-    Shows diurnal peak times (rush hours, boundary layer dynamics),
-    mean concentration curve, and min-max envelope.
+    Shows diurnal peak times (rush hours, boundary layer dynamics) as the mean concentration curve.
+    The y-axis is sized to the mean curve: a min-max band was removed because, over all stations and days,
+    every hour spans roughly 0 to the sensor ceiling, which flattened the curve and told us nothing.
     """
     if df.empty or "temporal_granularity" not in df.columns:
         return _empty_figure("No hourly temporal data available.")
@@ -110,21 +111,6 @@ def create_hourly_trend_chart(df: pd.DataFrame, pollutant: str) -> go.Figure:
 
     fig = go.Figure()
 
-    # Max-Min range band
-    if "max_concentration" in hourly.columns and "min_concentration" in hourly.columns:
-        fig.add_trace(
-            go.Scatter(
-                x=list(hourly["hour_num"]) + list(hourly["hour_num"])[::-1],
-                y=list(hourly["max_concentration"]) + list(hourly["min_concentration"])[::-1],
-                fill="toself",
-                fillcolor="rgba(13, 148, 136, 0.12)",
-                line=dict(color="rgba(255,255,255,0)"),
-                hoverinfo="skip",
-                name="Min-Max Range",
-                showlegend=True,
-            )
-        )
-
     # Mean concentration line
     fig.add_trace(
         go.Scatter(
@@ -142,27 +128,37 @@ def create_hourly_trend_chart(df: pd.DataFrame, pollutant: str) -> go.Figure:
         )
     )
 
-    # Threshold horizontal reference line
-    fig.add_hline(
-        y=threshold,
-        line_dash="dash",
-        line_color=COLOR_ALERT,
-        line_width=1.5,
-        annotation_text=f"Hotspot Threshold ({threshold} {unit})",
-        annotation_position="top left",
-        annotation_font_color=COLOR_ALERT,
-        annotation_font_size=11,
-    )
+    # Size the y-axis to the mean curve so the daily cycle is visible, and keep the threshold in view
+    # only when it is close enough not to flatten the curve again.
+    mean_lo, mean_hi = hourly["mean_concentration"].min(), hourly["mean_concentration"].max()
+    spread = max(mean_hi - mean_lo, mean_hi * 0.1, 1e-9)
+    y_lo = max(0.0, mean_lo - 0.4 * spread)
+    y_hi = mean_hi + 0.4 * spread
+    threshold_in_view = threshold <= mean_hi + 1.5 * spread
+    if threshold_in_view:
+        y_hi = max(y_hi, threshold + 0.15 * spread)
+        fig.add_hline(
+            y=threshold,
+            line_dash="dash",
+            line_color=COLOR_ALERT,
+            line_width=1.5,
+            annotation_text=f"Hotspot Threshold ({threshold} {unit})",
+            annotation_position="top left",
+            annotation_font_color=COLOR_ALERT,
+            annotation_font_size=11,
+        )
+    note = "" if threshold_in_view else f"<br><sup>Hotspot threshold ({threshold} {unit}) is above this range</sup>"
 
     apply_theme(
         fig,
         title=dict(
-            text=f"<b>Diurnal Pattern: Hourly Mean Concentration of {pollutant}</b>",
+            text=f"<b>Diurnal Pattern: Hourly Mean Concentration of {pollutant}</b>{note}",
             font=dict(size=15),
         ),
         xaxis_title="Hour of Day (IST, 0 - 23)",
         yaxis_title=f"Concentration ({unit})",
     )
+    fig.update_yaxes(range=[y_lo, y_hi])
     fig.update_xaxes(
         tickmode="linear",
         tick0=0,

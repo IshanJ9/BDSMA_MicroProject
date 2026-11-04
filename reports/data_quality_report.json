@@ -175,10 +175,10 @@
   "performance": {
     "input_files": 12,
     "input_mb": 88.368934,
-    "clean_write_seconds": 101.961382171,
-    "cores": 10,
+    "clean_write_seconds": 229.077881957,
+    "cores": 12,
     "driver_memory": "4g",
     "shuffle_partitions": "32",
-    "report_seconds": 28.34219672200001
+    "report_seconds": 41.03833515600002
   }
 }

@@ -108,6 +108,20 @@ def test_geocoded_fallback_fills_only_missing_coordinates(spark):
     assert got["site_3"].coord_source is None and not got["site_3"].has_coordinates
 
 
+def test_fallback_fills_missing_city_state_and_tamil_nadu_is_normalised(spark):
+    fb = spark.createDataFrame(
+        [("site_2", "18.5", "73.8", "locality", "Pune", "Maharashtra")],
+        ["station_id", "latitude", "longitude", "precision", "city", "state"],
+    )
+    no_city = list(raw_row(station="site_2")); no_city[2] = no_city[3] = None   # as in the source for 53 stations
+    spelled = list(raw_row(station="unknown")); spelled[2], spelled[3] = "Chennai", "TamilNadu"
+    raw = spark.createDataFrame([tuple(no_city), tuple(spelled)], RAW_COLS).withColumn(
+        "collected_at", F.col("collected_at").cast("timestamp_ntz"))
+    got = {r.station_id: r for r in clean_measurements(raw, stations(spark), None, fb).collect()}
+    assert (got["site_2"].city, got["site_2"].state) == ("Pune", "Maharashtra")
+    assert got["unknown"].state == "Tamil Nadu"
+
+
 def test_completeness_is_share_of_period_hours(spark):
     from pipeline.quality import completeness
 

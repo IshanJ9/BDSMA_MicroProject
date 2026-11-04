@@ -232,6 +232,9 @@ def test_hourly_and_daily_charts():
     fig_hourly = create_hourly_trend_chart(temporal_df, "PM2.5")
     assert isinstance(fig_hourly, go.Figure)
     assert len(fig_hourly.data) >= 1
+    # The axis must follow the mean curve (50-60), not a 0..max band that flattens the daily cycle.
+    assert "Min-Max Range" not in [t.name for t in fig_hourly.data]
+    assert fig_hourly.layout.yaxis.range[1] < 100
 
     fig_daily = create_daily_trend_chart(temporal_df, "PM2.5")
     assert isinstance(fig_daily, go.Figure)

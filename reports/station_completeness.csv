@@ -183,13 +183,13 @@ site_1399,"Anand Kala Kshetram, Rajamahendravaram - APPCB",Rajamahendravaram,And
 site_1399,"Anand Kala Kshetram, Rajamahendravaram - APPCB",Rajamahendravaram,Andhra Pradesh,cpcb_registry,PM10,8325,8784,0.9477
 site_1399,"Anand Kala Kshetram, Rajamahendravaram - APPCB",Rajamahendravaram,Andhra Pradesh,cpcb_registry,PM2.5,8294,8784,0.9442
 site_1399,"Anand Kala Kshetram, Rajamahendravaram - APPCB",Rajamahendravaram,Andhra Pradesh,cpcb_registry,SO2,8268,8784,0.9413
-site_1400,Mahakaleshwar Temple Ujjain,,,geocoded_locality,CO,8197,8784,0.9332
-site_1400,Mahakaleshwar Temple Ujjain,,,geocoded_locality,NH3,8106,8784,0.9228
-site_1400,Mahakaleshwar Temple Ujjain,,,geocoded_locality,NO2,8109,8784,0.9232
-site_1400,Mahakaleshwar Temple Ujjain,,,geocoded_locality,Ozone,8327,8784,0.948
-site_1400,Mahakaleshwar Temple Ujjain,,,geocoded_locality,PM10,8249,8784,0.9391
-site_1400,Mahakaleshwar Temple Ujjain,,,geocoded_locality,PM2.5,8342,8784,0.9497
-site_1400,Mahakaleshwar Temple Ujjain,,,geocoded_locality,SO2,8335,8784,0.9489
+site_1400,Mahakaleshwar Temple Ujjain,Ujjain,Madhya Pradesh,geocoded_locality,CO,8197,8784,0.9332
+site_1400,Mahakaleshwar Temple Ujjain,Ujjain,Madhya Pradesh,geocoded_locality,NH3,8106,8784,0.9228
+site_1400,Mahakaleshwar Temple Ujjain,Ujjain,Madhya Pradesh,geocoded_locality,NO2,8109,8784,0.9232
+site_1400,Mahakaleshwar Temple Ujjain,Ujjain,Madhya Pradesh,geocoded_locality,Ozone,8327,8784,0.948
+site_1400,Mahakaleshwar Temple Ujjain,Ujjain,Madhya Pradesh,geocoded_locality,PM10,8249,8784,0.9391
+site_1400,Mahakaleshwar Temple Ujjain,Ujjain,Madhya Pradesh,geocoded_locality,PM2.5,8342,8784,0.9497
+site_1400,Mahakaleshwar Temple Ujjain,Ujjain,Madhya Pradesh,geocoded_locality,SO2,8335,8784,0.9489
 site_1401,"Suryakiran Bhawan NCL, Singrauli - MPPCB",Singrauli,Madhya Pradesh,cpcb_registry,CO,7997,8784,0.9104
 site_1401,"Suryakiran Bhawan NCL, Singrauli - MPPCB",Singrauli,Madhya Pradesh,cpcb_registry,NH3,7767,8784,0.8842
 site_1401,"Suryakiran Bhawan NCL, Singrauli - MPPCB",Singrauli,Madhya Pradesh,cpcb_registry,NO2,7785,8784,0.8863
@@ -385,13 +385,13 @@ site_1438,"Civil Line, Jalandhar - PPCB",Jalandhar,Punjab,cpcb_registry,Ozone,85
 site_1438,"Civil Line, Jalandhar - PPCB",Jalandhar,Punjab,cpcb_registry,PM10,8566,8784,0.9752
 site_1438,"Civil Line, Jalandhar - PPCB",Jalandhar,Punjab,cpcb_registry,PM2.5,8573,8784,0.976
 site_1438,"Civil Line, Jalandhar - PPCB",Jalandhar,Punjab,cpcb_registry,SO2,8626,8784,0.982
-site_1447,Deshpande Nagar Hubballi,,,geocoded_locality,CO,4530,8784,0.5157
-site_1447,Deshpande Nagar Hubballi,,,geocoded_locality,NH3,4841,8784,0.5511
-site_1447,Deshpande Nagar Hubballi,,,geocoded_locality,NO2,4841,8784,0.5511
-site_1447,Deshpande Nagar Hubballi,,,geocoded_locality,Ozone,4680,8784,0.5328
-site_1447,Deshpande Nagar Hubballi,,,geocoded_locality,PM10,3798,8784,0.4324
-site_1447,Deshpande Nagar Hubballi,,,geocoded_locality,PM2.5,3759,8784,0.4279
-site_1447,Deshpande Nagar Hubballi,,,geocoded_locality,SO2,2889,8784,0.3289
+site_1447,Deshpande Nagar Hubballi,Hubballi,Karnataka,geocoded_locality,CO,4530,8784,0.5157
+site_1447,Deshpande Nagar Hubballi,Hubballi,Karnataka,geocoded_locality,NH3,4841,8784,0.5511
+site_1447,Deshpande Nagar Hubballi,Hubballi,Karnataka,geocoded_locality,NO2,4841,8784,0.5511
+site_1447,Deshpande Nagar Hubballi,Hubballi,Karnataka,geocoded_locality,Ozone,4680,8784,0.5328
+site_1447,Deshpande Nagar Hubballi,Hubballi,Karnataka,geocoded_locality,PM10,3798,8784,0.4324
+site_1447,Deshpande Nagar Hubballi,Hubballi,Karnataka,geocoded_locality,PM2.5,3759,8784,0.4279
+site_1447,Deshpande Nagar Hubballi,Hubballi,Karnataka,geocoded_locality,SO2,2889,8784,0.3289
 site_1450,"Kalal Majra, Khanna - PPCB",Khanna,Punjab,cpcb_registry,CO,8468,8784,0.964
 site_1450,"Kalal Majra, Khanna - PPCB",Khanna,Punjab,cpcb_registry,NH3,8264,8784,0.9408
 site_1450,"Kalal Majra, Khanna - PPCB",Khanna,Punjab,cpcb_registry,NO2,8264,8784,0.9408
@@ -449,13 +449,13 @@ site_1550,"New Mandi, Muzaffarnagar - UPPCB",Muzaffarnagar,Uttar Pradesh,cpcb_re
 site_1550,"New Mandi, Muzaffarnagar - UPPCB",Muzaffarnagar,Uttar Pradesh,cpcb_registry,PM10,8381,8784,0.9541
 site_1550,"New Mandi, Muzaffarnagar - UPPCB",Muzaffarnagar,Uttar Pradesh,cpcb_registry,PM2.5,8397,8784,0.9559
 site_1550,"New Mandi, Muzaffarnagar - UPPCB",Muzaffarnagar,Uttar Pradesh,cpcb_registry,SO2,8357,8784,0.9514
-site_1551,Tamaka Ind. Area Kolar,,,geocoded_locality,CO,5630,8784,0.6409
-site_1551,Tamaka Ind. Area Kolar,,,geocoded_locality,NH3,6664,8784,0.7587
-site_1551,Tamaka Ind. Area Kolar,,,geocoded_locality,NO2,6606,8784,0.752
-site_1551,Tamaka Ind. Area Kolar,,,geocoded_locality,Ozone,6627,8784,0.7544
-site_1551,Tamaka Ind. Area Kolar,,,geocoded_locality,PM10,6362,8784,0.7243
-site_1551,Tamaka Ind. Area Kolar,,,geocoded_locality,PM2.5,3826,8784,0.4356
-site_1551,Tamaka Ind. Area Kolar,,,geocoded_locality,SO2,6661,8784,0.7583
+site_1551,Tamaka Ind. Area Kolar,Kolar,Karnataka,geocoded_locality,CO,5630,8784,0.6409
+site_1551,Tamaka Ind. Area Kolar,Kolar,Karnataka,geocoded_locality,NH3,6664,8784,0.7587
+site_1551,Tamaka Ind. Area Kolar,Kolar,Karnataka,geocoded_locality,NO2,6606,8784,0.752
+site_1551,Tamaka Ind. Area Kolar,Kolar,Karnataka,geocoded_locality,Ozone,6627,8784,0.7544
+site_1551,Tamaka Ind. Area Kolar,Kolar,Karnataka,geocoded_locality,PM10,6362,8784,0.7243
+site_1551,Tamaka Ind. Area Kolar,Kolar,Karnataka,geocoded_locality,PM2.5,3826,8784,0.4356
+site_1551,Tamaka Ind. Area Kolar,Kolar,Karnataka,geocoded_locality,SO2,6661,8784,0.7583
 site_1553,"Bapuji Nagar, Bengaluru - KSPCB",Bengaluru,Karnataka,cpcb_registry,CO,8356,8784,0.9513
 site_1553,"Bapuji Nagar, Bengaluru - KSPCB",Bengaluru,Karnataka,cpcb_registry,NH3,8199,8784,0.9334
 site_1553,"Bapuji Nagar, Bengaluru - KSPCB",Bengaluru,Karnataka,cpcb_registry,NO2,8565,8784,0.9751
@@ -526,13 +526,13 @@ site_1563,"Pusa, Delhi - DPCC",Delhi,Delhi,cpcb_registry,Ozone,8498,8784,0.9674
 site_1563,"Pusa, Delhi - DPCC",Delhi,Delhi,cpcb_registry,PM10,8523,8784,0.9703
 site_1563,"Pusa, Delhi - DPCC",Delhi,Delhi,cpcb_registry,PM2.5,8483,8784,0.9657
 site_1563,"Pusa, Delhi - DPCC",Delhi,Delhi,cpcb_registry,SO2,8531,8784,0.9712
-site_1565,Lal Bahadur Shastri Nagar Kalaburagi,,,geocoded_city,CO,7427,8784,0.8455
-site_1565,Lal Bahadur Shastri Nagar Kalaburagi,,,geocoded_city,NH3,7842,8784,0.8928
-site_1565,Lal Bahadur Shastri Nagar Kalaburagi,,,geocoded_city,NO2,7809,8784,0.889
-site_1565,Lal Bahadur Shastri Nagar Kalaburagi,,,geocoded_city,Ozone,7426,8784,0.8454
-site_1565,Lal Bahadur Shastri Nagar Kalaburagi,,,geocoded_city,PM10,6791,8784,0.7731
-site_1565,Lal Bahadur Shastri Nagar Kalaburagi,,,geocoded_city,PM2.5,5727,8784,0.652
-site_1565,Lal Bahadur Shastri Nagar Kalaburagi,,,geocoded_city,SO2,7678,8784,0.8741
+site_1565,Lal Bahadur Shastri Nagar Kalaburagi,Kalaburagi,Karnataka,geocoded_city,CO,7427,8784,0.8455
+site_1565,Lal Bahadur Shastri Nagar Kalaburagi,Kalaburagi,Karnataka,geocoded_city,NH3,7842,8784,0.8928
+site_1565,Lal Bahadur Shastri Nagar Kalaburagi,Kalaburagi,Karnataka,geocoded_city,NO2,7809,8784,0.889
+site_1565,Lal Bahadur Shastri Nagar Kalaburagi,Kalaburagi,Karnataka,geocoded_city,Ozone,7426,8784,0.8454
+site_1565,Lal Bahadur Shastri Nagar Kalaburagi,Kalaburagi,Karnataka,geocoded_city,PM10,6791,8784,0.7731
+site_1565,Lal Bahadur Shastri Nagar Kalaburagi,Kalaburagi,Karnataka,geocoded_city,PM2.5,5727,8784,0.652
+site_1565,Lal Bahadur Shastri Nagar Kalaburagi,Kalaburagi,Karnataka,geocoded_city,SO2,7678,8784,0.8741
 site_157,"IGSC Planetarium Complex, Patna - BSPCB",Patna,Bihar,cpcb_registry,CO,8373,8784,0.9532
 site_157,"IGSC Planetarium Complex, Patna - BSPCB",Patna,Bihar,cpcb_registry,NO2,8046,8784,0.916
 site_157,"IGSC Planetarium Complex, Patna - BSPCB",Patna,Bihar,cpcb_registry,Ozone,8054,8784,0.9169
@@ -610,13 +610,13 @@ site_253,"Punjab Agricultural University, Ludhiana - PPCB",Ludhiana,Punjab,cpcb_
 site_253,"Punjab Agricultural University, Ludhiana - PPCB",Ludhiana,Punjab,cpcb_registry,PM10,8498,8784,0.9674
 site_253,"Punjab Agricultural University, Ludhiana - PPCB",Ludhiana,Punjab,cpcb_registry,PM2.5,8598,8784,0.9788
 site_253,"Punjab Agricultural University, Ludhiana - PPCB",Ludhiana,Punjab,cpcb_registry,SO2,8630,8784,0.9825
-site_254,Tata Stadium Jorapokhar,,,geocoded_city,CO,3214,8784,0.3659
-site_254,Tata Stadium Jorapokhar,,,geocoded_city,NH3,2369,8784,0.2697
-site_254,Tata Stadium Jorapokhar,,,geocoded_city,NO2,2369,8784,0.2697
-site_254,Tata Stadium Jorapokhar,,,geocoded_city,Ozone,2311,8784,0.2631
-site_254,Tata Stadium Jorapokhar,,,geocoded_city,PM10,1117,8784,0.1272
-site_254,Tata Stadium Jorapokhar,,,geocoded_city,PM2.5,844,8784,0.0961
-site_254,Tata Stadium Jorapokhar,,,geocoded_city,SO2,1359,8784,0.1547
+site_254,Tata Stadium Jorapokhar,Jorapokhar,Jharkhand,geocoded_city,CO,3214,8784,0.3659
+site_254,Tata Stadium Jorapokhar,Jorapokhar,Jharkhand,geocoded_city,NH3,2369,8784,0.2697
+site_254,Tata Stadium Jorapokhar,Jorapokhar,Jharkhand,geocoded_city,NO2,2369,8784,0.2697
+site_254,Tata Stadium Jorapokhar,Jorapokhar,Jharkhand,geocoded_city,Ozone,2311,8784,0.2631
+site_254,Tata Stadium Jorapokhar,Jorapokhar,Jharkhand,geocoded_city,PM10,1117,8784,0.1272
+site_254,Tata Stadium Jorapokhar,Jorapokhar,Jharkhand,geocoded_city,PM2.5,844,8784,0.0961
+site_254,Tata Stadium Jorapokhar,Jorapokhar,Jharkhand,geocoded_city,SO2,1359,8784,0.1547
 site_255,"RIMT University, Mandi Gobindgarh - PPCB",Mandi Gobindgarh,Punjab,cpcb_registry,CO,7827,8784,0.8911
 site_255,"RIMT University, Mandi Gobindgarh - PPCB",Mandi Gobindgarh,Punjab,cpcb_registry,NH3,7898,8784,0.8991
 site_255,"RIMT University, Mandi Gobindgarh - PPCB",Mandi Gobindgarh,Punjab,cpcb_registry,NO2,7898,8784,0.8991
@@ -690,26 +690,26 @@ site_277,"Lalbagh, Lucknow - CPCB",Lucknow,Uttar Pradesh,cpcb_registry,Ozone,863
 site_277,"Lalbagh, Lucknow - CPCB",Lucknow,Uttar Pradesh,cpcb_registry,PM10,8359,8784,0.9516
 site_277,"Lalbagh, Lucknow - CPCB",Lucknow,Uttar Pradesh,cpcb_registry,PM2.5,8364,8784,0.9522
 site_277,"Lalbagh, Lucknow - CPCB",Lucknow,Uttar Pradesh,cpcb_registry,SO2,8472,8784,0.9645
-site_288,"Velachery Res. Area, Chennai - CPCB",Chennai,TamilNadu,cpcb_registry,CO,7854,8784,0.8941
-site_288,"Velachery Res. Area, Chennai - CPCB",Chennai,TamilNadu,cpcb_registry,NH3,7959,8784,0.9061
-site_288,"Velachery Res. Area, Chennai - CPCB",Chennai,TamilNadu,cpcb_registry,NO2,8155,8784,0.9284
-site_288,"Velachery Res. Area, Chennai - CPCB",Chennai,TamilNadu,cpcb_registry,Ozone,8304,8784,0.9454
-site_288,"Velachery Res. Area, Chennai - CPCB",Chennai,TamilNadu,cpcb_registry,PM10,8033,8784,0.9145
-site_288,"Velachery Res. Area, Chennai - CPCB",Chennai,TamilNadu,cpcb_registry,PM2.5,8217,8784,0.9355
-site_288,"Velachery Res. Area, Chennai - CPCB",Chennai,TamilNadu,cpcb_registry,SO2,8301,8784,0.945
-site_292,Karve Road Pune,,,geocoded_locality,CO,6867,8784,0.7818
-site_292,Karve Road Pune,,,geocoded_locality,NO2,7562,8784,0.8609
-site_292,Karve Road Pune,,,geocoded_locality,Ozone,6398,8784,0.7284
-site_292,Karve Road Pune,,,geocoded_locality,PM10,6448,8784,0.7341
-site_292,Karve Road Pune,,,geocoded_locality,PM2.5,6574,8784,0.7484
-site_292,Karve Road Pune,,,geocoded_locality,SO2,6564,8784,0.7473
-site_293,Alandur Bus Depot Chennai,,,geocoded_city,CO,8550,8784,0.9734
-site_293,Alandur Bus Depot Chennai,,,geocoded_city,NH3,7508,8784,0.8547
-site_293,Alandur Bus Depot Chennai,,,geocoded_city,NO2,8222,8784,0.936
-site_293,Alandur Bus Depot Chennai,,,geocoded_city,Ozone,8475,8784,0.9648
-site_293,Alandur Bus Depot Chennai,,,geocoded_city,PM10,8233,8784,0.9373
-site_293,Alandur Bus Depot Chennai,,,geocoded_city,PM2.5,8102,8784,0.9224
-site_293,Alandur Bus Depot Chennai,,,geocoded_city,SO2,8014,8784,0.9123
+site_288,"Velachery Res. Area, Chennai - CPCB",Chennai,Tamil Nadu,cpcb_registry,CO,7854,8784,0.8941
+site_288,"Velachery Res. Area, Chennai - CPCB",Chennai,Tamil Nadu,cpcb_registry,NH3,7959,8784,0.9061
+site_288,"Velachery Res. Area, Chennai - CPCB",Chennai,Tamil Nadu,cpcb_registry,NO2,8155,8784,0.9284
+site_288,"Velachery Res. Area, Chennai - CPCB",Chennai,Tamil Nadu,cpcb_registry,Ozone,8304,8784,0.9454
+site_288,"Velachery Res. Area, Chennai - CPCB",Chennai,Tamil Nadu,cpcb_registry,PM10,8033,8784,0.9145
+site_288,"Velachery Res. Area, Chennai - CPCB",Chennai,Tamil Nadu,cpcb_registry,PM2.5,8217,8784,0.9355
+site_288,"Velachery Res. Area, Chennai - CPCB",Chennai,Tamil Nadu,cpcb_registry,SO2,8301,8784,0.945
+site_292,Karve Road Pune,Pune,Maharashtra,geocoded_locality,CO,6867,8784,0.7818
+site_292,Karve Road Pune,Pune,Maharashtra,geocoded_locality,NO2,7562,8784,0.8609
+site_292,Karve Road Pune,Pune,Maharashtra,geocoded_locality,Ozone,6398,8784,0.7284
+site_292,Karve Road Pune,Pune,Maharashtra,geocoded_locality,PM10,6448,8784,0.7341
+site_292,Karve Road Pune,Pune,Maharashtra,geocoded_locality,PM2.5,6574,8784,0.7484
+site_292,Karve Road Pune,Pune,Maharashtra,geocoded_locality,SO2,6564,8784,0.7473
+site_293,Alandur Bus Depot Chennai,Chennai,Tamil Nadu,geocoded_city,CO,8550,8784,0.9734
+site_293,Alandur Bus Depot Chennai,Chennai,Tamil Nadu,geocoded_city,NH3,7508,8784,0.8547
+site_293,Alandur Bus Depot Chennai,Chennai,Tamil Nadu,geocoded_city,NO2,8222,8784,0.936
+site_293,Alandur Bus Depot Chennai,Chennai,Tamil Nadu,geocoded_city,Ozone,8475,8784,0.9648
+site_293,Alandur Bus Depot Chennai,Chennai,Tamil Nadu,geocoded_city,PM10,8233,8784,0.9373
+site_293,Alandur Bus Depot Chennai,Chennai,Tamil Nadu,geocoded_city,PM2.5,8102,8784,0.9224
+site_293,Alandur Bus Depot Chennai,Chennai,Tamil Nadu,geocoded_city,SO2,8014,8784,0.9123
 site_294,"Sanathnagar, Hyderabad - TSPCB",Hyderabad,Telangana,cpcb_registry,CO,8771,8784,0.9985
 site_294,"Sanathnagar, Hyderabad - TSPCB",Hyderabad,Telangana,cpcb_registry,NO2,8254,8784,0.9397
 site_294,"Sanathnagar, Hyderabad - TSPCB",Hyderabad,Telangana,cpcb_registry,Ozone,8071,8784,0.9188
@@ -776,13 +776,13 @@ site_304,"Gangapur Road, Nashik - MPCB",Nashik,Maharashtra,cpcb_registry,Ozone,8
 site_304,"Gangapur Road, Nashik - MPCB",Nashik,Maharashtra,cpcb_registry,PM10,8361,8784,0.9518
 site_304,"Gangapur Road, Nashik - MPCB",Nashik,Maharashtra,cpcb_registry,PM2.5,8318,8784,0.9469
 site_304,"Gangapur Road, Nashik - MPCB",Nashik,Maharashtra,cpcb_registry,SO2,8370,8784,0.9529
-site_306,"Manali, Chennai - CPCB",Chennai,TamilNadu,cpcb_registry,CO,8216,8784,0.9353
-site_306,"Manali, Chennai - CPCB",Chennai,TamilNadu,cpcb_registry,NH3,8171,8784,0.9302
-site_306,"Manali, Chennai - CPCB",Chennai,TamilNadu,cpcb_registry,NO2,8171,8784,0.9302
-site_306,"Manali, Chennai - CPCB",Chennai,TamilNadu,cpcb_registry,Ozone,8083,8784,0.9202
-site_306,"Manali, Chennai - CPCB",Chennai,TamilNadu,cpcb_registry,PM10,7820,8784,0.8903
-site_306,"Manali, Chennai - CPCB",Chennai,TamilNadu,cpcb_registry,PM2.5,7764,8784,0.8839
-site_306,"Manali, Chennai - CPCB",Chennai,TamilNadu,cpcb_registry,SO2,8067,8784,0.9184
+site_306,"Manali, Chennai - CPCB",Chennai,Tamil Nadu,cpcb_registry,CO,8216,8784,0.9353
+site_306,"Manali, Chennai - CPCB",Chennai,Tamil Nadu,cpcb_registry,NH3,8171,8784,0.9302
+site_306,"Manali, Chennai - CPCB",Chennai,Tamil Nadu,cpcb_registry,NO2,8171,8784,0.9302
+site_306,"Manali, Chennai - CPCB",Chennai,Tamil Nadu,cpcb_registry,Ozone,8083,8784,0.9202
+site_306,"Manali, Chennai - CPCB",Chennai,Tamil Nadu,cpcb_registry,PM10,7820,8784,0.8903
+site_306,"Manali, Chennai - CPCB",Chennai,Tamil Nadu,cpcb_registry,PM2.5,7764,8784,0.8839
+site_306,"Manali, Chennai - CPCB",Chennai,Tamil Nadu,cpcb_registry,SO2,8067,8784,0.9184
 site_307,"Sanjay Palace, Agra - UPPCB",Agra,Uttar Pradesh,cpcb_registry,CO,7008,8784,0.7978
 site_307,"Sanjay Palace, Agra - UPPCB",Agra,Uttar Pradesh,cpcb_registry,NO2,8190,8784,0.9324
 site_307,"Sanjay Palace, Agra - UPPCB",Agra,Uttar Pradesh,cpcb_registry,Ozone,7705,8784,0.8772
@@ -907,13 +907,13 @@ site_5051,"F-Block, Sirsa - HSPCB",Sirsa,Haryana,cpcb_registry,Ozone,7944,8784,0
 site_5051,"F-Block, Sirsa - HSPCB",Sirsa,Haryana,cpcb_registry,PM10,7328,8784,0.8342
 site_5051,"F-Block, Sirsa - HSPCB",Sirsa,Haryana,cpcb_registry,PM2.5,7278,8784,0.8286
 site_5051,"F-Block, Sirsa - HSPCB",Sirsa,Haryana,cpcb_registry,SO2,7510,8784,0.855
-site_5052,Patti Mehar Ambala,,,geocoded_city,CO,8130,8784,0.9255
-site_5052,Patti Mehar Ambala,,,geocoded_city,NH3,8046,8784,0.916
-site_5052,Patti Mehar Ambala,,,geocoded_city,NO2,8046,8784,0.916
-site_5052,Patti Mehar Ambala,,,geocoded_city,Ozone,8016,8784,0.9126
-site_5052,Patti Mehar Ambala,,,geocoded_city,PM10,7729,8784,0.8799
-site_5052,Patti Mehar Ambala,,,geocoded_city,PM2.5,7674,8784,0.8736
-site_5052,Patti Mehar Ambala,,,geocoded_city,SO2,7440,8784,0.847
+site_5052,Patti Mehar Ambala,Ambala,Haryana,geocoded_city,CO,8130,8784,0.9255
+site_5052,Patti Mehar Ambala,Ambala,Haryana,geocoded_city,NH3,8046,8784,0.916
+site_5052,Patti Mehar Ambala,Ambala,Haryana,geocoded_city,NO2,8046,8784,0.916
+site_5052,Patti Mehar Ambala,Ambala,Haryana,geocoded_city,Ozone,8016,8784,0.9126
+site_5052,Patti Mehar Ambala,Ambala,Haryana,geocoded_city,PM10,7729,8784,0.8799
+site_5052,Patti Mehar Ambala,Ambala,Haryana,geocoded_city,PM2.5,7674,8784,0.8736
+site_5052,Patti Mehar Ambala,Ambala,Haryana,geocoded_city,SO2,7440,8784,0.847
 site_5053,"Shastri Nagar, Narnaul - HSPCB",Narnaul,Haryana,cpcb_registry,CO,7683,8784,0.8747
 site_5053,"Shastri Nagar, Narnaul - HSPCB",Narnaul,Haryana,cpcb_registry,NH3,7635,8784,0.8692
 site_5053,"Shastri Nagar, Narnaul - HSPCB",Narnaul,Haryana,cpcb_registry,NO2,7638,8784,0.8695
@@ -970,11 +970,11 @@ site_5067,"Phase-4 GIDC, Vatva - GPCB",Vatva,Gujarat,cpcb_registry,Ozone,7135,87
 site_5067,"Phase-4 GIDC, Vatva - GPCB",Vatva,Gujarat,cpcb_registry,PM10,7642,8784,0.87
 site_5067,"Phase-4 GIDC, Vatva - GPCB",Vatva,Gujarat,cpcb_registry,PM2.5,7632,8784,0.8689
 site_5067,"Phase-4 GIDC, Vatva - GPCB",Vatva,Gujarat,cpcb_registry,SO2,7963,8784,0.9065
-site_5068,Sahilara Maihar KJS,,,geocoded_city,CO,7637,8784,0.8694
-site_5068,Sahilara Maihar KJS,,,geocoded_city,NO2,7639,8784,0.8696
-site_5068,Sahilara Maihar KJS,,,geocoded_city,PM10,5944,8784,0.6767
-site_5068,Sahilara Maihar KJS,,,geocoded_city,PM2.5,6200,8784,0.7058
-site_5068,Sahilara Maihar KJS,,,geocoded_city,SO2,7647,8784,0.8706
+site_5068,Sahilara Maihar KJS,Maihar,Madhya Pradesh,geocoded_city,CO,7637,8784,0.8694
+site_5068,Sahilara Maihar KJS,Maihar,Madhya Pradesh,geocoded_city,NO2,7639,8784,0.8696
+site_5068,Sahilara Maihar KJS,Maihar,Madhya Pradesh,geocoded_city,PM10,5944,8784,0.6767
+site_5068,Sahilara Maihar KJS,Maihar,Madhya Pradesh,geocoded_city,PM2.5,6200,8784,0.7058
+site_5068,Sahilara Maihar KJS,Maihar,Madhya Pradesh,geocoded_city,SO2,7647,8784,0.8706
 site_5071,"Phase-1 GIDC, Vapi - GPCB",Vapi,Gujarat,cpcb_registry,CO,1832,8784,0.2086
 site_5071,"Phase-1 GIDC, Vapi - GPCB",Vapi,Gujarat,cpcb_registry,NH3,8483,8784,0.9657
 site_5071,"Phase-1 GIDC, Vapi - GPCB",Vapi,Gujarat,cpcb_registry,NO2,7086,8784,0.8067
@@ -1017,20 +1017,20 @@ site_5083,"Loni, Ghaziabad - UPPCB",Ghaziabad,Uttar Pradesh,cpcb_registry,Ozone,
 site_5083,"Loni, Ghaziabad - UPPCB",Ghaziabad,Uttar Pradesh,cpcb_registry,PM10,8318,8784,0.9469
 site_5083,"Loni, Ghaziabad - UPPCB",Ghaziabad,Uttar Pradesh,cpcb_registry,PM2.5,8247,8784,0.9389
 site_5083,"Loni, Ghaziabad - UPPCB",Ghaziabad,Uttar Pradesh,cpcb_registry,SO2,8286,8784,0.9433
-site_5092,"Manali Village, Chennai - TNPCB",Chennai,TamilNadu,cpcb_registry,CO,3133,8784,0.3567
-site_5092,"Manali Village, Chennai - TNPCB",Chennai,TamilNadu,cpcb_registry,NH3,3024,8784,0.3443
-site_5092,"Manali Village, Chennai - TNPCB",Chennai,TamilNadu,cpcb_registry,NO2,2641,8784,0.3007
-site_5092,"Manali Village, Chennai - TNPCB",Chennai,TamilNadu,cpcb_registry,Ozone,3001,8784,0.3416
-site_5092,"Manali Village, Chennai - TNPCB",Chennai,TamilNadu,cpcb_registry,PM10,2631,8784,0.2995
-site_5092,"Manali Village, Chennai - TNPCB",Chennai,TamilNadu,cpcb_registry,PM2.5,2793,8784,0.318
-site_5092,"Manali Village, Chennai - TNPCB",Chennai,TamilNadu,cpcb_registry,SO2,3127,8784,0.356
-site_5094,"SIDCO Kurichi, Coimbatore - TNPCB",Coimbatore,TamilNadu,cpcb_registry,CO,2826,8784,0.3217
-site_5094,"SIDCO Kurichi, Coimbatore - TNPCB",Coimbatore,TamilNadu,cpcb_registry,NH3,3092,8784,0.352
-site_5094,"SIDCO Kurichi, Coimbatore - TNPCB",Coimbatore,TamilNadu,cpcb_registry,NO2,3101,8784,0.353
-site_5094,"SIDCO Kurichi, Coimbatore - TNPCB",Coimbatore,TamilNadu,cpcb_registry,Ozone,3056,8784,0.3479
-site_5094,"SIDCO Kurichi, Coimbatore - TNPCB",Coimbatore,TamilNadu,cpcb_registry,PM10,2880,8784,0.3279
-site_5094,"SIDCO Kurichi, Coimbatore - TNPCB",Coimbatore,TamilNadu,cpcb_registry,PM2.5,3012,8784,0.3429
-site_5094,"SIDCO Kurichi, Coimbatore - TNPCB",Coimbatore,TamilNadu,cpcb_registry,SO2,3101,8784,0.353
+site_5092,"Manali Village, Chennai - TNPCB",Chennai,Tamil Nadu,cpcb_registry,CO,3133,8784,0.3567
+site_5092,"Manali Village, Chennai - TNPCB",Chennai,Tamil Nadu,cpcb_registry,NH3,3024,8784,0.3443
+site_5092,"Manali Village, Chennai - TNPCB",Chennai,Tamil Nadu,cpcb_registry,NO2,2641,8784,0.3007
+site_5092,"Manali Village, Chennai - TNPCB",Chennai,Tamil Nadu,cpcb_registry,Ozone,3001,8784,0.3416
+site_5092,"Manali Village, Chennai - TNPCB",Chennai,Tamil Nadu,cpcb_registry,PM10,2631,8784,0.2995
+site_5092,"Manali Village, Chennai - TNPCB",Chennai,Tamil Nadu,cpcb_registry,PM2.5,2793,8784,0.318
+site_5092,"Manali Village, Chennai - TNPCB",Chennai,Tamil Nadu,cpcb_registry,SO2,3127,8784,0.356
+site_5094,"SIDCO Kurichi, Coimbatore - TNPCB",Coimbatore,Tamil Nadu,cpcb_registry,CO,2826,8784,0.3217
+site_5094,"SIDCO Kurichi, Coimbatore - TNPCB",Coimbatore,Tamil Nadu,cpcb_registry,NH3,3092,8784,0.352
+site_5094,"SIDCO Kurichi, Coimbatore - TNPCB",Coimbatore,Tamil Nadu,cpcb_registry,NO2,3101,8784,0.353
+site_5094,"SIDCO Kurichi, Coimbatore - TNPCB",Coimbatore,Tamil Nadu,cpcb_registry,Ozone,3056,8784,0.3479
+site_5094,"SIDCO Kurichi, Coimbatore - TNPCB",Coimbatore,Tamil Nadu,cpcb_registry,PM10,2880,8784,0.3279
+site_5094,"SIDCO Kurichi, Coimbatore - TNPCB",Coimbatore,Tamil Nadu,cpcb_registry,PM2.5,3012,8784,0.3429
+site_5094,"SIDCO Kurichi, Coimbatore - TNPCB",Coimbatore,Tamil Nadu,cpcb_registry,SO2,3101,8784,0.353
 site_5101,"Belur Math, Howrah - WBPCB",Howrah,West Bengal,cpcb_registry,CO,8623,8784,0.9817
 site_5101,"Belur Math, Howrah - WBPCB",Howrah,West Bengal,cpcb_registry,NH3,8413,8784,0.9578
 site_5101,"Belur Math, Howrah - WBPCB",Howrah,West Bengal,cpcb_registry,NO2,8412,8784,0.9577
@@ -1336,12 +1336,12 @@ site_5269,"Deen Dayal Nagar, Sagar - MPPCB",Sagar,Madhya Pradesh,cpcb_registry,N
 site_5269,"Deen Dayal Nagar, Sagar - MPPCB",Sagar,Madhya Pradesh,cpcb_registry,PM10,8313,8784,0.9464
 site_5269,"Deen Dayal Nagar, Sagar - MPPCB",Sagar,Madhya Pradesh,cpcb_registry,PM2.5,8323,8784,0.9475
 site_5269,"Deen Dayal Nagar, Sagar - MPPCB",Sagar,Madhya Pradesh,cpcb_registry,SO2,8491,8784,0.9666
-site_5270,Vyttila Kochi Kerala,,,geocoded_locality,CO,1254,8784,0.1428
-site_5270,Vyttila Kochi Kerala,,,geocoded_locality,NH3,1254,8784,0.1428
-site_5270,Vyttila Kochi Kerala,,,geocoded_locality,NO2,1254,8784,0.1428
-site_5270,Vyttila Kochi Kerala,,,geocoded_locality,PM10,1140,8784,0.1298
-site_5270,Vyttila Kochi Kerala,,,geocoded_locality,PM2.5,906,8784,0.1031
-site_5270,Vyttila Kochi Kerala,,,geocoded_locality,SO2,1071,8784,0.1219
+site_5270,Vyttila Kochi Kerala,Kochi,Kerala,geocoded_locality,CO,1254,8784,0.1428
+site_5270,Vyttila Kochi Kerala,Kochi,Kerala,geocoded_locality,NH3,1254,8784,0.1428
+site_5270,Vyttila Kochi Kerala,Kochi,Kerala,geocoded_locality,NO2,1254,8784,0.1428
+site_5270,Vyttila Kochi Kerala,Kochi,Kerala,geocoded_locality,PM10,1140,8784,0.1298
+site_5270,Vyttila Kochi Kerala,Kochi,Kerala,geocoded_locality,PM2.5,906,8784,0.1031
+site_5270,Vyttila Kochi Kerala,Kochi,Kerala,geocoded_locality,SO2,1071,8784,0.1219
 site_5273,"City Center, Gwalior - MPPCB",Gwalior,Madhya Pradesh,cpcb_registry,CO,8715,8784,0.9921
 site_5273,"City Center, Gwalior - MPPCB",Gwalior,Madhya Pradesh,cpcb_registry,NH3,8708,8784,0.9913
 site_5273,"City Center, Gwalior - MPPCB",Gwalior,Madhya Pradesh,cpcb_registry,NO2,8711,8784,0.9917
@@ -1349,16 +1349,16 @@ site_5273,"City Center, Gwalior - MPPCB",Gwalior,Madhya Pradesh,cpcb_registry,Oz
 site_5273,"City Center, Gwalior - MPPCB",Gwalior,Madhya Pradesh,cpcb_registry,PM10,8607,8784,0.9798
 site_5273,"City Center, Gwalior - MPPCB",Gwalior,Madhya Pradesh,cpcb_registry,PM2.5,8637,8784,0.9833
 site_5273,"City Center, Gwalior - MPPCB",Gwalior,Madhya Pradesh,cpcb_registry,SO2,8561,8784,0.9746
-site_5274,GIDC Nandesari Nandesari Ind.,,,geocoded_city,CO,1,8784,0.0001
-site_5274,GIDC Nandesari Nandesari Ind.,,,geocoded_city,NO2,3951,8784,0.4498
-site_5274,GIDC Nandesari Nandesari Ind.,,,geocoded_city,PM10,3856,8784,0.439
-site_5274,GIDC Nandesari Nandesari Ind.,,,geocoded_city,PM2.5,3837,8784,0.4368
-site_5274,GIDC Nandesari Nandesari Ind.,,,geocoded_city,SO2,2415,8784,0.2749
-site_5275,Phool Bagh Gwalior Mondelez Ind.,,,geocoded_city,CO,6254,8784,0.712
-site_5275,Phool Bagh Gwalior Mondelez Ind.,,,geocoded_city,NO2,6268,8784,0.7136
-site_5275,Phool Bagh Gwalior Mondelez Ind.,,,geocoded_city,PM10,3745,8784,0.4263
-site_5275,Phool Bagh Gwalior Mondelez Ind.,,,geocoded_city,PM2.5,4005,8784,0.4559
-site_5275,Phool Bagh Gwalior Mondelez Ind.,,,geocoded_city,SO2,6243,8784,0.7107
+site_5274,GIDC Nandesari Nandesari Ind.,Nandesari,Gujarat,geocoded_city,CO,1,8784,0.0001
+site_5274,GIDC Nandesari Nandesari Ind.,Nandesari,Gujarat,geocoded_city,NO2,3951,8784,0.4498
+site_5274,GIDC Nandesari Nandesari Ind.,Nandesari,Gujarat,geocoded_city,PM10,3856,8784,0.439
+site_5274,GIDC Nandesari Nandesari Ind.,Nandesari,Gujarat,geocoded_city,PM2.5,3837,8784,0.4368
+site_5274,GIDC Nandesari Nandesari Ind.,Nandesari,Gujarat,geocoded_city,SO2,2415,8784,0.2749
+site_5275,Phool Bagh Gwalior Mondelez Ind.,Gwalior,Madhya Pradesh,geocoded_city,CO,6254,8784,0.712
+site_5275,Phool Bagh Gwalior Mondelez Ind.,Gwalior,Madhya Pradesh,geocoded_city,NO2,6268,8784,0.7136
+site_5275,Phool Bagh Gwalior Mondelez Ind.,Gwalior,Madhya Pradesh,geocoded_city,PM10,3745,8784,0.4263
+site_5275,Phool Bagh Gwalior Mondelez Ind.,Gwalior,Madhya Pradesh,geocoded_city,PM2.5,4005,8784,0.4559
+site_5275,Phool Bagh Gwalior Mondelez Ind.,Gwalior,Madhya Pradesh,geocoded_city,SO2,6243,8784,0.7107
 site_5276,"Thavakkara, Kannur - Kerala PCB",Kannur,Kerala,cpcb_registry,CO,5289,8784,0.6021
 site_5276,"Thavakkara, Kannur - Kerala PCB",Kannur,Kerala,cpcb_registry,NH3,5251,8784,0.5978
 site_5276,"Thavakkara, Kannur - Kerala PCB",Kannur,Kerala,cpcb_registry,NO2,5294,8784,0.6027
@@ -1457,42 +1457,42 @@ site_5346,"Sikulpuikawn, Aizawl - Mizoram PCB",Aizawl,Mizoram,cpcb_registry,Ozon
 site_5346,"Sikulpuikawn, Aizawl - Mizoram PCB",Aizawl,Mizoram,cpcb_registry,PM10,8424,8784,0.959
 site_5346,"Sikulpuikawn, Aizawl - Mizoram PCB",Aizawl,Mizoram,cpcb_registry,PM2.5,6282,8784,0.7152
 site_5346,"Sikulpuikawn, Aizawl - Mizoram PCB",Aizawl,Mizoram,cpcb_registry,SO2,6448,8784,0.7341
-site_5361,"Arumbakkam, Chennai - TNPCB",Chennai,TamilNadu,cpcb_registry,NH3,4742,8784,0.5398
-site_5361,"Arumbakkam, Chennai - TNPCB",Chennai,TamilNadu,cpcb_registry,NO2,4778,8784,0.5439
-site_5361,"Arumbakkam, Chennai - TNPCB",Chennai,TamilNadu,cpcb_registry,PM10,8281,8784,0.9427
-site_5361,"Arumbakkam, Chennai - TNPCB",Chennai,TamilNadu,cpcb_registry,PM2.5,8227,8784,0.9366
-site_5361,"Arumbakkam, Chennai - TNPCB",Chennai,TamilNadu,cpcb_registry,SO2,8439,8784,0.9607
-site_5362,"Anthoni Pillai Nagar, Gummidipoondi - TNPCB",Gummidipoondi,TamilNadu,cpcb_registry,NH3,8523,8784,0.9703
-site_5362,"Anthoni Pillai Nagar, Gummidipoondi - TNPCB",Gummidipoondi,TamilNadu,cpcb_registry,NO2,8522,8784,0.9702
-site_5362,"Anthoni Pillai Nagar, Gummidipoondi - TNPCB",Gummidipoondi,TamilNadu,cpcb_registry,PM10,8580,8784,0.9768
-site_5362,"Anthoni Pillai Nagar, Gummidipoondi - TNPCB",Gummidipoondi,TamilNadu,cpcb_registry,PM2.5,8474,8784,0.9647
-site_5362,"Anthoni Pillai Nagar, Gummidipoondi - TNPCB",Gummidipoondi,TamilNadu,cpcb_registry,SO2,7927,8784,0.9024
-site_5363,"Perungudi, Chennai - TNPCB",Chennai,TamilNadu,cpcb_registry,CO,8613,8784,0.9805
-site_5363,"Perungudi, Chennai - TNPCB",Chennai,TamilNadu,cpcb_registry,NH3,8560,8784,0.9745
-site_5363,"Perungudi, Chennai - TNPCB",Chennai,TamilNadu,cpcb_registry,NO2,8654,8784,0.9852
-site_5363,"Perungudi, Chennai - TNPCB",Chennai,TamilNadu,cpcb_registry,Ozone,8632,8784,0.9827
-site_5363,"Perungudi, Chennai - TNPCB",Chennai,TamilNadu,cpcb_registry,PM10,8532,8784,0.9713
-site_5363,"Perungudi, Chennai - TNPCB",Chennai,TamilNadu,cpcb_registry,PM2.5,8161,8784,0.9291
-site_5363,"Perungudi, Chennai - TNPCB",Chennai,TamilNadu,cpcb_registry,SO2,8587,8784,0.9776
-site_5364,"Royapuram, Chennai - TNPCB",Chennai,TamilNadu,cpcb_registry,CO,7646,8784,0.8704
-site_5364,"Royapuram, Chennai - TNPCB",Chennai,TamilNadu,cpcb_registry,NH3,7728,8784,0.8798
-site_5364,"Royapuram, Chennai - TNPCB",Chennai,TamilNadu,cpcb_registry,NO2,7787,8784,0.8865
-site_5364,"Royapuram, Chennai - TNPCB",Chennai,TamilNadu,cpcb_registry,Ozone,7679,8784,0.8742
-site_5364,"Royapuram, Chennai - TNPCB",Chennai,TamilNadu,cpcb_registry,PM10,7902,8784,0.8996
-site_5364,"Royapuram, Chennai - TNPCB",Chennai,TamilNadu,cpcb_registry,PM2.5,7649,8784,0.8708
-site_5364,"Royapuram, Chennai - TNPCB",Chennai,TamilNadu,cpcb_registry,SO2,7536,8784,0.8579
-site_5365,"Kodungaiyur, Chennai - TNPCB",Chennai,TamilNadu,cpcb_registry,CO,8598,8784,0.9788
-site_5365,"Kodungaiyur, Chennai - TNPCB",Chennai,TamilNadu,cpcb_registry,NH3,8771,8784,0.9985
-site_5365,"Kodungaiyur, Chennai - TNPCB",Chennai,TamilNadu,cpcb_registry,NO2,8771,8784,0.9985
-site_5365,"Kodungaiyur, Chennai - TNPCB",Chennai,TamilNadu,cpcb_registry,Ozone,8624,8784,0.9818
-site_5365,"Kodungaiyur, Chennai - TNPCB",Chennai,TamilNadu,cpcb_registry,PM10,8509,8784,0.9687
-site_5365,"Kodungaiyur, Chennai - TNPCB",Chennai,TamilNadu,cpcb_registry,PM2.5,8673,8784,0.9874
-site_5365,"Kodungaiyur, Chennai - TNPCB",Chennai,TamilNadu,cpcb_registry,SO2,8571,8784,0.9758
-site_5367,"Meelavittan, Thoothukudi - TNPCB",Thoothukudi,TamilNadu,cpcb_registry,CO,7351,8784,0.8369
-site_5367,"Meelavittan, Thoothukudi - TNPCB",Thoothukudi,TamilNadu,cpcb_registry,NO2,8628,8784,0.9822
-site_5367,"Meelavittan, Thoothukudi - TNPCB",Thoothukudi,TamilNadu,cpcb_registry,Ozone,6927,8784,0.7886
-site_5367,"Meelavittan, Thoothukudi - TNPCB",Thoothukudi,TamilNadu,cpcb_registry,PM10,8659,8784,0.9858
-site_5367,"Meelavittan, Thoothukudi - TNPCB",Thoothukudi,TamilNadu,cpcb_registry,SO2,7297,8784,0.8307
+site_5361,"Arumbakkam, Chennai - TNPCB",Chennai,Tamil Nadu,cpcb_registry,NH3,4742,8784,0.5398
+site_5361,"Arumbakkam, Chennai - TNPCB",Chennai,Tamil Nadu,cpcb_registry,NO2,4778,8784,0.5439
+site_5361,"Arumbakkam, Chennai - TNPCB",Chennai,Tamil Nadu,cpcb_registry,PM10,8281,8784,0.9427
+site_5361,"Arumbakkam, Chennai - TNPCB",Chennai,Tamil Nadu,cpcb_registry,PM2.5,8227,8784,0.9366
+site_5361,"Arumbakkam, Chennai - TNPCB",Chennai,Tamil Nadu,cpcb_registry,SO2,8439,8784,0.9607
+site_5362,"Anthoni Pillai Nagar, Gummidipoondi - TNPCB",Gummidipoondi,Tamil Nadu,cpcb_registry,NH3,8523,8784,0.9703
+site_5362,"Anthoni Pillai Nagar, Gummidipoondi - TNPCB",Gummidipoondi,Tamil Nadu,cpcb_registry,NO2,8522,8784,0.9702
+site_5362,"Anthoni Pillai Nagar, Gummidipoondi - TNPCB",Gummidipoondi,Tamil Nadu,cpcb_registry,PM10,8580,8784,0.9768
+site_5362,"Anthoni Pillai Nagar, Gummidipoondi - TNPCB",Gummidipoondi,Tamil Nadu,cpcb_registry,PM2.5,8474,8784,0.9647
+site_5362,"Anthoni Pillai Nagar, Gummidipoondi - TNPCB",Gummidipoondi,Tamil Nadu,cpcb_registry,SO2,7927,8784,0.9024
+site_5363,"Perungudi, Chennai - TNPCB",Chennai,Tamil Nadu,cpcb_registry,CO,8613,8784,0.9805
+site_5363,"Perungudi, Chennai - TNPCB",Chennai,Tamil Nadu,cpcb_registry,NH3,8560,8784,0.9745
+site_5363,"Perungudi, Chennai - TNPCB",Chennai,Tamil Nadu,cpcb_registry,NO2,8654,8784,0.9852
+site_5363,"Perungudi, Chennai - TNPCB",Chennai,Tamil Nadu,cpcb_registry,Ozone,8632,8784,0.9827
+site_5363,"Perungudi, Chennai - TNPCB",Chennai,Tamil Nadu,cpcb_registry,PM10,8532,8784,0.9713
+site_5363,"Perungudi, Chennai - TNPCB",Chennai,Tamil Nadu,cpcb_registry,PM2.5,8161,8784,0.9291
+site_5363,"Perungudi, Chennai - TNPCB",Chennai,Tamil Nadu,cpcb_registry,SO2,8587,8784,0.9776
+site_5364,"Royapuram, Chennai - TNPCB",Chennai,Tamil Nadu,cpcb_registry,CO,7646,8784,0.8704
+site_5364,"Royapuram, Chennai - TNPCB",Chennai,Tamil Nadu,cpcb_registry,NH3,7728,8784,0.8798
+site_5364,"Royapuram, Chennai - TNPCB",Chennai,Tamil Nadu,cpcb_registry,NO2,7787,8784,0.8865
+site_5364,"Royapuram, Chennai - TNPCB",Chennai,Tamil Nadu,cpcb_registry,Ozone,7679,8784,0.8742
+site_5364,"Royapuram, Chennai - TNPCB",Chennai,Tamil Nadu,cpcb_registry,PM10,7902,8784,0.8996
+site_5364,"Royapuram, Chennai - TNPCB",Chennai,Tamil Nadu,cpcb_registry,PM2.5,7649,8784,0.8708
+site_5364,"Royapuram, Chennai - TNPCB",Chennai,Tamil Nadu,cpcb_registry,SO2,7536,8784,0.8579
+site_5365,"Kodungaiyur, Chennai - TNPCB",Chennai,Tamil Nadu,cpcb_registry,CO,8598,8784,0.9788
+site_5365,"Kodungaiyur, Chennai - TNPCB",Chennai,Tamil Nadu,cpcb_registry,NH3,8771,8784,0.9985
+site_5365,"Kodungaiyur, Chennai - TNPCB",Chennai,Tamil Nadu,cpcb_registry,NO2,8771,8784,0.9985
+site_5365,"Kodungaiyur, Chennai - TNPCB",Chennai,Tamil Nadu,cpcb_registry,Ozone,8624,8784,0.9818
+site_5365,"Kodungaiyur, Chennai - TNPCB",Chennai,Tamil Nadu,cpcb_registry,PM10,8509,8784,0.9687
+site_5365,"Kodungaiyur, Chennai - TNPCB",Chennai,Tamil Nadu,cpcb_registry,PM2.5,8673,8784,0.9874
+site_5365,"Kodungaiyur, Chennai - TNPCB",Chennai,Tamil Nadu,cpcb_registry,SO2,8571,8784,0.9758
+site_5367,"Meelavittan, Thoothukudi - TNPCB",Thoothukudi,Tamil Nadu,cpcb_registry,CO,7351,8784,0.8369
+site_5367,"Meelavittan, Thoothukudi - TNPCB",Thoothukudi,Tamil Nadu,cpcb_registry,NO2,8628,8784,0.9822
+site_5367,"Meelavittan, Thoothukudi - TNPCB",Thoothukudi,Tamil Nadu,cpcb_registry,Ozone,6927,8784,0.7886
+site_5367,"Meelavittan, Thoothukudi - TNPCB",Thoothukudi,Tamil Nadu,cpcb_registry,PM10,8659,8784,0.9858
+site_5367,"Meelavittan, Thoothukudi - TNPCB",Thoothukudi,Tamil Nadu,cpcb_registry,SO2,7297,8784,0.8307
 site_5370,"Buddha Colony, Muzaffarpur - BSPCB",Muzaffarpur,Bihar,cpcb_registry,CO,8714,8784,0.992
 site_5370,"Buddha Colony, Muzaffarpur - BSPCB",Muzaffarpur,Bihar,cpcb_registry,NH3,8666,8784,0.9866
 site_5370,"Buddha Colony, Muzaffarpur - BSPCB",Muzaffarpur,Bihar,cpcb_registry,NO2,8645,8784,0.9842
@@ -1569,13 +1569,13 @@ site_5400,"Borivali East, Mumbai - IITM",Mumbai,Maharashtra,cpcb_registry,NO2,71
 site_5400,"Borivali East, Mumbai - IITM",Mumbai,Maharashtra,cpcb_registry,Ozone,7123,8784,0.8109
 site_5400,"Borivali East, Mumbai - IITM",Mumbai,Maharashtra,cpcb_registry,PM10,7380,8784,0.8402
 site_5400,"Borivali East, Mumbai - IITM",Mumbai,Maharashtra,cpcb_registry,PM2.5,7387,8784,0.841
-site_5401,Sector-19A Nerul Navi Mumbai,,,geocoded_locality,CO,6895,8784,0.7849
-site_5401,Sector-19A Nerul Navi Mumbai,,,geocoded_locality,NH3,6389,8784,0.7273
-site_5401,Sector-19A Nerul Navi Mumbai,,,geocoded_locality,NO2,6418,8784,0.7306
-site_5401,Sector-19A Nerul Navi Mumbai,,,geocoded_locality,Ozone,6790,8784,0.773
-site_5401,Sector-19A Nerul Navi Mumbai,,,geocoded_locality,PM10,6613,8784,0.7528
-site_5401,Sector-19A Nerul Navi Mumbai,,,geocoded_locality,PM2.5,3473,8784,0.3954
-site_5401,Sector-19A Nerul Navi Mumbai,,,geocoded_locality,SO2,6735,8784,0.7667
+site_5401,Sector-19A Nerul Navi Mumbai,Navi Mumbai,Maharashtra,geocoded_locality,CO,6895,8784,0.7849
+site_5401,Sector-19A Nerul Navi Mumbai,Navi Mumbai,Maharashtra,geocoded_locality,NH3,6389,8784,0.7273
+site_5401,Sector-19A Nerul Navi Mumbai,Navi Mumbai,Maharashtra,geocoded_locality,NO2,6418,8784,0.7306
+site_5401,Sector-19A Nerul Navi Mumbai,Navi Mumbai,Maharashtra,geocoded_locality,Ozone,6790,8784,0.773
+site_5401,Sector-19A Nerul Navi Mumbai,Navi Mumbai,Maharashtra,geocoded_locality,PM10,6613,8784,0.7528
+site_5401,Sector-19A Nerul Navi Mumbai,Navi Mumbai,Maharashtra,geocoded_locality,PM2.5,3473,8784,0.3954
+site_5401,Sector-19A Nerul Navi Mumbai,Navi Mumbai,Maharashtra,geocoded_locality,SO2,6735,8784,0.7667
 site_5402,"Malad West, Mumbai - IITM",Mumbai,Maharashtra,cpcb_registry,CO,1250,8784,0.1423
 site_5402,"Malad West, Mumbai - IITM",Mumbai,Maharashtra,cpcb_registry,NH3,5484,8784,0.6243
 site_5402,"Malad West, Mumbai - IITM",Mumbai,Maharashtra,cpcb_registry,NO2,5015,8784,0.5709
@@ -1594,11 +1594,11 @@ site_5404,"Mhada Colony, Pune - IITM",Pune,Maharashtra,cpcb_registry,NO2,7732,87
 site_5404,"Mhada Colony, Pune - IITM",Pune,Maharashtra,cpcb_registry,Ozone,7576,8784,0.8625
 site_5404,"Mhada Colony, Pune - IITM",Pune,Maharashtra,cpcb_registry,PM10,7838,8784,0.8923
 site_5404,"Mhada Colony, Pune - IITM",Pune,Maharashtra,cpcb_registry,PM2.5,7865,8784,0.8954
-site_5405,Alandi Pune,,,geocoded_locality,CO,5729,8784,0.6522
-site_5405,Alandi Pune,,,geocoded_locality,NO2,5484,8784,0.6243
-site_5405,Alandi Pune,,,geocoded_locality,Ozone,5727,8784,0.652
-site_5405,Alandi Pune,,,geocoded_locality,PM10,5704,8784,0.6494
-site_5405,Alandi Pune,,,geocoded_locality,PM2.5,5586,8784,0.6359
+site_5405,Alandi Pune,Pune,Maharashtra,geocoded_locality,CO,5729,8784,0.6522
+site_5405,Alandi Pune,Pune,Maharashtra,geocoded_locality,NO2,5484,8784,0.6243
+site_5405,Alandi Pune,Pune,Maharashtra,geocoded_locality,Ozone,5727,8784,0.652
+site_5405,Alandi Pune,Pune,Maharashtra,geocoded_locality,PM10,5704,8784,0.6494
+site_5405,Alandi Pune,Pune,Maharashtra,geocoded_locality,PM2.5,5586,8784,0.6359
 site_5406,"Bhosari, Pune - IITM",Pune,Maharashtra,cpcb_registry,CO,4253,8784,0.4842
 site_5406,"Bhosari, Pune - IITM",Pune,Maharashtra,cpcb_registry,NO2,4197,8784,0.4778
 site_5406,"Bhosari, Pune - IITM",Pune,Maharashtra,cpcb_registry,Ozone,4645,8784,0.5288
@@ -1620,9 +1620,9 @@ site_5409,"Revenue Colony-Shivajinagar, Pune - IITM",Pune,Maharashtra,cpcb_regis
 site_5409,"Revenue Colony-Shivajinagar, Pune - IITM",Pune,Maharashtra,cpcb_registry,PM10,8396,8784,0.9558
 site_5409,"Revenue Colony-Shivajinagar, Pune - IITM",Pune,Maharashtra,cpcb_registry,PM2.5,8397,8784,0.9559
 site_5409,"Revenue Colony-Shivajinagar, Pune - IITM",Pune,Maharashtra,cpcb_registry,SO2,7666,8784,0.8727
-site_5410,MIT-Kothrud Pune,,,geocoded_locality,CO,922,8784,0.105
-site_5410,MIT-Kothrud Pune,,,geocoded_locality,NO2,921,8784,0.1048
-site_5410,MIT-Kothrud Pune,,,geocoded_locality,Ozone,475,8784,0.0541
+site_5410,MIT-Kothrud Pune,Pune,Maharashtra,geocoded_locality,CO,922,8784,0.105
+site_5410,MIT-Kothrud Pune,Pune,Maharashtra,geocoded_locality,NO2,921,8784,0.1048
+site_5410,MIT-Kothrud Pune,Pune,Maharashtra,geocoded_locality,Ozone,475,8784,0.0541
 site_5412,"Kandivali East, Mumbai - MPCB",Mumbai,Maharashtra,cpcb_registry,CO,8034,8784,0.9146
 site_5412,"Kandivali East, Mumbai - MPCB",Mumbai,Maharashtra,cpcb_registry,NH3,8412,8784,0.9577
 site_5412,"Kandivali East, Mumbai - MPCB",Mumbai,Maharashtra,cpcb_registry,NO2,8413,8784,0.9578
@@ -1637,20 +1637,20 @@ site_5413,"Mulund West, Mumbai - MPCB",Mumbai,Maharashtra,cpcb_registry,Ozone,75
 site_5413,"Mulund West, Mumbai - MPCB",Mumbai,Maharashtra,cpcb_registry,PM10,8034,8784,0.9146
 site_5413,"Mulund West, Mumbai - MPCB",Mumbai,Maharashtra,cpcb_registry,PM2.5,8171,8784,0.9302
 site_5413,"Mulund West, Mumbai - MPCB",Mumbai,Maharashtra,cpcb_registry,SO2,8186,8784,0.9319
-site_5414,Haji Colony Raichur,,,geocoded_city,CO,6142,8784,0.6992
-site_5414,Haji Colony Raichur,,,geocoded_city,NH3,5833,8784,0.664
-site_5414,Haji Colony Raichur,,,geocoded_city,NO2,6132,8784,0.6981
-site_5414,Haji Colony Raichur,,,geocoded_city,Ozone,4576,8784,0.5209
-site_5414,Haji Colony Raichur,,,geocoded_city,PM10,4964,8784,0.5651
-site_5414,Haji Colony Raichur,,,geocoded_city,PM2.5,5517,8784,0.6281
-site_5414,Haji Colony Raichur,,,geocoded_city,SO2,6135,8784,0.6984
-site_5415,Diwator Nagar Koppal,,,geocoded_city,CO,6333,8784,0.721
-site_5415,Diwator Nagar Koppal,,,geocoded_city,NH3,5328,8784,0.6066
-site_5415,Diwator Nagar Koppal,,,geocoded_city,NO2,5284,8784,0.6015
-site_5415,Diwator Nagar Koppal,,,geocoded_city,Ozone,7001,8784,0.797
-site_5415,Diwator Nagar Koppal,,,geocoded_city,PM10,6942,8784,0.7903
-site_5415,Diwator Nagar Koppal,,,geocoded_city,PM2.5,6228,8784,0.709
-site_5415,Diwator Nagar Koppal,,,geocoded_city,SO2,6275,8784,0.7144
+site_5414,Haji Colony Raichur,Raichur,Karnataka,geocoded_city,CO,6142,8784,0.6992
+site_5414,Haji Colony Raichur,Raichur,Karnataka,geocoded_city,NH3,5833,8784,0.664
+site_5414,Haji Colony Raichur,Raichur,Karnataka,geocoded_city,NO2,6132,8784,0.6981
+site_5414,Haji Colony Raichur,Raichur,Karnataka,geocoded_city,Ozone,4576,8784,0.5209
+site_5414,Haji Colony Raichur,Raichur,Karnataka,geocoded_city,PM10,4964,8784,0.5651
+site_5414,Haji Colony Raichur,Raichur,Karnataka,geocoded_city,PM2.5,5517,8784,0.6281
+site_5414,Haji Colony Raichur,Raichur,Karnataka,geocoded_city,SO2,6135,8784,0.6984
+site_5415,Diwator Nagar Koppal,Koppal,Karnataka,geocoded_city,CO,6333,8784,0.721
+site_5415,Diwator Nagar Koppal,Koppal,Karnataka,geocoded_city,NH3,5328,8784,0.6066
+site_5415,Diwator Nagar Koppal,Koppal,Karnataka,geocoded_city,NO2,5284,8784,0.6015
+site_5415,Diwator Nagar Koppal,Koppal,Karnataka,geocoded_city,Ozone,7001,8784,0.797
+site_5415,Diwator Nagar Koppal,Koppal,Karnataka,geocoded_city,PM10,6942,8784,0.7903
+site_5415,Diwator Nagar Koppal,Koppal,Karnataka,geocoded_city,PM2.5,6228,8784,0.709
+site_5415,Diwator Nagar Koppal,Koppal,Karnataka,geocoded_city,SO2,6275,8784,0.7144
 site_5417,"Pan Bazaar, Guwahati - PCBA",Guwahati,Assam,cpcb_registry,CO,8163,8784,0.9293
 site_5417,"Pan Bazaar, Guwahati - PCBA",Guwahati,Assam,cpcb_registry,NH3,8150,8784,0.9278
 site_5417,"Pan Bazaar, Guwahati - PCBA",Guwahati,Assam,cpcb_registry,NO2,5886,8784,0.6701
@@ -1658,27 +1658,27 @@ site_5417,"Pan Bazaar, Guwahati - PCBA",Guwahati,Assam,cpcb_registry,Ozone,7225,
 site_5417,"Pan Bazaar, Guwahati - PCBA",Guwahati,Assam,cpcb_registry,PM10,5499,8784,0.626
 site_5417,"Pan Bazaar, Guwahati - PCBA",Guwahati,Assam,cpcb_registry,PM2.5,7684,8784,0.8748
 site_5417,"Pan Bazaar, Guwahati - PCBA",Guwahati,Assam,cpcb_registry,SO2,7224,8784,0.8224
-site_5418,Naubad Bidar,,,geocoded_locality,CO,6327,8784,0.7203
-site_5418,Naubad Bidar,,,geocoded_locality,NH3,6037,8784,0.6873
-site_5418,Naubad Bidar,,,geocoded_locality,NO2,6062,8784,0.6901
-site_5418,Naubad Bidar,,,geocoded_locality,Ozone,5737,8784,0.6531
-site_5418,Naubad Bidar,,,geocoded_locality,PM10,4911,8784,0.5591
-site_5418,Naubad Bidar,,,geocoded_locality,PM2.5,5794,8784,0.6596
-site_5418,Naubad Bidar,,,geocoded_locality,SO2,6218,8784,0.7079
-site_5419,Panchal Nagar Gadag,,,geocoded_city,CO,8340,8784,0.9495
-site_5419,Panchal Nagar Gadag,,,geocoded_city,NH3,8338,8784,0.9492
-site_5419,Panchal Nagar Gadag,,,geocoded_city,NO2,8331,8784,0.9484
-site_5419,Panchal Nagar Gadag,,,geocoded_city,Ozone,8183,8784,0.9316
-site_5419,Panchal Nagar Gadag,,,geocoded_city,PM10,7796,8784,0.8875
-site_5419,Panchal Nagar Gadag,,,geocoded_city,PM2.5,7892,8784,0.8985
-site_5419,Panchal Nagar Gadag,,,geocoded_city,SO2,7892,8784,0.8985
-site_5420,Ashwini Nagar Haveri,,,geocoded_city,CO,6810,8784,0.7753
-site_5420,Ashwini Nagar Haveri,,,geocoded_city,NH3,6309,8784,0.7182
-site_5420,Ashwini Nagar Haveri,,,geocoded_city,NO2,6289,8784,0.716
-site_5420,Ashwini Nagar Haveri,,,geocoded_city,Ozone,6037,8784,0.6873
-site_5420,Ashwini Nagar Haveri,,,geocoded_city,PM10,4767,8784,0.5427
-site_5420,Ashwini Nagar Haveri,,,geocoded_city,PM2.5,6340,8784,0.7218
-site_5420,Ashwini Nagar Haveri,,,geocoded_city,SO2,6765,8784,0.7702
+site_5418,Naubad Bidar,Bidar,Karnataka,geocoded_locality,CO,6327,8784,0.7203
+site_5418,Naubad Bidar,Bidar,Karnataka,geocoded_locality,NH3,6037,8784,0.6873
+site_5418,Naubad Bidar,Bidar,Karnataka,geocoded_locality,NO2,6062,8784,0.6901
+site_5418,Naubad Bidar,Bidar,Karnataka,geocoded_locality,Ozone,5737,8784,0.6531
+site_5418,Naubad Bidar,Bidar,Karnataka,geocoded_locality,PM10,4911,8784,0.5591
+site_5418,Naubad Bidar,Bidar,Karnataka,geocoded_locality,PM2.5,5794,8784,0.6596
+site_5418,Naubad Bidar,Bidar,Karnataka,geocoded_locality,SO2,6218,8784,0.7079
+site_5419,Panchal Nagar Gadag,Gadag,Karnataka,geocoded_city,CO,8340,8784,0.9495
+site_5419,Panchal Nagar Gadag,Gadag,Karnataka,geocoded_city,NH3,8338,8784,0.9492
+site_5419,Panchal Nagar Gadag,Gadag,Karnataka,geocoded_city,NO2,8331,8784,0.9484
+site_5419,Panchal Nagar Gadag,Gadag,Karnataka,geocoded_city,Ozone,8183,8784,0.9316
+site_5419,Panchal Nagar Gadag,Gadag,Karnataka,geocoded_city,PM10,7796,8784,0.8875
+site_5419,Panchal Nagar Gadag,Gadag,Karnataka,geocoded_city,PM2.5,7892,8784,0.8985
+site_5419,Panchal Nagar Gadag,Gadag,Karnataka,geocoded_city,SO2,7892,8784,0.8985
+site_5420,Ashwini Nagar Haveri,Haveri,Karnataka,geocoded_city,CO,6810,8784,0.7753
+site_5420,Ashwini Nagar Haveri,Haveri,Karnataka,geocoded_city,NH3,6309,8784,0.7182
+site_5420,Ashwini Nagar Haveri,Haveri,Karnataka,geocoded_city,NO2,6289,8784,0.716
+site_5420,Ashwini Nagar Haveri,Haveri,Karnataka,geocoded_city,Ozone,6037,8784,0.6873
+site_5420,Ashwini Nagar Haveri,Haveri,Karnataka,geocoded_city,PM10,4767,8784,0.5427
+site_5420,Ashwini Nagar Haveri,Haveri,Karnataka,geocoded_city,PM2.5,6340,8784,0.7218
+site_5420,Ashwini Nagar Haveri,Haveri,Karnataka,geocoded_city,SO2,6765,8784,0.7702
 site_5421,"Kadri, Mangalore - KSPCB",Mangalore,Karnataka,cpcb_registry,CO,8176,8784,0.9308
 site_5421,"Kadri, Mangalore - KSPCB",Mangalore,Karnataka,cpcb_registry,NH3,8307,8784,0.9457
 site_5421,"Kadri, Mangalore - KSPCB",Mangalore,Karnataka,cpcb_registry,NO2,8314,8784,0.9465
@@ -1686,13 +1686,13 @@ site_5421,"Kadri, Mangalore - KSPCB",Mangalore,Karnataka,cpcb_registry,Ozone,824
 site_5421,"Kadri, Mangalore - KSPCB",Mangalore,Karnataka,cpcb_registry,PM10,8126,8784,0.9251
 site_5421,"Kadri, Mangalore - KSPCB",Mangalore,Karnataka,cpcb_registry,PM2.5,7835,8784,0.892
 site_5421,"Kadri, Mangalore - KSPCB",Mangalore,Karnataka,cpcb_registry,SO2,8233,8784,0.9373
-site_5422,Devaraj Urs Badavane Davanagere,,,geocoded_locality,CO,7291,8784,0.83
-site_5422,Devaraj Urs Badavane Davanagere,,,geocoded_locality,NH3,7331,8784,0.8346
-site_5422,Devaraj Urs Badavane Davanagere,,,geocoded_locality,NO2,7338,8784,0.8354
-site_5422,Devaraj Urs Badavane Davanagere,,,geocoded_locality,Ozone,7285,8784,0.8293
-site_5422,Devaraj Urs Badavane Davanagere,,,geocoded_locality,PM10,6763,8784,0.7699
-site_5422,Devaraj Urs Badavane Davanagere,,,geocoded_locality,PM2.5,7197,8784,0.8193
-site_5422,Devaraj Urs Badavane Davanagere,,,geocoded_locality,SO2,7329,8784,0.8344
+site_5422,Devaraj Urs Badavane Davanagere,Davanagere,Karnataka,geocoded_locality,CO,7291,8784,0.83
+site_5422,Devaraj Urs Badavane Davanagere,Davanagere,Karnataka,geocoded_locality,NH3,7331,8784,0.8346
+site_5422,Devaraj Urs Badavane Davanagere,Davanagere,Karnataka,geocoded_locality,NO2,7338,8784,0.8354
+site_5422,Devaraj Urs Badavane Davanagere,Davanagere,Karnataka,geocoded_locality,Ozone,7285,8784,0.8293
+site_5422,Devaraj Urs Badavane Davanagere,Davanagere,Karnataka,geocoded_locality,PM10,6763,8784,0.7699
+site_5422,Devaraj Urs Badavane Davanagere,Davanagere,Karnataka,geocoded_locality,PM2.5,7197,8784,0.8193
+site_5422,Devaraj Urs Badavane Davanagere,Davanagere,Karnataka,geocoded_locality,SO2,7329,8784,0.8344
 site_5423,"Jawahar Nagar, Puducherry - PPCC",Puducherry,Puducherry,cpcb_registry,CO,8217,8784,0.9355
 site_5423,"Jawahar Nagar, Puducherry - PPCC",Puducherry,Puducherry,cpcb_registry,NH3,8414,8784,0.9579
 site_5423,"Jawahar Nagar, Puducherry - PPCC",Puducherry,Puducherry,cpcb_registry,NO2,8370,8784,0.9529
@@ -1700,20 +1700,20 @@ site_5423,"Jawahar Nagar, Puducherry - PPCC",Puducherry,Puducherry,cpcb_registry
 site_5423,"Jawahar Nagar, Puducherry - PPCC",Puducherry,Puducherry,cpcb_registry,PM10,8319,8784,0.9471
 site_5423,"Jawahar Nagar, Puducherry - PPCC",Puducherry,Puducherry,cpcb_registry,PM2.5,8086,8784,0.9205
 site_5423,"Jawahar Nagar, Puducherry - PPCC",Puducherry,Puducherry,cpcb_registry,SO2,8397,8784,0.9559
-site_5432,Ramteerth Nagar Belgaum,,,geocoded_locality,CO,7753,8784,0.8826
-site_5432,Ramteerth Nagar Belgaum,,,geocoded_locality,NH3,7783,8784,0.886
-site_5432,Ramteerth Nagar Belgaum,,,geocoded_locality,NO2,7654,8784,0.8714
-site_5432,Ramteerth Nagar Belgaum,,,geocoded_locality,Ozone,7733,8784,0.8804
-site_5432,Ramteerth Nagar Belgaum,,,geocoded_locality,PM10,7648,8784,0.8707
-site_5432,Ramteerth Nagar Belgaum,,,geocoded_locality,PM2.5,7577,8784,0.8626
-site_5432,Ramteerth Nagar Belgaum,,,geocoded_locality,SO2,7763,8784,0.8838
-site_5433,Brahmagiri Udupi,,,geocoded_locality,CO,7084,8784,0.8065
-site_5433,Brahmagiri Udupi,,,geocoded_locality,NH3,7111,8784,0.8095
-site_5433,Brahmagiri Udupi,,,geocoded_locality,NO2,7112,8784,0.8097
-site_5433,Brahmagiri Udupi,,,geocoded_locality,Ozone,7065,8784,0.8043
-site_5433,Brahmagiri Udupi,,,geocoded_locality,PM10,6362,8784,0.7243
-site_5433,Brahmagiri Udupi,,,geocoded_locality,PM2.5,5184,8784,0.5902
-site_5433,Brahmagiri Udupi,,,geocoded_locality,SO2,6957,8784,0.792
+site_5432,Ramteerth Nagar Belgaum,Belagavi,Karnataka,geocoded_locality,CO,7753,8784,0.8826
+site_5432,Ramteerth Nagar Belgaum,Belagavi,Karnataka,geocoded_locality,NH3,7783,8784,0.886
+site_5432,Ramteerth Nagar Belgaum,Belagavi,Karnataka,geocoded_locality,NO2,7654,8784,0.8714
+site_5432,Ramteerth Nagar Belgaum,Belagavi,Karnataka,geocoded_locality,Ozone,7733,8784,0.8804
+site_5432,Ramteerth Nagar Belgaum,Belagavi,Karnataka,geocoded_locality,PM10,7648,8784,0.8707
+site_5432,Ramteerth Nagar Belgaum,Belagavi,Karnataka,geocoded_locality,PM2.5,7577,8784,0.8626
+site_5432,Ramteerth Nagar Belgaum,Belagavi,Karnataka,geocoded_locality,SO2,7763,8784,0.8838
+site_5433,Brahmagiri Udupi,Udupi,Karnataka,geocoded_locality,CO,7084,8784,0.8065
+site_5433,Brahmagiri Udupi,Udupi,Karnataka,geocoded_locality,NH3,7111,8784,0.8095
+site_5433,Brahmagiri Udupi,Udupi,Karnataka,geocoded_locality,NO2,7112,8784,0.8097
+site_5433,Brahmagiri Udupi,Udupi,Karnataka,geocoded_locality,Ozone,7065,8784,0.8043
+site_5433,Brahmagiri Udupi,Udupi,Karnataka,geocoded_locality,PM10,6362,8784,0.7243
+site_5433,Brahmagiri Udupi,Udupi,Karnataka,geocoded_locality,PM2.5,5184,8784,0.5902
+site_5433,Brahmagiri Udupi,Udupi,Karnataka,geocoded_locality,SO2,6957,8784,0.792
 site_5446,"Naharlagun, Naharlagun - APSPCB",Naharlagun,Arunachal Pradesh,cpcb_registry,CO,6291,8784,0.7162
 site_5446,"Naharlagun, Naharlagun - APSPCB",Naharlagun,Arunachal Pradesh,cpcb_registry,NH3,4041,8784,0.46
 site_5446,"Naharlagun, Naharlagun - APSPCB",Naharlagun,Arunachal Pradesh,cpcb_registry,NO2,4412,8784,0.5023
@@ -1721,20 +1721,20 @@ site_5446,"Naharlagun, Naharlagun - APSPCB",Naharlagun,Arunachal Pradesh,cpcb_re
 site_5446,"Naharlagun, Naharlagun - APSPCB",Naharlagun,Arunachal Pradesh,cpcb_registry,PM10,5944,8784,0.6767
 site_5446,"Naharlagun, Naharlagun - APSPCB",Naharlagun,Arunachal Pradesh,cpcb_registry,PM2.5,6103,8784,0.6948
 site_5446,"Naharlagun, Naharlagun - APSPCB",Naharlagun,Arunachal Pradesh,cpcb_registry,SO2,4760,8784,0.5419
-site_5448,B.Katihalli Hassan,,,geocoded_locality,CO,5960,8784,0.6785
-site_5448,B.Katihalli Hassan,,,geocoded_locality,NH3,6052,8784,0.689
-site_5448,B.Katihalli Hassan,,,geocoded_locality,NO2,6050,8784,0.6888
-site_5448,B.Katihalli Hassan,,,geocoded_locality,Ozone,5003,8784,0.5696
-site_5448,B.Katihalli Hassan,,,geocoded_locality,PM10,5696,8784,0.6485
-site_5448,B.Katihalli Hassan,,,geocoded_locality,PM2.5,5845,8784,0.6654
-site_5448,B.Katihalli Hassan,,,geocoded_locality,SO2,5711,8784,0.6502
-site_5449,Sardar Vallabhbhai Patel Stadium Ahmedabad,,,geocoded_city,CO,8554,8784,0.9738
-site_5449,Sardar Vallabhbhai Patel Stadium Ahmedabad,,,geocoded_city,NH3,7858,8784,0.8946
-site_5449,Sardar Vallabhbhai Patel Stadium Ahmedabad,,,geocoded_city,NO2,7890,8784,0.8982
-site_5449,Sardar Vallabhbhai Patel Stadium Ahmedabad,,,geocoded_city,Ozone,8621,8784,0.9814
-site_5449,Sardar Vallabhbhai Patel Stadium Ahmedabad,,,geocoded_city,PM10,8691,8784,0.9894
-site_5449,Sardar Vallabhbhai Patel Stadium Ahmedabad,,,geocoded_city,PM2.5,8692,8784,0.9895
-site_5449,Sardar Vallabhbhai Patel Stadium Ahmedabad,,,geocoded_city,SO2,8357,8784,0.9514
+site_5448,B.Katihalli Hassan,Hassan,Karnataka,geocoded_locality,CO,5960,8784,0.6785
+site_5448,B.Katihalli Hassan,Hassan,Karnataka,geocoded_locality,NH3,6052,8784,0.689
+site_5448,B.Katihalli Hassan,Hassan,Karnataka,geocoded_locality,NO2,6050,8784,0.6888
+site_5448,B.Katihalli Hassan,Hassan,Karnataka,geocoded_locality,Ozone,5003,8784,0.5696
+site_5448,B.Katihalli Hassan,Hassan,Karnataka,geocoded_locality,PM10,5696,8784,0.6485
+site_5448,B.Katihalli Hassan,Hassan,Karnataka,geocoded_locality,PM2.5,5845,8784,0.6654
+site_5448,B.Katihalli Hassan,Hassan,Karnataka,geocoded_locality,SO2,5711,8784,0.6502
+site_5449,Sardar Vallabhbhai Patel Stadium Ahmedabad,Ahmedabad,Gujarat,geocoded_city,CO,8554,8784,0.9738
+site_5449,Sardar Vallabhbhai Patel Stadium Ahmedabad,Ahmedabad,Gujarat,geocoded_city,NH3,7858,8784,0.8946
+site_5449,Sardar Vallabhbhai Patel Stadium Ahmedabad,Ahmedabad,Gujarat,geocoded_city,NO2,7890,8784,0.8982
+site_5449,Sardar Vallabhbhai Patel Stadium Ahmedabad,Ahmedabad,Gujarat,geocoded_city,Ozone,8621,8784,0.9814
+site_5449,Sardar Vallabhbhai Patel Stadium Ahmedabad,Ahmedabad,Gujarat,geocoded_city,PM10,8691,8784,0.9894
+site_5449,Sardar Vallabhbhai Patel Stadium Ahmedabad,Ahmedabad,Gujarat,geocoded_city,PM2.5,8692,8784,0.9895
+site_5449,Sardar Vallabhbhai Patel Stadium Ahmedabad,Ahmedabad,Gujarat,geocoded_city,SO2,8357,8784,0.9514
 site_5450,"Gyaspur, Ahmedabad - IITM",Ahmedabad,Gujarat,cpcb_registry,CO,8231,8784,0.937
 site_5450,"Gyaspur, Ahmedabad - IITM",Ahmedabad,Gujarat,cpcb_registry,NH3,7380,8784,0.8402
 site_5450,"Gyaspur, Ahmedabad - IITM",Ahmedabad,Gujarat,cpcb_registry,NO2,7670,8784,0.8732
@@ -2167,27 +2167,27 @@ site_5590,"Zero Point GICI, Gangtok - SSPCB",Gangtok,Sikkim,cpcb_registry,Ozone,
 site_5590,"Zero Point GICI, Gangtok - SSPCB",Gangtok,Sikkim,cpcb_registry,PM10,6234,8784,0.7097
 site_5590,"Zero Point GICI, Gangtok - SSPCB",Gangtok,Sikkim,cpcb_registry,PM2.5,5352,8784,0.6093
 site_5590,"Zero Point GICI, Gangtok - SSPCB",Gangtok,Sikkim,cpcb_registry,SO2,7307,8784,0.8319
-site_5591,Manipur University Imphal Manipur,,,geocoded_locality,CO,5778,8784,0.6578
-site_5591,Manipur University Imphal Manipur,,,geocoded_locality,NH3,4611,8784,0.5249
-site_5591,Manipur University Imphal Manipur,,,geocoded_locality,NO2,5763,8784,0.6561
-site_5591,Manipur University Imphal Manipur,,,geocoded_locality,Ozone,3564,8784,0.4057
-site_5591,Manipur University Imphal Manipur,,,geocoded_locality,PM10,3,8784,0.0003
-site_5591,Manipur University Imphal Manipur,,,geocoded_locality,PM2.5,4118,8784,0.4688
-site_5591,Manipur University Imphal Manipur,,,geocoded_locality,SO2,5763,8784,0.6561
-site_5592,DM College of Science Imphal Manipur,,,geocoded_locality,CO,3056,8784,0.3479
-site_5592,DM College of Science Imphal Manipur,,,geocoded_locality,NH3,6300,8784,0.7172
-site_5592,DM College of Science Imphal Manipur,,,geocoded_locality,NO2,6367,8784,0.7248
-site_5592,DM College of Science Imphal Manipur,,,geocoded_locality,Ozone,762,8784,0.0867
-site_5592,DM College of Science Imphal Manipur,,,geocoded_locality,PM10,6265,8784,0.7132
-site_5592,DM College of Science Imphal Manipur,,,geocoded_locality,PM2.5,6197,8784,0.7055
-site_5592,DM College of Science Imphal Manipur,,,geocoded_locality,SO2,6367,8784,0.7248
-site_5593,JN Stadium Shillong Meghalaya,,,geocoded_city,CO,1281,8784,0.1458
-site_5593,JN Stadium Shillong Meghalaya,,,geocoded_city,NH3,1261,8784,0.1436
-site_5593,JN Stadium Shillong Meghalaya,,,geocoded_city,NO2,2936,8784,0.3342
-site_5593,JN Stadium Shillong Meghalaya,,,geocoded_city,Ozone,182,8784,0.0207
-site_5593,JN Stadium Shillong Meghalaya,,,geocoded_city,PM10,839,8784,0.0955
-site_5593,JN Stadium Shillong Meghalaya,,,geocoded_city,PM2.5,670,8784,0.0763
-site_5593,JN Stadium Shillong Meghalaya,,,geocoded_city,SO2,754,8784,0.0858
+site_5591,Manipur University Imphal Manipur,Imphal,Manipur,geocoded_locality,CO,5778,8784,0.6578
+site_5591,Manipur University Imphal Manipur,Imphal,Manipur,geocoded_locality,NH3,4611,8784,0.5249
+site_5591,Manipur University Imphal Manipur,Imphal,Manipur,geocoded_locality,NO2,5763,8784,0.6561
+site_5591,Manipur University Imphal Manipur,Imphal,Manipur,geocoded_locality,Ozone,3564,8784,0.4057
+site_5591,Manipur University Imphal Manipur,Imphal,Manipur,geocoded_locality,PM10,3,8784,0.0003
+site_5591,Manipur University Imphal Manipur,Imphal,Manipur,geocoded_locality,PM2.5,4118,8784,0.4688
+site_5591,Manipur University Imphal Manipur,Imphal,Manipur,geocoded_locality,SO2,5763,8784,0.6561
+site_5592,DM College of Science Imphal Manipur,Imphal,Manipur,geocoded_locality,CO,3056,8784,0.3479
+site_5592,DM College of Science Imphal Manipur,Imphal,Manipur,geocoded_locality,NH3,6300,8784,0.7172
+site_5592,DM College of Science Imphal Manipur,Imphal,Manipur,geocoded_locality,NO2,6367,8784,0.7248
+site_5592,DM College of Science Imphal Manipur,Imphal,Manipur,geocoded_locality,Ozone,762,8784,0.0867
+site_5592,DM College of Science Imphal Manipur,Imphal,Manipur,geocoded_locality,PM10,6265,8784,0.7132
+site_5592,DM College of Science Imphal Manipur,Imphal,Manipur,geocoded_locality,PM2.5,6197,8784,0.7055
+site_5592,DM College of Science Imphal Manipur,Imphal,Manipur,geocoded_locality,SO2,6367,8784,0.7248
+site_5593,JN Stadium Shillong Meghalaya,Shillong,Meghalaya,geocoded_city,CO,1281,8784,0.1458
+site_5593,JN Stadium Shillong Meghalaya,Shillong,Meghalaya,geocoded_city,NH3,1261,8784,0.1436
+site_5593,JN Stadium Shillong Meghalaya,Shillong,Meghalaya,geocoded_city,NO2,2936,8784,0.3342
+site_5593,JN Stadium Shillong Meghalaya,Shillong,Meghalaya,geocoded_city,Ozone,182,8784,0.0207
+site_5593,JN Stadium Shillong Meghalaya,Shillong,Meghalaya,geocoded_city,PM10,839,8784,0.0955
+site_5593,JN Stadium Shillong Meghalaya,Shillong,Meghalaya,geocoded_city,PM2.5,670,8784,0.0763
+site_5593,JN Stadium Shillong Meghalaya,Shillong,Meghalaya,geocoded_city,SO2,754,8784,0.0858
 site_5594,"Doon University, Dehradun - UKPCB",Dehradun,Uttarakhand,cpcb_registry,CO,8596,8784,0.9786
 site_5594,"Doon University, Dehradun - UKPCB",Dehradun,Uttarakhand,cpcb_registry,NO2,8462,8784,0.9633
 site_5594,"Doon University, Dehradun - UKPCB",Dehradun,Uttarakhand,cpcb_registry,Ozone,8488,8784,0.9663
@@ -2263,54 +2263,54 @@ site_5604,"Kokapet, Hyderabad - TSPCB",Hyderabad,Telangana,cpcb_registry,Ozone,6
 site_5604,"Kokapet, Hyderabad - TSPCB",Hyderabad,Telangana,cpcb_registry,PM10,6735,8784,0.7667
 site_5604,"Kokapet, Hyderabad - TSPCB",Hyderabad,Telangana,cpcb_registry,PM2.5,6888,8784,0.7842
 site_5604,"Kokapet, Hyderabad - TSPCB",Hyderabad,Telangana,cpcb_registry,SO2,6872,8784,0.7823
-site_5605,Crescent University Chengalpattu,,,geocoded_locality,CO,4663,8784,0.5309
-site_5605,Crescent University Chengalpattu,,,geocoded_locality,NH3,3251,8784,0.3701
-site_5605,Crescent University Chengalpattu,,,geocoded_locality,NO2,3262,8784,0.3714
-site_5605,Crescent University Chengalpattu,,,geocoded_locality,Ozone,4217,8784,0.4801
-site_5605,Crescent University Chengalpattu,,,geocoded_locality,PM10,3973,8784,0.4523
-site_5605,Crescent University Chengalpattu,,,geocoded_locality,PM2.5,3974,8784,0.4524
-site_5605,Crescent University Chengalpattu,,,geocoded_locality,SO2,4165,8784,0.4742
-site_5606,Keelapalur Ariyalur,,,geocoded_locality,CO,172,8784,0.0196
-site_5606,Keelapalur Ariyalur,,,geocoded_locality,NH3,6468,8784,0.7363
-site_5606,Keelapalur Ariyalur,,,geocoded_locality,NO2,7772,8784,0.8848
-site_5606,Keelapalur Ariyalur,,,geocoded_locality,PM10,6784,8784,0.7723
-site_5606,Keelapalur Ariyalur,,,geocoded_locality,PM2.5,6896,8784,0.7851
-site_5606,Keelapalur Ariyalur,,,geocoded_locality,SO2,7747,8784,0.8819
-site_5607,Kumaran College Tirupur,,,geocoded_city,CO,6375,8784,0.7258
-site_5607,Kumaran College Tirupur,,,geocoded_city,NH3,2745,8784,0.3125
-site_5607,Kumaran College Tirupur,,,geocoded_city,NO2,6375,8784,0.7258
-site_5607,Kumaran College Tirupur,,,geocoded_city,Ozone,6373,8784,0.7255
-site_5607,Kumaran College Tirupur,,,geocoded_city,PM10,6116,8784,0.6963
-site_5607,Kumaran College Tirupur,,,geocoded_city,PM2.5,5979,8784,0.6807
-site_5607,Kumaran College Tirupur,,,geocoded_city,SO2,6395,8784,0.728
-site_5608,Mendonsa Colony Dindigul,,,geocoded_city,CO,24,8784,0.0027
-site_5608,Mendonsa Colony Dindigul,,,geocoded_city,NH3,1408,8784,0.1603
-site_5608,Mendonsa Colony Dindigul,,,geocoded_city,NO2,2712,8784,0.3087
-site_5608,Mendonsa Colony Dindigul,,,geocoded_city,Ozone,24,8784,0.0027
-site_5608,Mendonsa Colony Dindigul,,,geocoded_city,PM10,3056,8784,0.3479
-site_5608,Mendonsa Colony Dindigul,,,geocoded_city,PM2.5,3050,8784,0.3472
-site_5608,Mendonsa Colony Dindigul,,,geocoded_city,SO2,3708,8784,0.4221
-site_5609,Municipal Corporation Office Tirunelveli,,,geocoded_locality,CO,3040,8784,0.3461
-site_5609,Municipal Corporation Office Tirunelveli,,,geocoded_locality,NH3,3194,8784,0.3636
-site_5609,Municipal Corporation Office Tirunelveli,,,geocoded_locality,NO2,3193,8784,0.3635
-site_5609,Municipal Corporation Office Tirunelveli,,,geocoded_locality,Ozone,3185,8784,0.3626
-site_5609,Municipal Corporation Office Tirunelveli,,,geocoded_locality,PM10,2898,8784,0.3299
-site_5609,Municipal Corporation Office Tirunelveli,,,geocoded_locality,PM2.5,2960,8784,0.337
-site_5609,Municipal Corporation Office Tirunelveli,,,geocoded_locality,SO2,3200,8784,0.3643
-site_5610,"Parisutham Nagar, Thanjavur - TNPCB",Thanjavur,TamilNadu,cpcb_registry,CO,1698,8784,0.1933
-site_5610,"Parisutham Nagar, Thanjavur - TNPCB",Thanjavur,TamilNadu,cpcb_registry,NH3,1722,8784,0.196
-site_5610,"Parisutham Nagar, Thanjavur - TNPCB",Thanjavur,TamilNadu,cpcb_registry,NO2,1722,8784,0.196
-site_5610,"Parisutham Nagar, Thanjavur - TNPCB",Thanjavur,TamilNadu,cpcb_registry,Ozone,1705,8784,0.1941
-site_5610,"Parisutham Nagar, Thanjavur - TNPCB",Thanjavur,TamilNadu,cpcb_registry,PM10,1722,8784,0.196
-site_5610,"Parisutham Nagar, Thanjavur - TNPCB",Thanjavur,TamilNadu,cpcb_registry,PM2.5,1722,8784,0.196
-site_5610,"Parisutham Nagar, Thanjavur - TNPCB",Thanjavur,TamilNadu,cpcb_registry,SO2,1722,8784,0.196
-site_5611,Semmandalam Cuddalore,,,geocoded_locality,CO,153,8784,0.0174
-site_5611,Semmandalam Cuddalore,,,geocoded_locality,NH3,5408,8784,0.6157
-site_5611,Semmandalam Cuddalore,,,geocoded_locality,NO2,6599,8784,0.7513
-site_5611,Semmandalam Cuddalore,,,geocoded_locality,Ozone,5956,8784,0.6781
-site_5611,Semmandalam Cuddalore,,,geocoded_locality,PM10,5801,8784,0.6604
-site_5611,Semmandalam Cuddalore,,,geocoded_locality,PM2.5,5811,8784,0.6615
-site_5611,Semmandalam Cuddalore,,,geocoded_locality,SO2,273,8784,0.0311
+site_5605,Crescent University Chengalpattu,Chengalpattu,Tamil Nadu,geocoded_locality,CO,4663,8784,0.5309
+site_5605,Crescent University Chengalpattu,Chengalpattu,Tamil Nadu,geocoded_locality,NH3,3251,8784,0.3701
+site_5605,Crescent University Chengalpattu,Chengalpattu,Tamil Nadu,geocoded_locality,NO2,3262,8784,0.3714
+site_5605,Crescent University Chengalpattu,Chengalpattu,Tamil Nadu,geocoded_locality,Ozone,4217,8784,0.4801
+site_5605,Crescent University Chengalpattu,Chengalpattu,Tamil Nadu,geocoded_locality,PM10,3973,8784,0.4523
+site_5605,Crescent University Chengalpattu,Chengalpattu,Tamil Nadu,geocoded_locality,PM2.5,3974,8784,0.4524
+site_5605,Crescent University Chengalpattu,Chengalpattu,Tamil Nadu,geocoded_locality,SO2,4165,8784,0.4742
+site_5606,Keelapalur Ariyalur,Ariyalur,Tamil Nadu,geocoded_locality,CO,172,8784,0.0196
+site_5606,Keelapalur Ariyalur,Ariyalur,Tamil Nadu,geocoded_locality,NH3,6468,8784,0.7363
+site_5606,Keelapalur Ariyalur,Ariyalur,Tamil Nadu,geocoded_locality,NO2,7772,8784,0.8848
+site_5606,Keelapalur Ariyalur,Ariyalur,Tamil Nadu,geocoded_locality,PM10,6784,8784,0.7723
+site_5606,Keelapalur Ariyalur,Ariyalur,Tamil Nadu,geocoded_locality,PM2.5,6896,8784,0.7851
+site_5606,Keelapalur Ariyalur,Ariyalur,Tamil Nadu,geocoded_locality,SO2,7747,8784,0.8819
+site_5607,Kumaran College Tirupur,Tirupur,Tamil Nadu,geocoded_city,CO,6375,8784,0.7258
+site_5607,Kumaran College Tirupur,Tirupur,Tamil Nadu,geocoded_city,NH3,2745,8784,0.3125
+site_5607,Kumaran College Tirupur,Tirupur,Tamil Nadu,geocoded_city,NO2,6375,8784,0.7258
+site_5607,Kumaran College Tirupur,Tirupur,Tamil Nadu,geocoded_city,Ozone,6373,8784,0.7255
+site_5607,Kumaran College Tirupur,Tirupur,Tamil Nadu,geocoded_city,PM10,6116,8784,0.6963
+site_5607,Kumaran College Tirupur,Tirupur,Tamil Nadu,geocoded_city,PM2.5,5979,8784,0.6807
+site_5607,Kumaran College Tirupur,Tirupur,Tamil Nadu,geocoded_city,SO2,6395,8784,0.728
+site_5608,Mendonsa Colony Dindigul,Dindigul,Tamil Nadu,geocoded_city,CO,24,8784,0.0027
+site_5608,Mendonsa Colony Dindigul,Dindigul,Tamil Nadu,geocoded_city,NH3,1408,8784,0.1603
+site_5608,Mendonsa Colony Dindigul,Dindigul,Tamil Nadu,geocoded_city,NO2,2712,8784,0.3087
+site_5608,Mendonsa Colony Dindigul,Dindigul,Tamil Nadu,geocoded_city,Ozone,24,8784,0.0027
+site_5608,Mendonsa Colony Dindigul,Dindigul,Tamil Nadu,geocoded_city,PM10,3056,8784,0.3479
+site_5608,Mendonsa Colony Dindigul,Dindigul,Tamil Nadu,geocoded_city,PM2.5,3050,8784,0.3472
+site_5608,Mendonsa Colony Dindigul,Dindigul,Tamil Nadu,geocoded_city,SO2,3708,8784,0.4221
+site_5609,Municipal Corporation Office Tirunelveli,Tirunelveli,Tamil Nadu,geocoded_locality,CO,3040,8784,0.3461
+site_5609,Municipal Corporation Office Tirunelveli,Tirunelveli,Tamil Nadu,geocoded_locality,NH3,3194,8784,0.3636
+site_5609,Municipal Corporation Office Tirunelveli,Tirunelveli,Tamil Nadu,geocoded_locality,NO2,3193,8784,0.3635
+site_5609,Municipal Corporation Office Tirunelveli,Tirunelveli,Tamil Nadu,geocoded_locality,Ozone,3185,8784,0.3626
+site_5609,Municipal Corporation Office Tirunelveli,Tirunelveli,Tamil Nadu,geocoded_locality,PM10,2898,8784,0.3299
+site_5609,Municipal Corporation Office Tirunelveli,Tirunelveli,Tamil Nadu,geocoded_locality,PM2.5,2960,8784,0.337
+site_5609,Municipal Corporation Office Tirunelveli,Tirunelveli,Tamil Nadu,geocoded_locality,SO2,3200,8784,0.3643
+site_5610,"Parisutham Nagar, Thanjavur - TNPCB",Thanjavur,Tamil Nadu,cpcb_registry,CO,1698,8784,0.1933
+site_5610,"Parisutham Nagar, Thanjavur - TNPCB",Thanjavur,Tamil Nadu,cpcb_registry,NH3,1722,8784,0.196
+site_5610,"Parisutham Nagar, Thanjavur - TNPCB",Thanjavur,Tamil Nadu,cpcb_registry,NO2,1722,8784,0.196
+site_5610,"Parisutham Nagar, Thanjavur - TNPCB",Thanjavur,Tamil Nadu,cpcb_registry,Ozone,1705,8784,0.1941
+site_5610,"Parisutham Nagar, Thanjavur - TNPCB",Thanjavur,Tamil Nadu,cpcb_registry,PM10,1722,8784,0.196
+site_5610,"Parisutham Nagar, Thanjavur - TNPCB",Thanjavur,Tamil Nadu,cpcb_registry,PM2.5,1722,8784,0.196
+site_5610,"Parisutham Nagar, Thanjavur - TNPCB",Thanjavur,Tamil Nadu,cpcb_registry,SO2,1722,8784,0.196
+site_5611,Semmandalam Cuddalore,Cuddalore,Tamil Nadu,geocoded_locality,CO,153,8784,0.0174
+site_5611,Semmandalam Cuddalore,Cuddalore,Tamil Nadu,geocoded_locality,NH3,5408,8784,0.6157
+site_5611,Semmandalam Cuddalore,Cuddalore,Tamil Nadu,geocoded_locality,NO2,6599,8784,0.7513
+site_5611,Semmandalam Cuddalore,Cuddalore,Tamil Nadu,geocoded_locality,Ozone,5956,8784,0.6781
+site_5611,Semmandalam Cuddalore,Cuddalore,Tamil Nadu,geocoded_locality,PM10,5801,8784,0.6604
+site_5611,Semmandalam Cuddalore,Cuddalore,Tamil Nadu,geocoded_locality,PM2.5,5811,8784,0.6615
+site_5611,Semmandalam Cuddalore,Cuddalore,Tamil Nadu,geocoded_locality,SO2,273,8784,0.0311
 site_5613,"Transport Nagar, Moradabad - UPPCB",Moradabad,Uttar Pradesh,cpcb_registry,CO,8613,8784,0.9805
 site_5613,"Transport Nagar, Moradabad - UPPCB",Moradabad,Uttar Pradesh,cpcb_registry,NH3,8589,8784,0.9778
 site_5613,"Transport Nagar, Moradabad - UPPCB",Moradabad,Uttar Pradesh,cpcb_registry,NO2,8565,8784,0.9751
@@ -2318,48 +2318,48 @@ site_5613,"Transport Nagar, Moradabad - UPPCB",Moradabad,Uttar Pradesh,cpcb_regi
 site_5613,"Transport Nagar, Moradabad - UPPCB",Moradabad,Uttar Pradesh,cpcb_registry,PM10,8181,8784,0.9314
 site_5613,"Transport Nagar, Moradabad - UPPCB",Moradabad,Uttar Pradesh,cpcb_registry,PM2.5,8163,8784,0.9293
 site_5613,"Transport Nagar, Moradabad - UPPCB",Moradabad,Uttar Pradesh,cpcb_registry,SO2,8587,8784,0.9776
-site_5614,"Uchapatti, Madurai - TNPCB",Madurai,TamilNadu,cpcb_registry,CO,1279,8784,0.1456
-site_5614,"Uchapatti, Madurai - TNPCB",Madurai,TamilNadu,cpcb_registry,NH3,1868,8784,0.2127
-site_5614,"Uchapatti, Madurai - TNPCB",Madurai,TamilNadu,cpcb_registry,NO2,1868,8784,0.2127
-site_5614,"Uchapatti, Madurai - TNPCB",Madurai,TamilNadu,cpcb_registry,Ozone,1636,8784,0.1862
-site_5614,"Uchapatti, Madurai - TNPCB",Madurai,TamilNadu,cpcb_registry,PM10,1867,8784,0.2125
-site_5614,"Uchapatti, Madurai - TNPCB",Madurai,TamilNadu,cpcb_registry,PM2.5,1867,8784,0.2125
-site_5614,"Uchapatti, Madurai - TNPCB",Madurai,TamilNadu,cpcb_registry,SO2,794,8784,0.0904
-site_5615,Vasanthapuram Vellore,,,geocoded_city,CO,2395,8784,0.2727
-site_5615,Vasanthapuram Vellore,,,geocoded_city,NH3,5161,8784,0.5875
-site_5615,Vasanthapuram Vellore,,,geocoded_city,NO2,4249,8784,0.4837
-site_5615,Vasanthapuram Vellore,,,geocoded_city,Ozone,1339,8784,0.1524
-site_5615,Vasanthapuram Vellore,,,geocoded_city,PM10,5326,8784,0.6063
-site_5615,Vasanthapuram Vellore,,,geocoded_city,PM2.5,5050,8784,0.5749
-site_5615,Vasanthapuram Vellore,,,geocoded_city,SO2,2002,8784,0.2279
-site_5616,Velippalayam Nagapattinam,,,geocoded_city,CO,1498,8784,0.1705
-site_5616,Velippalayam Nagapattinam,,,geocoded_city,NH3,1498,8784,0.1705
-site_5616,Velippalayam Nagapattinam,,,geocoded_city,NO2,1498,8784,0.1705
-site_5616,Velippalayam Nagapattinam,,,geocoded_city,Ozone,1498,8784,0.1705
-site_5616,Velippalayam Nagapattinam,,,geocoded_city,PM10,1221,8784,0.139
-site_5616,Velippalayam Nagapattinam,,,geocoded_city,PM2.5,1280,8784,0.1457
-site_5616,Velippalayam Nagapattinam,,,geocoded_city,SO2,1498,8784,0.1705
-site_5617,VOC Nagar SIPCOT Ranipet,,,geocoded_city,CO,1149,8784,0.1308
-site_5617,VOC Nagar SIPCOT Ranipet,,,geocoded_city,NH3,1578,8784,0.1796
-site_5617,VOC Nagar SIPCOT Ranipet,,,geocoded_city,NO2,1549,8784,0.1763
-site_5617,VOC Nagar SIPCOT Ranipet,,,geocoded_city,Ozone,1575,8784,0.1793
-site_5617,VOC Nagar SIPCOT Ranipet,,,geocoded_city,PM10,1444,8784,0.1644
-site_5617,VOC Nagar SIPCOT Ranipet,,,geocoded_city,PM2.5,1467,8784,0.167
-site_5617,VOC Nagar SIPCOT Ranipet,,,geocoded_city,SO2,1578,8784,0.1796
-site_5618,Gandhi Nagar Ennore Chennai,,,geocoded_locality,CO,197,8784,0.0224
-site_5618,Gandhi Nagar Ennore Chennai,,,geocoded_locality,NH3,942,8784,0.1072
-site_5618,Gandhi Nagar Ennore Chennai,,,geocoded_locality,NO2,984,8784,0.112
-site_5618,Gandhi Nagar Ennore Chennai,,,geocoded_locality,Ozone,1086,8784,0.1236
-site_5618,Gandhi Nagar Ennore Chennai,,,geocoded_locality,PM10,1086,8784,0.1236
-site_5618,Gandhi Nagar Ennore Chennai,,,geocoded_locality,PM2.5,1088,8784,0.1239
-site_5618,Gandhi Nagar Ennore Chennai,,,geocoded_locality,SO2,1090,8784,0.1241
-site_5619,Kilambi Kanchipuram,,,geocoded_locality,CO,1666,8784,0.1897
-site_5619,Kilambi Kanchipuram,,,geocoded_locality,NH3,2766,8784,0.3149
-site_5619,Kilambi Kanchipuram,,,geocoded_locality,NO2,2624,8784,0.2987
-site_5619,Kilambi Kanchipuram,,,geocoded_locality,Ozone,3000,8784,0.3415
-site_5619,Kilambi Kanchipuram,,,geocoded_locality,PM10,2783,8784,0.3168
-site_5619,Kilambi Kanchipuram,,,geocoded_locality,PM2.5,2793,8784,0.318
-site_5619,Kilambi Kanchipuram,,,geocoded_locality,SO2,3774,8784,0.4296
+site_5614,"Uchapatti, Madurai - TNPCB",Madurai,Tamil Nadu,cpcb_registry,CO,1279,8784,0.1456
+site_5614,"Uchapatti, Madurai - TNPCB",Madurai,Tamil Nadu,cpcb_registry,NH3,1868,8784,0.2127
+site_5614,"Uchapatti, Madurai - TNPCB",Madurai,Tamil Nadu,cpcb_registry,NO2,1868,8784,0.2127
+site_5614,"Uchapatti, Madurai - TNPCB",Madurai,Tamil Nadu,cpcb_registry,Ozone,1636,8784,0.1862
+site_5614,"Uchapatti, Madurai - TNPCB",Madurai,Tamil Nadu,cpcb_registry,PM10,1867,8784,0.2125
+site_5614,"Uchapatti, Madurai - TNPCB",Madurai,Tamil Nadu,cpcb_registry,PM2.5,1867,8784,0.2125
+site_5614,"Uchapatti, Madurai - TNPCB",Madurai,Tamil Nadu,cpcb_registry,SO2,794,8784,0.0904
+site_5615,Vasanthapuram Vellore,Vellore,Tamil Nadu,geocoded_city,CO,2395,8784,0.2727
+site_5615,Vasanthapuram Vellore,Vellore,Tamil Nadu,geocoded_city,NH3,5161,8784,0.5875
+site_5615,Vasanthapuram Vellore,Vellore,Tamil Nadu,geocoded_city,NO2,4249,8784,0.4837
+site_5615,Vasanthapuram Vellore,Vellore,Tamil Nadu,geocoded_city,Ozone,1339,8784,0.1524
+site_5615,Vasanthapuram Vellore,Vellore,Tamil Nadu,geocoded_city,PM10,5326,8784,0.6063
+site_5615,Vasanthapuram Vellore,Vellore,Tamil Nadu,geocoded_city,PM2.5,5050,8784,0.5749
+site_5615,Vasanthapuram Vellore,Vellore,Tamil Nadu,geocoded_city,SO2,2002,8784,0.2279
+site_5616,Velippalayam Nagapattinam,Nagapattinam,Tamil Nadu,geocoded_city,CO,1498,8784,0.1705
+site_5616,Velippalayam Nagapattinam,Nagapattinam,Tamil Nadu,geocoded_city,NH3,1498,8784,0.1705
+site_5616,Velippalayam Nagapattinam,Nagapattinam,Tamil Nadu,geocoded_city,NO2,1498,8784,0.1705
+site_5616,Velippalayam Nagapattinam,Nagapattinam,Tamil Nadu,geocoded_city,Ozone,1498,8784,0.1705
+site_5616,Velippalayam Nagapattinam,Nagapattinam,Tamil Nadu,geocoded_city,PM10,1221,8784,0.139
+site_5616,Velippalayam Nagapattinam,Nagapattinam,Tamil Nadu,geocoded_city,PM2.5,1280,8784,0.1457
+site_5616,Velippalayam Nagapattinam,Nagapattinam,Tamil Nadu,geocoded_city,SO2,1498,8784,0.1705
+site_5617,VOC Nagar SIPCOT Ranipet,Ranipet,Tamil Nadu,geocoded_city,CO,1149,8784,0.1308
+site_5617,VOC Nagar SIPCOT Ranipet,Ranipet,Tamil Nadu,geocoded_city,NH3,1578,8784,0.1796
+site_5617,VOC Nagar SIPCOT Ranipet,Ranipet,Tamil Nadu,geocoded_city,NO2,1549,8784,0.1763
+site_5617,VOC Nagar SIPCOT Ranipet,Ranipet,Tamil Nadu,geocoded_city,Ozone,1575,8784,0.1793
+site_5617,VOC Nagar SIPCOT Ranipet,Ranipet,Tamil Nadu,geocoded_city,PM10,1444,8784,0.1644
+site_5617,VOC Nagar SIPCOT Ranipet,Ranipet,Tamil Nadu,geocoded_city,PM2.5,1467,8784,0.167
+site_5617,VOC Nagar SIPCOT Ranipet,Ranipet,Tamil Nadu,geocoded_city,SO2,1578,8784,0.1796
+site_5618,Gandhi Nagar Ennore Chennai,Chennai,Tamil Nadu,geocoded_locality,CO,197,8784,0.0224
+site_5618,Gandhi Nagar Ennore Chennai,Chennai,Tamil Nadu,geocoded_locality,NH3,942,8784,0.1072
+site_5618,Gandhi Nagar Ennore Chennai,Chennai,Tamil Nadu,geocoded_locality,NO2,984,8784,0.112
+site_5618,Gandhi Nagar Ennore Chennai,Chennai,Tamil Nadu,geocoded_locality,Ozone,1086,8784,0.1236
+site_5618,Gandhi Nagar Ennore Chennai,Chennai,Tamil Nadu,geocoded_locality,PM10,1086,8784,0.1236
+site_5618,Gandhi Nagar Ennore Chennai,Chennai,Tamil Nadu,geocoded_locality,PM2.5,1088,8784,0.1239
+site_5618,Gandhi Nagar Ennore Chennai,Chennai,Tamil Nadu,geocoded_locality,SO2,1090,8784,0.1241
+site_5619,Kilambi Kanchipuram,Kanchipuram,Tamil Nadu,geocoded_locality,CO,1666,8784,0.1897
+site_5619,Kilambi Kanchipuram,Kanchipuram,Tamil Nadu,geocoded_locality,NH3,2766,8784,0.3149
+site_5619,Kilambi Kanchipuram,Kanchipuram,Tamil Nadu,geocoded_locality,NO2,2624,8784,0.2987
+site_5619,Kilambi Kanchipuram,Kanchipuram,Tamil Nadu,geocoded_locality,Ozone,3000,8784,0.3415
+site_5619,Kilambi Kanchipuram,Kanchipuram,Tamil Nadu,geocoded_locality,PM10,2783,8784,0.3168
+site_5619,Kilambi Kanchipuram,Kanchipuram,Tamil Nadu,geocoded_locality,PM2.5,2793,8784,0.318
+site_5619,Kilambi Kanchipuram,Kanchipuram,Tamil Nadu,geocoded_locality,SO2,3774,8784,0.4296
 site_5620,"Kashiram Nagar, Moradabad - UPPCB",Moradabad,Uttar Pradesh,cpcb_registry,CO,8642,8784,0.9838
 site_5620,"Kashiram Nagar, Moradabad - UPPCB",Moradabad,Uttar Pradesh,cpcb_registry,NH3,8253,8784,0.9395
 site_5620,"Kashiram Nagar, Moradabad - UPPCB",Moradabad,Uttar Pradesh,cpcb_registry,NO2,8607,8784,0.9798
@@ -2367,55 +2367,55 @@ site_5620,"Kashiram Nagar, Moradabad - UPPCB",Moradabad,Uttar Pradesh,cpcb_regis
 site_5620,"Kashiram Nagar, Moradabad - UPPCB",Moradabad,Uttar Pradesh,cpcb_registry,PM10,8080,8784,0.9199
 site_5620,"Kashiram Nagar, Moradabad - UPPCB",Moradabad,Uttar Pradesh,cpcb_registry,PM2.5,8049,8784,0.9163
 site_5620,"Kashiram Nagar, Moradabad - UPPCB",Moradabad,Uttar Pradesh,cpcb_registry,SO2,8433,8784,0.96
-site_5621,Kudikadu Cuddalore,,,geocoded_city,CO,228,8784,0.026
-site_5621,Kudikadu Cuddalore,,,geocoded_city,NH3,6083,8784,0.6925
-site_5621,Kudikadu Cuddalore,,,geocoded_city,NO2,4412,8784,0.5023
-site_5621,Kudikadu Cuddalore,,,geocoded_city,Ozone,1068,8784,0.1216
-site_5621,Kudikadu Cuddalore,,,geocoded_city,PM10,6157,8784,0.7009
-site_5621,Kudikadu Cuddalore,,,geocoded_city,PM2.5,6142,8784,0.6992
-site_5621,Kudikadu Cuddalore,,,geocoded_city,SO2,6616,8784,0.7532
-site_5622,Sona College of Technology Salem,,,geocoded_locality,CO,4883,8784,0.5559
-site_5622,Sona College of Technology Salem,,,geocoded_locality,NH3,4908,8784,0.5587
-site_5622,Sona College of Technology Salem,,,geocoded_locality,NO2,4906,8784,0.5585
-site_5622,Sona College of Technology Salem,,,geocoded_locality,Ozone,4859,8784,0.5532
-site_5622,Sona College of Technology Salem,,,geocoded_locality,PM10,3424,8784,0.3898
-site_5622,Sona College of Technology Salem,,,geocoded_locality,PM2.5,3872,8784,0.4408
-site_5622,Sona College of Technology Salem,,,geocoded_locality,SO2,4904,8784,0.5583
-site_5623,"PSG College of Arts and Science, Coimbatore - TNPCB",Coimbatore,TamilNadu,cpcb_registry,CO,1911,8784,0.2176
-site_5623,"PSG College of Arts and Science, Coimbatore - TNPCB",Coimbatore,TamilNadu,cpcb_registry,NH3,7047,8784,0.8023
-site_5623,"PSG College of Arts and Science, Coimbatore - TNPCB",Coimbatore,TamilNadu,cpcb_registry,NO2,6611,8784,0.7526
-site_5623,"PSG College of Arts and Science, Coimbatore - TNPCB",Coimbatore,TamilNadu,cpcb_registry,Ozone,7331,8784,0.8346
-site_5623,"PSG College of Arts and Science, Coimbatore - TNPCB",Coimbatore,TamilNadu,cpcb_registry,PM10,2791,8784,0.3177
-site_5623,"PSG College of Arts and Science, Coimbatore - TNPCB",Coimbatore,TamilNadu,cpcb_registry,PM2.5,6782,8784,0.7721
-site_5623,"PSG College of Arts and Science, Coimbatore - TNPCB",Coimbatore,TamilNadu,cpcb_registry,SO2,7323,8784,0.8337
-site_5624,Bombay Castel Ooty,,,geocoded_city,CO,5679,8784,0.6465
-site_5624,Bombay Castel Ooty,,,geocoded_city,NH3,3613,8784,0.4113
-site_5624,Bombay Castel Ooty,,,geocoded_city,NO2,3227,8784,0.3674
-site_5624,Bombay Castel Ooty,,,geocoded_city,Ozone,5891,8784,0.6707
-site_5624,Bombay Castel Ooty,,,geocoded_city,PM10,5527,8784,0.6292
-site_5624,Bombay Castel Ooty,,,geocoded_city,PM2.5,5739,8784,0.6533
-site_5624,Bombay Castel Ooty,,,geocoded_city,SO2,5956,8784,0.6781
-site_5625,"Chalai Bazaar, Ramanathapuram - TNPCB",Ramanathapuram,TamilNadu,cpcb_registry,CO,7830,8784,0.8914
-site_5625,"Chalai Bazaar, Ramanathapuram - TNPCB",Ramanathapuram,TamilNadu,cpcb_registry,NH3,7847,8784,0.8933
-site_5625,"Chalai Bazaar, Ramanathapuram - TNPCB",Ramanathapuram,TamilNadu,cpcb_registry,NO2,3132,8784,0.3566
-site_5625,"Chalai Bazaar, Ramanathapuram - TNPCB",Ramanathapuram,TamilNadu,cpcb_registry,Ozone,7936,8784,0.9035
-site_5625,"Chalai Bazaar, Ramanathapuram - TNPCB",Ramanathapuram,TamilNadu,cpcb_registry,PM10,7728,8784,0.8798
-site_5625,"Chalai Bazaar, Ramanathapuram - TNPCB",Ramanathapuram,TamilNadu,cpcb_registry,PM2.5,6594,8784,0.7507
-site_5625,"Chalai Bazaar, Ramanathapuram - TNPCB",Ramanathapuram,TamilNadu,cpcb_registry,SO2,8068,8784,0.9185
-site_5626,Bharathidasan University Palkalaiperur,,,geocoded_locality,CO,7009,8784,0.7979
-site_5626,Bharathidasan University Palkalaiperur,,,geocoded_locality,NH3,6247,8784,0.7112
-site_5626,Bharathidasan University Palkalaiperur,,,geocoded_locality,NO2,1637,8784,0.1864
-site_5626,Bharathidasan University Palkalaiperur,,,geocoded_locality,Ozone,4349,8784,0.4951
-site_5626,Bharathidasan University Palkalaiperur,,,geocoded_locality,PM10,6599,8784,0.7513
-site_5626,Bharathidasan University Palkalaiperur,,,geocoded_locality,PM2.5,6607,8784,0.7522
-site_5626,Bharathidasan University Palkalaiperur,,,geocoded_locality,SO2,7073,8784,0.8052
-site_5627,Kamadenu Nagar Karur,,,geocoded_city,CO,1719,8784,0.1957
-site_5627,Kamadenu Nagar Karur,,,geocoded_city,NH3,1719,8784,0.1957
-site_5627,Kamadenu Nagar Karur,,,geocoded_city,NO2,1719,8784,0.1957
-site_5627,Kamadenu Nagar Karur,,,geocoded_city,Ozone,1665,8784,0.1895
-site_5627,Kamadenu Nagar Karur,,,geocoded_city,PM10,1599,8784,0.182
-site_5627,Kamadenu Nagar Karur,,,geocoded_city,PM2.5,1491,8784,0.1697
-site_5627,Kamadenu Nagar Karur,,,geocoded_city,SO2,1719,8784,0.1957
+site_5621,Kudikadu Cuddalore,Cuddalore,Tamil Nadu,geocoded_city,CO,228,8784,0.026
+site_5621,Kudikadu Cuddalore,Cuddalore,Tamil Nadu,geocoded_city,NH3,6083,8784,0.6925
+site_5621,Kudikadu Cuddalore,Cuddalore,Tamil Nadu,geocoded_city,NO2,4412,8784,0.5023
+site_5621,Kudikadu Cuddalore,Cuddalore,Tamil Nadu,geocoded_city,Ozone,1068,8784,0.1216
+site_5621,Kudikadu Cuddalore,Cuddalore,Tamil Nadu,geocoded_city,PM10,6157,8784,0.7009
+site_5621,Kudikadu Cuddalore,Cuddalore,Tamil Nadu,geocoded_city,PM2.5,6142,8784,0.6992
+site_5621,Kudikadu Cuddalore,Cuddalore,Tamil Nadu,geocoded_city,SO2,6616,8784,0.7532
+site_5622,Sona College of Technology Salem,Salem,Tamil Nadu,geocoded_locality,CO,4883,8784,0.5559
+site_5622,Sona College of Technology Salem,Salem,Tamil Nadu,geocoded_locality,NH3,4908,8784,0.5587
+site_5622,Sona College of Technology Salem,Salem,Tamil Nadu,geocoded_locality,NO2,4906,8784,0.5585
+site_5622,Sona College of Technology Salem,Salem,Tamil Nadu,geocoded_locality,Ozone,4859,8784,0.5532
+site_5622,Sona College of Technology Salem,Salem,Tamil Nadu,geocoded_locality,PM10,3424,8784,0.3898
+site_5622,Sona College of Technology Salem,Salem,Tamil Nadu,geocoded_locality,PM2.5,3872,8784,0.4408
+site_5622,Sona College of Technology Salem,Salem,Tamil Nadu,geocoded_locality,SO2,4904,8784,0.5583
+site_5623,"PSG College of Arts and Science, Coimbatore - TNPCB",Coimbatore,Tamil Nadu,cpcb_registry,CO,1911,8784,0.2176
+site_5623,"PSG College of Arts and Science, Coimbatore - TNPCB",Coimbatore,Tamil Nadu,cpcb_registry,NH3,7047,8784,0.8023
+site_5623,"PSG College of Arts and Science, Coimbatore - TNPCB",Coimbatore,Tamil Nadu,cpcb_registry,NO2,6611,8784,0.7526
+site_5623,"PSG College of Arts and Science, Coimbatore - TNPCB",Coimbatore,Tamil Nadu,cpcb_registry,Ozone,7331,8784,0.8346
+site_5623,"PSG College of Arts and Science, Coimbatore - TNPCB",Coimbatore,Tamil Nadu,cpcb_registry,PM10,2791,8784,0.3177
+site_5623,"PSG College of Arts and Science, Coimbatore - TNPCB",Coimbatore,Tamil Nadu,cpcb_registry,PM2.5,6782,8784,0.7721
+site_5623,"PSG College of Arts and Science, Coimbatore - TNPCB",Coimbatore,Tamil Nadu,cpcb_registry,SO2,7323,8784,0.8337
+site_5624,Bombay Castel Ooty,Ooty,Tamil Nadu,geocoded_city,CO,5679,8784,0.6465
+site_5624,Bombay Castel Ooty,Ooty,Tamil Nadu,geocoded_city,NH3,3613,8784,0.4113
+site_5624,Bombay Castel Ooty,Ooty,Tamil Nadu,geocoded_city,NO2,3227,8784,0.3674
+site_5624,Bombay Castel Ooty,Ooty,Tamil Nadu,geocoded_city,Ozone,5891,8784,0.6707
+site_5624,Bombay Castel Ooty,Ooty,Tamil Nadu,geocoded_city,PM10,5527,8784,0.6292
+site_5624,Bombay Castel Ooty,Ooty,Tamil Nadu,geocoded_city,PM2.5,5739,8784,0.6533
+site_5624,Bombay Castel Ooty,Ooty,Tamil Nadu,geocoded_city,SO2,5956,8784,0.6781
+site_5625,"Chalai Bazaar, Ramanathapuram - TNPCB",Ramanathapuram,Tamil Nadu,cpcb_registry,CO,7830,8784,0.8914
+site_5625,"Chalai Bazaar, Ramanathapuram - TNPCB",Ramanathapuram,Tamil Nadu,cpcb_registry,NH3,7847,8784,0.8933
+site_5625,"Chalai Bazaar, Ramanathapuram - TNPCB",Ramanathapuram,Tamil Nadu,cpcb_registry,NO2,3132,8784,0.3566
+site_5625,"Chalai Bazaar, Ramanathapuram - TNPCB",Ramanathapuram,Tamil Nadu,cpcb_registry,Ozone,7936,8784,0.9035
+site_5625,"Chalai Bazaar, Ramanathapuram - TNPCB",Ramanathapuram,Tamil Nadu,cpcb_registry,PM10,7728,8784,0.8798
+site_5625,"Chalai Bazaar, Ramanathapuram - TNPCB",Ramanathapuram,Tamil Nadu,cpcb_registry,PM2.5,6594,8784,0.7507
+site_5625,"Chalai Bazaar, Ramanathapuram - TNPCB",Ramanathapuram,Tamil Nadu,cpcb_registry,SO2,8068,8784,0.9185
+site_5626,Bharathidasan University Palkalaiperur,Palkalaiperur,Tamil Nadu,geocoded_locality,CO,7009,8784,0.7979
+site_5626,Bharathidasan University Palkalaiperur,Palkalaiperur,Tamil Nadu,geocoded_locality,NH3,6247,8784,0.7112
+site_5626,Bharathidasan University Palkalaiperur,Palkalaiperur,Tamil Nadu,geocoded_locality,NO2,1637,8784,0.1864
+site_5626,Bharathidasan University Palkalaiperur,Palkalaiperur,Tamil Nadu,geocoded_locality,Ozone,4349,8784,0.4951
+site_5626,Bharathidasan University Palkalaiperur,Palkalaiperur,Tamil Nadu,geocoded_locality,PM10,6599,8784,0.7513
+site_5626,Bharathidasan University Palkalaiperur,Palkalaiperur,Tamil Nadu,geocoded_locality,PM2.5,6607,8784,0.7522
+site_5626,Bharathidasan University Palkalaiperur,Palkalaiperur,Tamil Nadu,geocoded_locality,SO2,7073,8784,0.8052
+site_5627,Kamadenu Nagar Karur,Karur,Tamil Nadu,geocoded_city,CO,1719,8784,0.1957
+site_5627,Kamadenu Nagar Karur,Karur,Tamil Nadu,geocoded_city,NH3,1719,8784,0.1957
+site_5627,Kamadenu Nagar Karur,Karur,Tamil Nadu,geocoded_city,NO2,1719,8784,0.1957
+site_5627,Kamadenu Nagar Karur,Karur,Tamil Nadu,geocoded_city,Ozone,1665,8784,0.1895
+site_5627,Kamadenu Nagar Karur,Karur,Tamil Nadu,geocoded_city,PM10,1599,8784,0.182
+site_5627,Kamadenu Nagar Karur,Karur,Tamil Nadu,geocoded_city,PM2.5,1491,8784,0.1697
+site_5627,Kamadenu Nagar Karur,Karur,Tamil Nadu,geocoded_city,SO2,1719,8784,0.1957
 site_5628,"Civil Lines, Bareilly - UPPCB",Bareilly,Uttar Pradesh,cpcb_registry,CO,8134,8784,0.926
 site_5628,"Civil Lines, Bareilly - UPPCB",Bareilly,Uttar Pradesh,cpcb_registry,NH3,7659,8784,0.8719
 site_5628,"Civil Lines, Bareilly - UPPCB",Bareilly,Uttar Pradesh,cpcb_registry,NO2,8083,8784,0.9202
@@ -2423,12 +2423,12 @@ site_5628,"Civil Lines, Bareilly - UPPCB",Bareilly,Uttar Pradesh,cpcb_registry,O
 site_5628,"Civil Lines, Bareilly - UPPCB",Bareilly,Uttar Pradesh,cpcb_registry,PM10,7488,8784,0.8525
 site_5628,"Civil Lines, Bareilly - UPPCB",Bareilly,Uttar Pradesh,cpcb_registry,PM2.5,7410,8784,0.8436
 site_5628,"Civil Lines, Bareilly - UPPCB",Bareilly,Uttar Pradesh,cpcb_registry,SO2,8086,8784,0.9205
-site_5630,St Joseph College Tiruchirappalli,,,geocoded_city,CO,1135,8784,0.1292
-site_5630,St Joseph College Tiruchirappalli,,,geocoded_city,NH3,2090,8784,0.2379
-site_5630,St Joseph College Tiruchirappalli,,,geocoded_city,NO2,2090,8784,0.2379
-site_5630,St Joseph College Tiruchirappalli,,,geocoded_city,PM10,1871,8784,0.213
-site_5630,St Joseph College Tiruchirappalli,,,geocoded_city,PM2.5,1872,8784,0.2131
-site_5630,St Joseph College Tiruchirappalli,,,geocoded_city,SO2,836,8784,0.0952
+site_5630,St Joseph College Tiruchirappalli,Tiruchirappalli,Tamil Nadu,geocoded_city,CO,1135,8784,0.1292
+site_5630,St Joseph College Tiruchirappalli,Tiruchirappalli,Tamil Nadu,geocoded_city,NH3,2090,8784,0.2379
+site_5630,St Joseph College Tiruchirappalli,Tiruchirappalli,Tamil Nadu,geocoded_city,NO2,2090,8784,0.2379
+site_5630,St Joseph College Tiruchirappalli,Tiruchirappalli,Tamil Nadu,geocoded_city,PM10,1871,8784,0.213
+site_5630,St Joseph College Tiruchirappalli,Tiruchirappalli,Tamil Nadu,geocoded_city,PM2.5,1872,8784,0.2131
+site_5630,St Joseph College Tiruchirappalli,Tiruchirappalli,Tamil Nadu,geocoded_city,SO2,836,8784,0.0952
 site_5632,"Gulzarpet, Anantapur - APPCB",Anantapur,Andhra Pradesh,cpcb_registry,CO,8000,8784,0.9107
 site_5632,"Gulzarpet, Anantapur - APPCB",Anantapur,Andhra Pradesh,cpcb_registry,NH3,6188,8784,0.7045
 site_5632,"Gulzarpet, Anantapur - APPCB",Anantapur,Andhra Pradesh,cpcb_registry,NO2,6194,8784,0.7051
@@ -2450,13 +2450,13 @@ site_5650,"Paryavaran Parisar, Bhopal - MPPCB",Bhopal,Madhya Pradesh,cpcb_regist
 site_5650,"Paryavaran Parisar, Bhopal - MPPCB",Bhopal,Madhya Pradesh,cpcb_registry,PM10,8440,8784,0.9608
 site_5650,"Paryavaran Parisar, Bhopal - MPPCB",Bhopal,Madhya Pradesh,cpcb_registry,PM2.5,8449,8784,0.9619
 site_5650,"Paryavaran Parisar, Bhopal - MPPCB",Bhopal,Madhya Pradesh,cpcb_registry,SO2,8558,8784,0.9743
-site_5651,IITG Guwahati,,,geocoded_locality,CO,8281,8784,0.9427
-site_5651,IITG Guwahati,,,geocoded_locality,NH3,8279,8784,0.9425
-site_5651,IITG Guwahati,,,geocoded_locality,NO2,8263,8784,0.9407
-site_5651,IITG Guwahati,,,geocoded_locality,Ozone,8279,8784,0.9425
-site_5651,IITG Guwahati,,,geocoded_locality,PM10,7895,8784,0.8988
-site_5651,IITG Guwahati,,,geocoded_locality,PM2.5,6950,8784,0.7912
-site_5651,IITG Guwahati,,,geocoded_locality,SO2,8279,8784,0.9425
+site_5651,IITG Guwahati,Guwahati,Assam,geocoded_locality,CO,8281,8784,0.9427
+site_5651,IITG Guwahati,Guwahati,Assam,geocoded_locality,NH3,8279,8784,0.9425
+site_5651,IITG Guwahati,Guwahati,Assam,geocoded_locality,NO2,8263,8784,0.9407
+site_5651,IITG Guwahati,Guwahati,Assam,geocoded_locality,Ozone,8279,8784,0.9425
+site_5651,IITG Guwahati,Guwahati,Assam,geocoded_locality,PM10,7895,8784,0.8988
+site_5651,IITG Guwahati,Guwahati,Assam,geocoded_locality,PM2.5,6950,8784,0.7912
+site_5651,IITG Guwahati,Guwahati,Assam,geocoded_locality,SO2,8279,8784,0.9425
 site_5652,"AIIMS, Raipur - CECB",Raipur,Chhattisgarh,cpcb_registry,CO,7698,8784,0.8764
 site_5652,"AIIMS, Raipur - CECB",Raipur,Chhattisgarh,cpcb_registry,NH3,7149,8784,0.8139
 site_5652,"AIIMS, Raipur - CECB",Raipur,Chhattisgarh,cpcb_registry,NO2,7181,8784,0.8175
@@ -2616,13 +2616,13 @@ site_5675,"Raghunathpali, Rourkela - OSPCB",Rourkela,Odisha,cpcb_registry,Ozone,
 site_5675,"Raghunathpali, Rourkela - OSPCB",Rourkela,Odisha,cpcb_registry,PM10,8249,8784,0.9391
 site_5675,"Raghunathpali, Rourkela - OSPCB",Rourkela,Odisha,cpcb_registry,PM2.5,8210,8784,0.9347
 site_5675,"Raghunathpali, Rourkela - OSPCB",Rourkela,Odisha,cpcb_registry,SO2,8180,8784,0.9312
-site_5676,OMC Colony Suakati,,,,CO,8242,8784,0.9383
-site_5676,OMC Colony Suakati,,,,NH3,7482,8784,0.8518
-site_5676,OMC Colony Suakati,,,,NO2,7417,8784,0.8444
-site_5676,OMC Colony Suakati,,,,Ozone,8278,8784,0.9424
-site_5676,OMC Colony Suakati,,,,PM10,8454,8784,0.9624
-site_5676,OMC Colony Suakati,,,,PM2.5,8520,8784,0.9699
-site_5676,OMC Colony Suakati,,,,SO2,8332,8784,0.9485
+site_5676,OMC Colony Suakati,Suakati,Odisha,,CO,8242,8784,0.9383
+site_5676,OMC Colony Suakati,Suakati,Odisha,,NH3,7482,8784,0.8518
+site_5676,OMC Colony Suakati,Suakati,Odisha,,NO2,7417,8784,0.8444
+site_5676,OMC Colony Suakati,Suakati,Odisha,,Ozone,8278,8784,0.9424
+site_5676,OMC Colony Suakati,Suakati,Odisha,,PM10,8454,8784,0.9624
+site_5676,OMC Colony Suakati,Suakati,Odisha,,PM2.5,8520,8784,0.9699
+site_5676,OMC Colony Suakati,Suakati,Odisha,,SO2,8332,8784,0.9485
 site_5677,"Barsua Iron Ore Mines, Tensa - OSPCB",Tensa,Odisha,cpcb_registry,CO,8185,8784,0.9318
 site_5677,"Barsua Iron Ore Mines, Tensa - OSPCB",Tensa,Odisha,cpcb_registry,NH3,7543,8784,0.8587
 site_5677,"Barsua Iron Ore Mines, Tensa - OSPCB",Tensa,Odisha,cpcb_registry,NO2,7598,8784,0.865
@@ -2829,10 +2829,10 @@ site_5708,"Idgah Hills, Bhopal - MPPCB",Bhopal,Madhya Pradesh,cpcb_registry,Ozon
 site_5708,"Idgah Hills, Bhopal - MPPCB",Bhopal,Madhya Pradesh,cpcb_registry,PM10,8199,8784,0.9334
 site_5708,"Idgah Hills, Bhopal - MPPCB",Bhopal,Madhya Pradesh,cpcb_registry,PM2.5,7924,8784,0.9021
 site_5708,"Idgah Hills, Bhopal - MPPCB",Bhopal,Madhya Pradesh,cpcb_registry,SO2,8264,8784,0.9408
-site_5709,Vijay Nagar Scheme-78 Indore,,,geocoded_city,NO2,1390,8784,0.1582
-site_5709,Vijay Nagar Scheme-78 Indore,,,geocoded_city,PM10,1388,8784,0.158
-site_5709,Vijay Nagar Scheme-78 Indore,,,geocoded_city,PM2.5,1390,8784,0.1582
-site_5709,Vijay Nagar Scheme-78 Indore,,,geocoded_city,SO2,1390,8784,0.1582
+site_5709,Vijay Nagar Scheme-78 Indore,Indore,Madhya Pradesh,geocoded_city,NO2,1390,8784,0.1582
+site_5709,Vijay Nagar Scheme-78 Indore,Indore,Madhya Pradesh,geocoded_city,PM10,1388,8784,0.158
+site_5709,Vijay Nagar Scheme-78 Indore,Indore,Madhya Pradesh,geocoded_city,PM2.5,1390,8784,0.1582
+site_5709,Vijay Nagar Scheme-78 Indore,Indore,Madhya Pradesh,geocoded_city,SO2,1390,8784,0.1582
 site_5710,"Sardar Patel Nagar, Dhanbad - JSPCB",Dhanbad,Jharkhand,cpcb_registry,CO,3353,8784,0.3817
 site_5710,"Sardar Patel Nagar, Dhanbad - JSPCB",Dhanbad,Jharkhand,cpcb_registry,NO2,3694,8784,0.4205
 site_5710,"Sardar Patel Nagar, Dhanbad - JSPCB",Dhanbad,Jharkhand,cpcb_registry,Ozone,4321,8784,0.4919
@@ -3000,13 +3000,13 @@ site_5766,"Katraj Dairy, Pune - MPCB",Pune,Maharashtra,cpcb_registry,Ozone,6568,
 site_5766,"Katraj Dairy, Pune - MPCB",Pune,Maharashtra,cpcb_registry,PM10,6618,8784,0.7534
 site_5766,"Katraj Dairy, Pune - MPCB",Pune,Maharashtra,cpcb_registry,PM2.5,6622,8784,0.7539
 site_5766,"Katraj Dairy, Pune - MPCB",Pune,Maharashtra,cpcb_registry,SO2,6036,8784,0.6872
-site_5767,Savitribai Phule Pune University Pune,,,geocoded_locality,CO,8314,8784,0.9465
-site_5767,Savitribai Phule Pune University Pune,,,geocoded_locality,NH3,8148,8784,0.9276
-site_5767,Savitribai Phule Pune University Pune,,,geocoded_locality,NO2,8033,8784,0.9145
-site_5767,Savitribai Phule Pune University Pune,,,geocoded_locality,Ozone,7480,8784,0.8515
-site_5767,Savitribai Phule Pune University Pune,,,geocoded_locality,PM10,8087,8784,0.9207
-site_5767,Savitribai Phule Pune University Pune,,,geocoded_locality,PM2.5,8059,8784,0.9175
-site_5767,Savitribai Phule Pune University Pune,,,geocoded_locality,SO2,8112,8784,0.9235
+site_5767,Savitribai Phule Pune University Pune,Pune,Maharashtra,geocoded_locality,CO,8314,8784,0.9465
+site_5767,Savitribai Phule Pune University Pune,Pune,Maharashtra,geocoded_locality,NH3,8148,8784,0.9276
+site_5767,Savitribai Phule Pune University Pune,Pune,Maharashtra,geocoded_locality,NO2,8033,8784,0.9145
+site_5767,Savitribai Phule Pune University Pune,Pune,Maharashtra,geocoded_locality,Ozone,7480,8784,0.8515
+site_5767,Savitribai Phule Pune University Pune,Pune,Maharashtra,geocoded_locality,PM10,8087,8784,0.9207
+site_5767,Savitribai Phule Pune University Pune,Pune,Maharashtra,geocoded_locality,PM2.5,8059,8784,0.9175
+site_5767,Savitribai Phule Pune University Pune,Pune,Maharashtra,geocoded_locality,SO2,8112,8784,0.9235
 site_5768,"Shivaji University, Kolhapur - MPCB",Kolhapur,Maharashtra,cpcb_registry,CO,8670,8784,0.987
 site_5768,"Shivaji University, Kolhapur - MPCB",Kolhapur,Maharashtra,cpcb_registry,NH3,8182,8784,0.9315
 site_5768,"Shivaji University, Kolhapur - MPCB",Kolhapur,Maharashtra,cpcb_registry,NO2,8508,8784,0.9686
@@ -3350,18 +3350,18 @@ site_5817,"Gupteshwar, Jabalpur - JMC",Jabalpur,Madhya Pradesh,cpcb_registry,Ozo
 site_5817,"Gupteshwar, Jabalpur - JMC",Jabalpur,Madhya Pradesh,cpcb_registry,PM10,8121,8784,0.9245
 site_5817,"Gupteshwar, Jabalpur - JMC",Jabalpur,Madhya Pradesh,cpcb_registry,PM2.5,7871,8784,0.8961
 site_5817,"Gupteshwar, Jabalpur - JMC",Jabalpur,Madhya Pradesh,cpcb_registry,SO2,8452,8784,0.9622
-site_5827,Kalakusuma Dhanbad,,,geocoded_city,CO,4290,8784,0.4884
-site_5827,Kalakusuma Dhanbad,,,geocoded_city,NO2,3999,8784,0.4553
-site_5827,Kalakusuma Dhanbad,,,geocoded_city,Ozone,4290,8784,0.4884
-site_5827,Kalakusuma Dhanbad,,,geocoded_city,PM10,4198,8784,0.4779
-site_5827,Kalakusuma Dhanbad,,,geocoded_city,PM2.5,2539,8784,0.289
-site_5827,Kalakusuma Dhanbad,,,geocoded_city,SO2,3223,8784,0.3669
-site_5832,Mohalbani Ghat Pathardih,,,geocoded_city,CO,1758,8784,0.2001
-site_5832,Mohalbani Ghat Pathardih,,,geocoded_city,NO2,1910,8784,0.2174
-site_5832,Mohalbani Ghat Pathardih,,,geocoded_city,Ozone,1908,8784,0.2172
-site_5832,Mohalbani Ghat Pathardih,,,geocoded_city,PM10,1605,8784,0.1827
-site_5832,Mohalbani Ghat Pathardih,,,geocoded_city,PM2.5,1537,8784,0.175
-site_5832,Mohalbani Ghat Pathardih,,,geocoded_city,SO2,1625,8784,0.185
+site_5827,Kalakusuma Dhanbad,Dhanbad,Jharkhand,geocoded_city,CO,4290,8784,0.4884
+site_5827,Kalakusuma Dhanbad,Dhanbad,Jharkhand,geocoded_city,NO2,3999,8784,0.4553
+site_5827,Kalakusuma Dhanbad,Dhanbad,Jharkhand,geocoded_city,Ozone,4290,8784,0.4884
+site_5827,Kalakusuma Dhanbad,Dhanbad,Jharkhand,geocoded_city,PM10,4198,8784,0.4779
+site_5827,Kalakusuma Dhanbad,Dhanbad,Jharkhand,geocoded_city,PM2.5,2539,8784,0.289
+site_5827,Kalakusuma Dhanbad,Dhanbad,Jharkhand,geocoded_city,SO2,3223,8784,0.3669
+site_5832,Mohalbani Ghat Pathardih,Pathardih,Jharkhand,geocoded_city,CO,1758,8784,0.2001
+site_5832,Mohalbani Ghat Pathardih,Pathardih,Jharkhand,geocoded_city,NO2,1910,8784,0.2174
+site_5832,Mohalbani Ghat Pathardih,Pathardih,Jharkhand,geocoded_city,Ozone,1908,8784,0.2172
+site_5832,Mohalbani Ghat Pathardih,Pathardih,Jharkhand,geocoded_city,PM10,1605,8784,0.1827
+site_5832,Mohalbani Ghat Pathardih,Pathardih,Jharkhand,geocoded_city,PM2.5,1537,8784,0.175
+site_5832,Mohalbani Ghat Pathardih,Pathardih,Jharkhand,geocoded_city,SO2,1625,8784,0.185
 site_5848,"HB Colony, Vijayawada - APPCB",Vijayawada,Andhra Pradesh,cpcb_registry,CO,4152,8784,0.4727
 site_5848,"HB Colony, Vijayawada - APPCB",Vijayawada,Andhra Pradesh,cpcb_registry,NH3,7328,8784,0.8342
 site_5848,"HB Colony, Vijayawada - APPCB",Vijayawada,Andhra Pradesh,cpcb_registry,NO2,7479,8784,0.8514
@@ -3390,13 +3390,13 @@ site_5851,"Mudtra Sili, Jalore - RSPCB",Jalore,Rajasthan,cpcb_registry,Ozone,872
 site_5851,"Mudtra Sili, Jalore - RSPCB",Jalore,Rajasthan,cpcb_registry,PM10,8724,8784,0.9932
 site_5851,"Mudtra Sili, Jalore - RSPCB",Jalore,Rajasthan,cpcb_registry,PM2.5,8699,8784,0.9903
 site_5851,"Mudtra Sili, Jalore - RSPCB",Jalore,Rajasthan,cpcb_registry,SO2,8731,8784,0.994
-site_5853,KHB Colony Karwar,,,geocoded_city,CO,5966,8784,0.6792
-site_5853,KHB Colony Karwar,,,geocoded_city,NH3,6958,8784,0.7921
-site_5853,KHB Colony Karwar,,,geocoded_city,NO2,5812,8784,0.6617
-site_5853,KHB Colony Karwar,,,geocoded_city,Ozone,6252,8784,0.7117
-site_5853,KHB Colony Karwar,,,geocoded_city,PM10,7085,8784,0.8066
-site_5853,KHB Colony Karwar,,,geocoded_city,PM2.5,7069,8784,0.8048
-site_5853,KHB Colony Karwar,,,geocoded_city,SO2,7424,8784,0.8452
+site_5853,KHB Colony Karwar,Karwar,Karnataka,geocoded_city,CO,5966,8784,0.6792
+site_5853,KHB Colony Karwar,Karwar,Karnataka,geocoded_city,NH3,6958,8784,0.7921
+site_5853,KHB Colony Karwar,Karwar,Karnataka,geocoded_city,NO2,5812,8784,0.6617
+site_5853,KHB Colony Karwar,Karwar,Karnataka,geocoded_city,Ozone,6252,8784,0.7117
+site_5853,KHB Colony Karwar,Karwar,Karnataka,geocoded_city,PM10,7085,8784,0.8066
+site_5853,KHB Colony Karwar,Karwar,Karnataka,geocoded_city,PM2.5,7069,8784,0.8048
+site_5853,KHB Colony Karwar,Karwar,Karnataka,geocoded_city,SO2,7424,8784,0.8452
 site_5854,"Residency Area, Indore - IMC",Indore,Madhya Pradesh,cpcb_registry,CO,8648,8784,0.9845
 site_5854,"Residency Area, Indore - IMC",Indore,Madhya Pradesh,cpcb_registry,NH3,7908,8784,0.9003
 site_5854,"Residency Area, Indore - IMC",Indore,Madhya Pradesh,cpcb_registry,NO2,8604,8784,0.9795
@@ -3523,20 +3523,20 @@ site_5965,"Govindh Bhavan Colony, Jabalpur - JMC",Jabalpur,Madhya Pradesh,cpcb_r
 site_5965,"Govindh Bhavan Colony, Jabalpur - JMC",Jabalpur,Madhya Pradesh,cpcb_registry,PM10,7339,8784,0.8355
 site_5965,"Govindh Bhavan Colony, Jabalpur - JMC",Jabalpur,Madhya Pradesh,cpcb_registry,PM2.5,7256,8784,0.826
 site_5965,"Govindh Bhavan Colony, Jabalpur - JMC",Jabalpur,Madhya Pradesh,cpcb_registry,SO2,7319,8784,0.8332
-site_5978,"SIPCOT Nathampannai, Pudukottai - TNPCB",Pudukottai,TamilNadu,cpcb_registry,CO,1240,8784,0.1412
-site_5978,"SIPCOT Nathampannai, Pudukottai - TNPCB",Pudukottai,TamilNadu,cpcb_registry,NH3,1681,8784,0.1914
-site_5978,"SIPCOT Nathampannai, Pudukottai - TNPCB",Pudukottai,TamilNadu,cpcb_registry,NO2,1681,8784,0.1914
-site_5978,"SIPCOT Nathampannai, Pudukottai - TNPCB",Pudukottai,TamilNadu,cpcb_registry,Ozone,1239,8784,0.1411
-site_5978,"SIPCOT Nathampannai, Pudukottai - TNPCB",Pudukottai,TamilNadu,cpcb_registry,PM10,1663,8784,0.1893
-site_5978,"SIPCOT Nathampannai, Pudukottai - TNPCB",Pudukottai,TamilNadu,cpcb_registry,PM2.5,1662,8784,0.1892
-site_5978,"SIPCOT Nathampannai, Pudukottai - TNPCB",Pudukottai,TamilNadu,cpcb_registry,SO2,1681,8784,0.1914
-site_5979,Collectorate Office Virudhunagar,,,geocoded_city,CO,5770,8784,0.6569
-site_5979,Collectorate Office Virudhunagar,,,geocoded_city,NH3,5844,8784,0.6653
-site_5979,Collectorate Office Virudhunagar,,,geocoded_city,NO2,5416,8784,0.6166
-site_5979,Collectorate Office Virudhunagar,,,geocoded_city,Ozone,3477,8784,0.3958
-site_5979,Collectorate Office Virudhunagar,,,geocoded_city,PM10,5371,8784,0.6115
-site_5979,Collectorate Office Virudhunagar,,,geocoded_city,PM2.5,5392,8784,0.6138
-site_5979,Collectorate Office Virudhunagar,,,geocoded_city,SO2,5865,8784,0.6677
+site_5978,"SIPCOT Nathampannai, Pudukottai - TNPCB",Pudukottai,Tamil Nadu,cpcb_registry,CO,1240,8784,0.1412
+site_5978,"SIPCOT Nathampannai, Pudukottai - TNPCB",Pudukottai,Tamil Nadu,cpcb_registry,NH3,1681,8784,0.1914
+site_5978,"SIPCOT Nathampannai, Pudukottai - TNPCB",Pudukottai,Tamil Nadu,cpcb_registry,NO2,1681,8784,0.1914
+site_5978,"SIPCOT Nathampannai, Pudukottai - TNPCB",Pudukottai,Tamil Nadu,cpcb_registry,Ozone,1239,8784,0.1411
+site_5978,"SIPCOT Nathampannai, Pudukottai - TNPCB",Pudukottai,Tamil Nadu,cpcb_registry,PM10,1663,8784,0.1893
+site_5978,"SIPCOT Nathampannai, Pudukottai - TNPCB",Pudukottai,Tamil Nadu,cpcb_registry,PM2.5,1662,8784,0.1892
+site_5978,"SIPCOT Nathampannai, Pudukottai - TNPCB",Pudukottai,Tamil Nadu,cpcb_registry,SO2,1681,8784,0.1914
+site_5979,Collectorate Office Virudhunagar,Virudhunagar,Tamil Nadu,geocoded_city,CO,5770,8784,0.6569
+site_5979,Collectorate Office Virudhunagar,Virudhunagar,Tamil Nadu,geocoded_city,NH3,5844,8784,0.6653
+site_5979,Collectorate Office Virudhunagar,Virudhunagar,Tamil Nadu,geocoded_city,NO2,5416,8784,0.6166
+site_5979,Collectorate Office Virudhunagar,Virudhunagar,Tamil Nadu,geocoded_city,Ozone,3477,8784,0.3958
+site_5979,Collectorate Office Virudhunagar,Virudhunagar,Tamil Nadu,geocoded_city,PM10,5371,8784,0.6115
+site_5979,Collectorate Office Virudhunagar,Virudhunagar,Tamil Nadu,geocoded_city,PM2.5,5392,8784,0.6138
+site_5979,Collectorate Office Virudhunagar,Virudhunagar,Tamil Nadu,geocoded_city,SO2,5865,8784,0.6677
 site_5981,"Rajiv Nagar, Vijayawada - APPCB",Vijayawada,Andhra Pradesh,cpcb_registry,CO,2360,8784,0.2687
 site_5981,"Rajiv Nagar, Vijayawada - APPCB",Vijayawada,Andhra Pradesh,cpcb_registry,NH3,5768,8784,0.6566
 site_5981,"Rajiv Nagar, Vijayawada - APPCB",Vijayawada,Andhra Pradesh,cpcb_registry,NO2,5613,8784,0.639
@@ -3596,13 +3596,13 @@ site_5996,"Panchawati_Pashan, Pune - IITM",Pune,Maharashtra,cpcb_registry,NO2,22
 site_5996,"Panchawati_Pashan, Pune - IITM",Pune,Maharashtra,cpcb_registry,Ozone,2854,8784,0.3249
 site_5996,"Panchawati_Pashan, Pune - IITM",Pune,Maharashtra,cpcb_registry,PM10,2979,8784,0.3391
 site_5996,"Panchawati_Pashan, Pune - IITM",Pune,Maharashtra,cpcb_registry,PM2.5,2973,8784,0.3385
-site_5997,"SIPCOT Industrial Park, Perundurai - TNPCB",Perundurai,TamilNadu,cpcb_registry,CO,1763,8784,0.2007
-site_5997,"SIPCOT Industrial Park, Perundurai - TNPCB",Perundurai,TamilNadu,cpcb_registry,NH3,1760,8784,0.2004
-site_5997,"SIPCOT Industrial Park, Perundurai - TNPCB",Perundurai,TamilNadu,cpcb_registry,NO2,1761,8784,0.2005
-site_5997,"SIPCOT Industrial Park, Perundurai - TNPCB",Perundurai,TamilNadu,cpcb_registry,Ozone,1743,8784,0.1984
-site_5997,"SIPCOT Industrial Park, Perundurai - TNPCB",Perundurai,TamilNadu,cpcb_registry,PM10,1700,8784,0.1935
-site_5997,"SIPCOT Industrial Park, Perundurai - TNPCB",Perundurai,TamilNadu,cpcb_registry,PM2.5,1669,8784,0.19
-site_5997,"SIPCOT Industrial Park, Perundurai - TNPCB",Perundurai,TamilNadu,cpcb_registry,SO2,1761,8784,0.2005
+site_5997,"SIPCOT Industrial Park, Perundurai - TNPCB",Perundurai,Tamil Nadu,cpcb_registry,CO,1763,8784,0.2007
+site_5997,"SIPCOT Industrial Park, Perundurai - TNPCB",Perundurai,Tamil Nadu,cpcb_registry,NH3,1760,8784,0.2004
+site_5997,"SIPCOT Industrial Park, Perundurai - TNPCB",Perundurai,Tamil Nadu,cpcb_registry,NO2,1761,8784,0.2005
+site_5997,"SIPCOT Industrial Park, Perundurai - TNPCB",Perundurai,Tamil Nadu,cpcb_registry,Ozone,1743,8784,0.1984
+site_5997,"SIPCOT Industrial Park, Perundurai - TNPCB",Perundurai,Tamil Nadu,cpcb_registry,PM10,1700,8784,0.1935
+site_5997,"SIPCOT Industrial Park, Perundurai - TNPCB",Perundurai,Tamil Nadu,cpcb_registry,PM2.5,1669,8784,0.19
+site_5997,"SIPCOT Industrial Park, Perundurai - TNPCB",Perundurai,Tamil Nadu,cpcb_registry,SO2,1761,8784,0.2005
 site_5998,"Savta Mali Nagar, Pimpri-Chinchwad - IITM",Pimpri-Chinchwad,Maharashtra,cpcb_registry,CO,3331,8784,0.3792
 site_5998,"Savta Mali Nagar, Pimpri-Chinchwad - IITM",Pimpri-Chinchwad,Maharashtra,cpcb_registry,NO2,3337,8784,0.3799
 site_5998,"Savta Mali Nagar, Pimpri-Chinchwad - IITM",Pimpri-Chinchwad,Maharashtra,cpcb_registry,Ozone,2760,8784,0.3142

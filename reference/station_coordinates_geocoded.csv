@@ -1,53 +1,54 @@
-station_id,station_name,latitude,longitude,precision,query,matched_place
-site_5405,Alandi Pune,18.675797,73.899278,locality,"Alandi Pune, India","Union Bank of India, SH58, Alandi, Khed, Pune, Maharashtra, 412105, India"
-site_293,Alandur Bus Depot Chennai,13.004256,80.201452,city,"Alandur, Chennai, Tamil Nadu","Alandur, Grand Southern Trunk Road, St. Thomas Mount Cantonment, Chennai Metropolitan Area, Alandur, Chennai District, Tamil Nadu, 600016, India"
-site_5420,Ashwini Nagar Haveri,14.7939,75.4039,city,wikipedia:Haveri,Haveri town centre (Wikipedia coordinates)
-site_5448,B.Katihalli Hassan,13.020997,76.133603,locality,"B.Katihalli Hassan, India","Block-2 13 to 24, SH71, S M Krishna Nagar, Katihalli, Hassan, Hasana taluk, Hassan, Karnat"
-site_5626,Bharathidasan University Palkalaiperur,10.675308,78.74198,locality,"Bharathidasan University Palkalaiperur, India","Bharathidasan University, Pudukottai Road, Mathur, Rasipuram, Thiruverumbur, Tiruchirappal"
-site_5624,Bombay Castel Ooty,11.412677,76.70305,city,"Ooty, India","Udhagamandalam, Nilgiris, Tamil Nadu, 643001, India"
-site_5433,Brahmagiri Udupi,13.332273,74.748475,locality,"Brahmagiri Udupi, India","State Bank of India, Kavi Muddana Marg, Brahmagiri, Kinnimulki, Udupi taluku, Udupi, Karna"
-site_5979,Collectorate Office Virudhunagar,9.568,77.9624,city,wikipedia:Virudhunagar,Virudhunagar town centre (Wikipedia coordinates)
-site_5605,Crescent University Chengalpattu,12.874894,80.084804,locality,"Crescent University Chengalpattu, India","BS Abdur Rahman University, BS Abdur Rahman University Gate, Kilambakkam, Chennai Metropol"
-site_5592,DM College of Science Imphal Manipur,24.824569,93.942272,locality,"DM College of Science Imphal Manipur, India","DM College of Science, Thangmeiband Watham Leirak, Lamphelpat, Imphal, Lamphelpat, Imphal "
-site_1447,Deshpande Nagar Hubballi,15.359763,75.136295,locality,"Deshpande Nagar Hubballi, India","Sawai Gandharva Ground /deshpande Nagar Park, Vidyanagar, Hubballi, Hubballi Urban Taluku,"
-site_5422,Devaraj Urs Badavane Davanagere,14.478956,75.907175,locality,"Devaraj Urs Badavane Davanagere, India","Devaraj Urs Layout B Block, Kondajji Road, Devaraja Arasu Badavane, K.T. Jambanna Nagara, "
-site_5415,Diwator Nagar Koppal,15.35,76.15,city,wikipedia:Koppal,Koppal town centre (Wikipedia coordinates)
-site_5274,GIDC Nandesari Nandesari Ind.,22.417804,73.094919,city,"Nandesari, Vadodara, Gujarat","Nandesari, NH48, Vadodara, Vadodara Rural Taluka, Vadodara, Gujarat, 390001, India"
-site_5618,Gandhi Nagar Ennore Chennai,13.177933,80.310137,locality,"Gandhi Nagar Ennore Chennai, India","Gandhi Nagar Main Road, Chennai - Ennore Road, MRF Tyres, Ward 5, Zone 1 Tiruvottiyur, Che"
-site_5414,Haji Colony Raichur,16.2,77.37,city,wikipedia:Raichur,Raichur town centre (Wikipedia coordinates)
-site_5651,IITG Guwahati,26.192479,91.694636,locality,"IITG Guwahati, India","Indian Institute of Technology Guwahati, Footpath surrounding sports area, North Guwahati,"
-site_5593,JN Stadium Shillong Meghalaya,25.58008,91.893404,city,"Jawaharlal Nehru Stadium, Shillong","Jawaharlal Nehru Stadium, Bypass Connector, Shillong, Mylliem, East Khasi Hills, Meghalaya, 793001, India"
-site_5853,KHB Colony Karwar,14.812189,74.132341,city,"Karwar, India","Karwar, Karwar taluk, Uttara Kannada, Karnataka, 581300, India"
-site_5827,Kalakusuma Dhanbad,23.795281,86.430964,city,"Dhanbad, India","Dhanbad, Dhanbad-Cum-Kenduadih-Cum-Jagata, Dhanbad, Jharkhand, 826001, India"
-site_5627,Kamadenu Nagar Karur,10.96,78.075,city,wikipedia:Karur,Karur town centre (Wikipedia coordinates)
-site_292,Karve Road Pune,18.503211,73.820066,locality,"Karve Road Pune, India","Bank of India, Karve Road, Kothrud, Erandwane, Pune, Pune City Subdistrict, Pune, Maharash"
-site_5606,Keelapalur Ariyalur,10.924721,79.060139,locality,"Keelapalur Ariyalur, India","Keelapalur - Thirumalapadi - Pullambadi Road, Manalmedu, Aranmanaikurichi, Ariyalur, Tamil"
-site_5619,Kilambi Kanchipuram,12.867413,79.656139,locality,"Kilambi Kanchipuram, India","Kilambi, Kanchipuram, Chennai Metropolitan Area, Kancheepuram, Kanchipuram, Tamil Nadu, 63"
-site_5621,Kudikadu Cuddalore,11.75,79.75,city,wikipedia:Cuddalore,Cuddalore town centre (Wikipedia coordinates)
-site_5607,Kumaran College Tirupur,11.1085,77.3411,city,wikipedia:Tiruppur,Tiruppur town centre (Wikipedia coordinates)
-site_1565,Lal Bahadur Shastri Nagar Kalaburagi,17.329,76.825,city,wikipedia:Kalaburagi,Kalaburagi town centre (Wikipedia coordinates)
-site_5410,MIT-Kothrud Pune,18.516018,73.815655,locality,"MIT-Kothrud Pune, India","Bank of India, Vishwashanti Marg, Kothrud, Erandwane, Pune, Pune City Subdistrict, Pune, M"
-site_1400,Mahakaleshwar Temple Ujjain,23.181712,75.770382,locality,"Mahakaleshwar Temple Ujjain, India","Mahakaleshwar Temple Road, Freeganj, Ujjain, Ujjain NagarTahsil, Ujjain, Madhya Pradesh, 4"
-site_5591,Manipur University Imphal Manipur,24.754577,93.927888,locality,"Manipur University Imphal Manipur, India","Manipur University, NH102, Imphal, Wangoi, Imphal West, Manipur, 795003, India"
-site_5608,Mendonsa Colony Dindigul,10.35,77.95,city,wikipedia:Dindigul,Dindigul town centre (Wikipedia coordinates)
-site_5832,Mohalbani Ghat Pathardih,23.675342,86.428285,city,"Pathardih, India","Pathardih, Jharia-Cum-Jorapokhar-Cum-Sindri, Dhanbad, Jharkhand, 828126, India"
-site_5609,Municipal Corporation Office Tirunelveli,8.727789,77.696609,locality,"Municipal Corporation Office Tirunelveli, India","Tirunelveli Municipal Corporation Office, Swamy Nellaiapar High Road, Tirunelveli Town, Ti"
-site_5418,Naubad Bidar,17.932637,77.474111,locality,"Naubad Bidar, India","Naubad, Bidar, Bidar taluku, Bidar, Karnataka, 585400, India"
-site_5419,Panchal Nagar Gadag,15.416692,75.68158,city,"Gadag, India","Gadag, Karnataka, India"
-site_5052,Patti Mehar Ambala,30.384367,76.770421,city,"Ambala, India","Ambala, Ambala Cantt, Ambala, Haryana, 134002, India"
-site_5275,Phool Bagh Gwalior Mondelez Ind.,26.203725,78.157363,city,"Gwalior, Madhya Pradesh","Gwalior, Gird Tahsil, Gwalior, Madhya Pradesh, 474001, India"
-site_5432,Ramteerth Nagar Belgaum,15.880283,74.540776,locality,"Ramteerth Nagar Belgaum, India","State Bank of India, SH54, Ramteerth Nagar, Belagavi, Belagavi taluku, Belagavi, Karnataka"
-site_5068,Sahilara Maihar KJS,24.262,80.761,city,wikipedia:Maihar,Maihar town centre (Wikipedia coordinates)
-site_5449,Sardar Vallabhbhai Patel Stadium Ahmedabad,23.021537,72.580057,city,"Ahmedabad, India","Ahmedabad, Gujarat, 380001, India"
-site_5767,Savitribai Phule Pune University Pune,18.552844,73.826644,locality,"Savitribai Phule Pune University Pune, India","Savitribai Phule Pune University, University Road, Model Colony, Pune, Pune City Subdistri"
-site_5401,Sector-19A Nerul Navi Mumbai,19.031042,73.035657,locality,"Sector-19A Nerul Navi Mumbai, India","Sector 9 Agro Project Farm, Belapur East, Navi Mumbai, Thane Subdistrict, Thane, Maharasht"
-site_5611,Semmandalam Cuddalore,11.764804,79.749864,locality,"Semmandalam Cuddalore, India","Semmandalam, Cuddalore, Tamil Nadu, 607001, India"
-site_5622,Sona College of Technology Salem,11.677774,78.124261,locality,"Sona College of Technology Salem, India","SONA College of Technology, Padmavathy Colony, Kuranguchavadi, Suramangalam, Salem West, S"
-site_5630,St Joseph College Tiruchirappalli,10.807114,78.688094,city,"Tiruchirappalli, India","Tiruchirappalli, Tiruchchirāppalli, Tiruchirappalli, Tamil Nadu, India"
-site_1551,Tamaka Ind. Area Kolar,13.127708,78.158962,locality,"Tamaka Ind. Area Kolar, India","Tamaka Industrial Area, Gandhinagara, Tamaka, Kolar taluk, Kolar, Karnataka, India"
-site_254,Tata Stadium Jorapokhar,23.716707,86.411017,city,"Jorapokhar, India","Jorapokhar, Jharia, Jharia-Cum-Jorapokhar-Cum-Sindri, Dhanbad, Jharkhand, 828111, India"
-site_5617,VOC Nagar SIPCOT Ranipet,12.9487,79.319,city,wikipedia:Ranipet,Ranipet town centre (Wikipedia coordinates)
-site_5615,Vasanthapuram Vellore,12.9165,79.1325,city,wikipedia:Vellore,Vellore town centre (Wikipedia coordinates)
-site_5616,Velippalayam Nagapattinam,10.7672,79.8449,city,wikipedia:Nagapattinam,Nagapattinam town centre (Wikipedia coordinates)
-site_5709,Vijay Nagar Scheme-78 Indore,22.720362,75.8682,city,"Indore, India","Indore, Juni Indore Tahsil, Indore, Madhya Pradesh, 452001, India"
-site_5270,Vyttila Kochi Kerala,9.96343,76.318154,locality,"Vyttila Kochi Kerala, India","New India Assurance, 1st Floor, Tharayil Chambers, Service Rd, Vyttila, Salem - Kochi - Ka"
+station_id,station_name,latitude,longitude,precision,query,matched_place,city,state
+site_5405,Alandi Pune,18.675797,73.899278,locality,"Alandi Pune, India","Union Bank of India, SH58, Alandi, Khed, Pune, Maharashtra, 412105, India",Pune,Maharashtra
+site_293,Alandur Bus Depot Chennai,13.004256,80.201452,city,"Alandur, Chennai, Tamil Nadu","Alandur, Grand Southern Trunk Road, St. Thomas Mount Cantonment, Chennai Metropolitan Area, Alandur, Chennai District, Tamil Nadu, 600016, India",Chennai,Tamil Nadu
+site_5420,Ashwini Nagar Haveri,14.7939,75.4039,city,wikipedia:Haveri,Haveri town centre (Wikipedia coordinates),Haveri,Karnataka
+site_5448,B.Katihalli Hassan,13.020997,76.133603,locality,"B.Katihalli Hassan, India","Block-2 13 to 24, SH71, S M Krishna Nagar, Katihalli, Hassan, Hasana taluk, Hassan, Karnat",Hassan,Karnataka
+site_5626,Bharathidasan University Palkalaiperur,10.675308,78.74198,locality,"Bharathidasan University Palkalaiperur, India","Bharathidasan University, Pudukottai Road, Mathur, Rasipuram, Thiruverumbur, Tiruchirappal",Palkalaiperur,Tamil Nadu
+site_5624,Bombay Castel Ooty,11.412677,76.70305,city,"Ooty, India","Udhagamandalam, Nilgiris, Tamil Nadu, 643001, India",Ooty,Tamil Nadu
+site_5433,Brahmagiri Udupi,13.332273,74.748475,locality,"Brahmagiri Udupi, India","State Bank of India, Kavi Muddana Marg, Brahmagiri, Kinnimulki, Udupi taluku, Udupi, Karna",Udupi,Karnataka
+site_5979,Collectorate Office Virudhunagar,9.568,77.9624,city,wikipedia:Virudhunagar,Virudhunagar town centre (Wikipedia coordinates),Virudhunagar,Tamil Nadu
+site_5605,Crescent University Chengalpattu,12.874894,80.084804,locality,"Crescent University Chengalpattu, India","BS Abdur Rahman University, BS Abdur Rahman University Gate, Kilambakkam, Chennai Metropol",Chengalpattu,Tamil Nadu
+site_5592,DM College of Science Imphal Manipur,24.824569,93.942272,locality,"DM College of Science Imphal Manipur, India","DM College of Science, Thangmeiband Watham Leirak, Lamphelpat, Imphal, Lamphelpat, Imphal ",Imphal,Manipur
+site_1447,Deshpande Nagar Hubballi,15.359763,75.136295,locality,"Deshpande Nagar Hubballi, India","Sawai Gandharva Ground /deshpande Nagar Park, Vidyanagar, Hubballi, Hubballi Urban Taluku,",Hubballi,Karnataka
+site_5422,Devaraj Urs Badavane Davanagere,14.478956,75.907175,locality,"Devaraj Urs Badavane Davanagere, India","Devaraj Urs Layout B Block, Kondajji Road, Devaraja Arasu Badavane, K.T. Jambanna Nagara, ",Davanagere,Karnataka
+site_5415,Diwator Nagar Koppal,15.35,76.15,city,wikipedia:Koppal,Koppal town centre (Wikipedia coordinates),Koppal,Karnataka
+site_5274,GIDC Nandesari Nandesari Ind.,22.417804,73.094919,city,"Nandesari, Vadodara, Gujarat","Nandesari, NH48, Vadodara, Vadodara Rural Taluka, Vadodara, Gujarat, 390001, India",Nandesari,Gujarat
+site_5618,Gandhi Nagar Ennore Chennai,13.177933,80.310137,locality,"Gandhi Nagar Ennore Chennai, India","Gandhi Nagar Main Road, Chennai - Ennore Road, MRF Tyres, Ward 5, Zone 1 Tiruvottiyur, Che",Chennai,Tamil Nadu
+site_5414,Haji Colony Raichur,16.2,77.37,city,wikipedia:Raichur,Raichur town centre (Wikipedia coordinates),Raichur,Karnataka
+site_5651,IITG Guwahati,26.192479,91.694636,locality,"IITG Guwahati, India","Indian Institute of Technology Guwahati, Footpath surrounding sports area, North Guwahati,",Guwahati,Assam
+site_5593,JN Stadium Shillong Meghalaya,25.58008,91.893404,city,"Jawaharlal Nehru Stadium, Shillong","Jawaharlal Nehru Stadium, Bypass Connector, Shillong, Mylliem, East Khasi Hills, Meghalaya, 793001, India",Shillong,Meghalaya
+site_5853,KHB Colony Karwar,14.812189,74.132341,city,"Karwar, India","Karwar, Karwar taluk, Uttara Kannada, Karnataka, 581300, India",Karwar,Karnataka
+site_5827,Kalakusuma Dhanbad,23.795281,86.430964,city,"Dhanbad, India","Dhanbad, Dhanbad-Cum-Kenduadih-Cum-Jagata, Dhanbad, Jharkhand, 826001, India",Dhanbad,Jharkhand
+site_5627,Kamadenu Nagar Karur,10.96,78.075,city,wikipedia:Karur,Karur town centre (Wikipedia coordinates),Karur,Tamil Nadu
+site_292,Karve Road Pune,18.503211,73.820066,locality,"Karve Road Pune, India","Bank of India, Karve Road, Kothrud, Erandwane, Pune, Pune City Subdistrict, Pune, Maharash",Pune,Maharashtra
+site_5606,Keelapalur Ariyalur,10.924721,79.060139,locality,"Keelapalur Ariyalur, India","Keelapalur - Thirumalapadi - Pullambadi Road, Manalmedu, Aranmanaikurichi, Ariyalur, Tamil",Ariyalur,Tamil Nadu
+site_5619,Kilambi Kanchipuram,12.867413,79.656139,locality,"Kilambi Kanchipuram, India","Kilambi, Kanchipuram, Chennai Metropolitan Area, Kancheepuram, Kanchipuram, Tamil Nadu, 63",Kanchipuram,Tamil Nadu
+site_5621,Kudikadu Cuddalore,11.75,79.75,city,wikipedia:Cuddalore,Cuddalore town centre (Wikipedia coordinates),Cuddalore,Tamil Nadu
+site_5607,Kumaran College Tirupur,11.1085,77.3411,city,wikipedia:Tiruppur,Tiruppur town centre (Wikipedia coordinates),Tirupur,Tamil Nadu
+site_1565,Lal Bahadur Shastri Nagar Kalaburagi,17.329,76.825,city,wikipedia:Kalaburagi,Kalaburagi town centre (Wikipedia coordinates),Kalaburagi,Karnataka
+site_5410,MIT-Kothrud Pune,18.516018,73.815655,locality,"MIT-Kothrud Pune, India","Bank of India, Vishwashanti Marg, Kothrud, Erandwane, Pune, Pune City Subdistrict, Pune, M",Pune,Maharashtra
+site_1400,Mahakaleshwar Temple Ujjain,23.181712,75.770382,locality,"Mahakaleshwar Temple Ujjain, India","Mahakaleshwar Temple Road, Freeganj, Ujjain, Ujjain NagarTahsil, Ujjain, Madhya Pradesh, 4",Ujjain,Madhya Pradesh
+site_5591,Manipur University Imphal Manipur,24.754577,93.927888,locality,"Manipur University Imphal Manipur, India","Manipur University, NH102, Imphal, Wangoi, Imphal West, Manipur, 795003, India",Imphal,Manipur
+site_5608,Mendonsa Colony Dindigul,10.35,77.95,city,wikipedia:Dindigul,Dindigul town centre (Wikipedia coordinates),Dindigul,Tamil Nadu
+site_5832,Mohalbani Ghat Pathardih,23.675342,86.428285,city,"Pathardih, India","Pathardih, Jharia-Cum-Jorapokhar-Cum-Sindri, Dhanbad, Jharkhand, 828126, India",Pathardih,Jharkhand
+site_5609,Municipal Corporation Office Tirunelveli,8.727789,77.696609,locality,"Municipal Corporation Office Tirunelveli, India","Tirunelveli Municipal Corporation Office, Swamy Nellaiapar High Road, Tirunelveli Town, Ti",Tirunelveli,Tamil Nadu
+site_5418,Naubad Bidar,17.932637,77.474111,locality,"Naubad Bidar, India","Naubad, Bidar, Bidar taluku, Bidar, Karnataka, 585400, India",Bidar,Karnataka
+site_5676,OMC Colony Suakati,,,none,not found by Nominatim,,Suakati,Odisha
+site_5419,Panchal Nagar Gadag,15.416692,75.68158,city,"Gadag, India","Gadag, Karnataka, India",Gadag,Karnataka
+site_5052,Patti Mehar Ambala,30.384367,76.770421,city,"Ambala, India","Ambala, Ambala Cantt, Ambala, Haryana, 134002, India",Ambala,Haryana
+site_5275,Phool Bagh Gwalior Mondelez Ind.,26.203725,78.157363,city,"Gwalior, Madhya Pradesh","Gwalior, Gird Tahsil, Gwalior, Madhya Pradesh, 474001, India",Gwalior,Madhya Pradesh
+site_5432,Ramteerth Nagar Belgaum,15.880283,74.540776,locality,"Ramteerth Nagar Belgaum, India","State Bank of India, SH54, Ramteerth Nagar, Belagavi, Belagavi taluku, Belagavi, Karnataka",Belagavi,Karnataka
+site_5068,Sahilara Maihar KJS,24.262,80.761,city,wikipedia:Maihar,Maihar town centre (Wikipedia coordinates),Maihar,Madhya Pradesh
+site_5449,Sardar Vallabhbhai Patel Stadium Ahmedabad,23.021537,72.580057,city,"Ahmedabad, India","Ahmedabad, Gujarat, 380001, India",Ahmedabad,Gujarat
+site_5767,Savitribai Phule Pune University Pune,18.552844,73.826644,locality,"Savitribai Phule Pune University Pune, India","Savitribai Phule Pune University, University Road, Model Colony, Pune, Pune City Subdistri",Pune,Maharashtra
+site_5401,Sector-19A Nerul Navi Mumbai,19.031042,73.035657,locality,"Sector-19A Nerul Navi Mumbai, India","Sector 9 Agro Project Farm, Belapur East, Navi Mumbai, Thane Subdistrict, Thane, Maharasht",Navi Mumbai,Maharashtra
+site_5611,Semmandalam Cuddalore,11.764804,79.749864,locality,"Semmandalam Cuddalore, India","Semmandalam, Cuddalore, Tamil Nadu, 607001, India",Cuddalore,Tamil Nadu
+site_5622,Sona College of Technology Salem,11.677774,78.124261,locality,"Sona College of Technology Salem, India","SONA College of Technology, Padmavathy Colony, Kuranguchavadi, Suramangalam, Salem West, S",Salem,Tamil Nadu
+site_5630,St Joseph College Tiruchirappalli,10.807114,78.688094,city,"Tiruchirappalli, India","Tiruchirappalli, Tiruchchirāppalli, Tiruchirappalli, Tamil Nadu, India",Tiruchirappalli,Tamil Nadu
+site_1551,Tamaka Ind. Area Kolar,13.127708,78.158962,locality,"Tamaka Ind. Area Kolar, India","Tamaka Industrial Area, Gandhinagara, Tamaka, Kolar taluk, Kolar, Karnataka, India",Kolar,Karnataka
+site_254,Tata Stadium Jorapokhar,23.716707,86.411017,city,"Jorapokhar, India","Jorapokhar, Jharia, Jharia-Cum-Jorapokhar-Cum-Sindri, Dhanbad, Jharkhand, 828111, India",Jorapokhar,Jharkhand
+site_5617,VOC Nagar SIPCOT Ranipet,12.9487,79.319,city,wikipedia:Ranipet,Ranipet town centre (Wikipedia coordinates),Ranipet,Tamil Nadu
+site_5615,Vasanthapuram Vellore,12.9165,79.1325,city,wikipedia:Vellore,Vellore town centre (Wikipedia coordinates),Vellore,Tamil Nadu
+site_5616,Velippalayam Nagapattinam,10.7672,79.8449,city,wikipedia:Nagapattinam,Nagapattinam town centre (Wikipedia coordinates),Nagapattinam,Tamil Nadu
+site_5709,Vijay Nagar Scheme-78 Indore,22.720362,75.8682,city,"Indore, India","Indore, Juni Indore Tahsil, Indore, Madhya Pradesh, 452001, India",Indore,Madhya Pradesh
+site_5270,Vyttila Kochi Kerala,9.96343,76.318154,locality,"Vyttila Kochi Kerala, India","New India Assurance, 1st Floor, Tharayil Chambers, Service Rd, Vyttila, Salem - Kochi - Ka",Kochi,Kerala

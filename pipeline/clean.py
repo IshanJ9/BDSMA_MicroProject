@@ -42,6 +42,16 @@ def attach_stations(meas: DataFrame, stations: DataFrame, fallback: DataFrame | 
     )
     j = meas.join(st, "station_id", "left")
 
+    # Stations missing from CPCB's registry also have no city/state in the source; take them from the fallback.
+    if fallback is not None and {"city", "state"} <= set(fallback.columns):
+        j = j.join(
+            fallback.select("station_id", F.col("city").alias("fb_city"), F.col("state").alias("fb_state")),
+            "station_id",
+            "left",
+        )
+    else:
+        j = j.withColumn("fb_city", F.lit(None).cast("string")).withColumn("fb_state", F.lit(None).cast("string"))
+
     def in_india(lat, lon):
         return F.coalesce(F.col(lat).between(*config.INDIA_LAT) & F.col(lon).between(*config.INDIA_LON), F.lit(False))
 
@@ -61,13 +71,14 @@ def attach_stations(meas: DataFrame, stations: DataFrame, fallback: DataFrame | 
         fb_ok = F.lit(False)
     use_fb = ~reg_ok & fb_ok
     return (
-        j.withColumn("city", F.coalesce("reg_city", "city_name"))
-        .withColumn("state", F.coalesce("reg_state", "state_name"))
+        j.withColumn("city", F.coalesce("reg_city", "city_name", "fb_city"))
+        # The source spells Tamil Nadu two ways, which would split it into two entries in any state filter.
+        .withColumn("state", F.regexp_replace(F.coalesce("reg_state", "state_name", "fb_state"), "^TamilNadu$", "Tamil Nadu"))
         .withColumn("coord_source", F.when(reg_ok, F.lit("cpcb_registry")).when(use_fb, F.col("fb_source")))
         .withColumn("latitude", F.when(reg_ok, F.col("latitude")).when(use_fb, F.col("fb_lat")))
         .withColumn("longitude", F.when(reg_ok, F.col("longitude")).when(use_fb, F.col("fb_lon")))
         .withColumn("has_coordinates", F.col("coord_source").isNotNull())
-        .drop("reg_city", "reg_state", "city_name", "state_name", "fb_lat", "fb_lon", "fb_source")
+        .drop("reg_city", "reg_state", "city_name", "state_name", "fb_lat", "fb_lon", "fb_source", "fb_city", "fb_state")
     )
 
 
